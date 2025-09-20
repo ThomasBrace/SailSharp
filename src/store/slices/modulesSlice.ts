@@ -4,7 +4,7 @@ import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { Module } from '../../types';
 
 const initialState: Module[] = [
-  {
+    {
     id: 'nautical_terms',
     name: 'Nautical Terms',
     description: 'Parts of a boat, directional terms, and sailing vocabulary',
@@ -12,8 +12,8 @@ const initialState: Module[] = [
     completedQuestions: 0,
     accuracy: 0,
     isCompleted: false,
-    icon: 'anchor', // MaterialIcons anchor
-  },
+    icon: 'menu-book', // MaterialIcons book
+    },
   {
     id: 'chart_symbols',
     name: 'Chart Symbols & Conventions',
