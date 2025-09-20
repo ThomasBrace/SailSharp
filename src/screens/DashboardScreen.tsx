@@ -1,6 +1,6 @@
 // src/screens/DashboardScreen.tsx
 
-import React from 'react';
+import React, { useMemo } from 'react';
 import {
   View,
   Text,
@@ -18,10 +18,8 @@ import { Module } from '../types';
 const DashboardScreen: React.FC = () => {
   const dispatch = useDispatch();
   const navigation = useNavigation();
-  const { modules, user } = useSelector((state: RootState) => ({
-    modules: state.modules,
-    user: state.user,
-  }));
+  const modules = useSelector((state: RootState) => state.modules);
+  const user = useSelector((state: RootState) => state.user);
 
   const calculateOverallProgress = () => {
     const totalQuestions = modules.reduce((sum, module) => sum + module.totalQuestions, 0);

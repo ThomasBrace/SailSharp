@@ -32,12 +32,13 @@ export interface UserProgress {
 
 export interface QuizState {
   currentQuestion: number;
-  selectedAnswer: number | null;
+  selectedAnswer: number;
   isAnswered: boolean;
   showResults: boolean;
   questions: Question[];
   score: number;
   timeStarted: number;
+  isCompleted: boolean;
 }
 
 export interface RootState {
@@ -48,8 +49,8 @@ export interface RootState {
 
 export type RootStackParamList = {
   Dashboard: undefined;
-  ModuleList: undefined;
-  Quiz: { moduleId: string };
-  Results: { moduleId: string; score: number; totalQuestions: number };
-  ModuleComplete: { moduleId: string; score: number; totalQuestions: number };
+  ModuleList: { moduleId: string; moduleName: string };
+  Quiz: { moduleId: string; moduleName: string };
+  Results: { moduleId: string; moduleName: string; score: number; total: number };
+  ModuleComplete: { moduleId: string; moduleName: string; score: number; total: number };
 };
