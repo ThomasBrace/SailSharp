@@ -6,10 +6,10 @@ import {
   Text,
   StyleSheet,
   TouchableOpacity,
-  SafeAreaView,
   ScrollView,
   Alert,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
 import { RootState } from '../store';
@@ -25,7 +25,7 @@ const QuizScreen: React.FC = () => {
   
   const { moduleId, moduleName } = route.params;
   const { currentQuestion, selectedAnswer, questions, isCompleted } = useSelector((state: RootState) => state.quiz);
-  const { modules } = useSelector((state: RootState) => state.modules);
+  const modules = useSelector((state: RootState) => state.modules);
   
   const [timeRemaining, setTimeRemaining] = useState(30); // 30 seconds per question
   const [showExplanation, setShowExplanation] = useState(false);

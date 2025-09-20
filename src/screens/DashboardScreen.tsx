@@ -7,8 +7,8 @@ import {
   StyleSheet,
   TouchableOpacity,
   ScrollView,
-  SafeAreaView,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigation } from '@react-navigation/native';
@@ -18,7 +18,10 @@ import { Module } from '../types';
 const DashboardScreen: React.FC = () => {
   const dispatch = useDispatch();
   const navigation = useNavigation();
-  const { modules, user } = useSelector((state: RootState) => state);
+  const { modules, user } = useSelector((state: RootState) => ({
+    modules: state.modules,
+    user: state.user,
+  }));
 
   const calculateOverallProgress = () => {
     const totalQuestions = modules.reduce((sum, module) => sum + module.totalQuestions, 0);
