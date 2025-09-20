@@ -1,11 +1,12 @@
 // src/screens/ModuleCompleteScreen.tsx
 
 import React from 'react';
-import { View, Text, StyleSheet, SafeAreaView } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 const ModuleCompleteScreen: React.FC = () => {
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={styles.container} edges={['bottom']}>
       <View style={styles.content}>
         <Text style={styles.title}>Module Complete</Text>
         <Text style={styles.subtitle}>Coming soon...</Text>
