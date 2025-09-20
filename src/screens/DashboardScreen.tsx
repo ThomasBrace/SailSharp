@@ -9,6 +9,7 @@ import {
   ScrollView,
   SafeAreaView,
 } from 'react-native';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../store';
 import { Module } from '../types';
@@ -38,7 +39,13 @@ const DashboardScreen: React.FC = () => {
       }}
     >
       <View style={styles.moduleHeader}>
-        <Text style={styles.moduleIcon}>{module.icon}</Text>
+        <View style={styles.iconContainer}>
+          <Icon 
+            name={module.icon} 
+            size={32} 
+            color="#1e3a8a" 
+          />
+        </View>
         <View style={styles.moduleInfo}>
           <Text style={styles.moduleName}>{module.name}</Text>
           <Text style={styles.moduleDescription}>{module.description}</Text>
@@ -178,8 +185,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginBottom: 12,
   },
-  moduleIcon: {
-    fontSize: 32,
+  iconContainer: {
+    width: 48,
+    height: 48,
+    borderRadius: 24,
+    backgroundColor: '#e2e8f0',
+    justifyContent: 'center',
+    alignItems: 'center',
     marginRight: 12,
   },
   moduleInfo: {

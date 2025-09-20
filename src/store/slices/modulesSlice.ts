@@ -12,7 +12,7 @@ const initialState: Module[] = [
     completedQuestions: 0,
     accuracy: 0,
     isCompleted: false,
-    icon: '⚓',
+    icon: 'anchor', // MaterialIcons anchor
   },
   {
     id: 'chart_symbols',
@@ -22,7 +22,7 @@ const initialState: Module[] = [
     completedQuestions: 0,
     accuracy: 0,
     isCompleted: false,
-    icon: '🗺️',
+    icon: 'map', // MaterialIcons map
   },
   {
     id: 'anchorwork',
@@ -32,7 +32,7 @@ const initialState: Module[] = [
     completedQuestions: 0,
     accuracy: 0,
     isCompleted: false,
-    icon: '⚓',
+    icon: 'anchor', // MaterialIcons anchor
   },
   {
     id: 'lights',
@@ -42,7 +42,7 @@ const initialState: Module[] = [
     completedQuestions: 0,
     accuracy: 0,
     isCompleted: false,
-    icon: '💡',
+    icon: 'lightbulb', // MaterialIcons lightbulb
   },
   {
     id: 'buoyage',
@@ -52,7 +52,7 @@ const initialState: Module[] = [
     completedQuestions: 0,
     accuracy: 0,
     isCompleted: false,
-    icon: '🟢',
+    icon: 'radio-button-unchecked', // MaterialIcons circle (buoy shape)
   },
   {
     id: 'irpcs',
@@ -62,7 +62,7 @@ const initialState: Module[] = [
     completedQuestions: 0,
     accuracy: 0,
     isCompleted: false,
-    icon: '🚢',
+    icon: 'directions-boat', // MaterialIcons boat
   },
   {
     id: 'weather',
@@ -72,7 +72,7 @@ const initialState: Module[] = [
     completedQuestions: 0,
     accuracy: 0,
     isCompleted: false,
-    icon: '🌤️',
+    icon: 'cloud', // MaterialIcons cloud
   },
   {
     id: 'safety',
@@ -82,7 +82,7 @@ const initialState: Module[] = [
     completedQuestions: 0,
     accuracy: 0,
     isCompleted: false,
-    icon: '🛟',
+    icon: 'security', // MaterialIcons security/shield
   },
 ];
 
