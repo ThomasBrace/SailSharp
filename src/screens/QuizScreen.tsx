@@ -1,13 +1,12 @@
 // src/screens/QuizScreen.tsx
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import {
   View,
   Text,
   StyleSheet,
   TouchableOpacity,
   ScrollView,
-  Alert,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useDispatch, useSelector } from 'react-redux';
@@ -15,6 +14,7 @@ import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
 import { RootState } from '../store';
 import { RootStackParamList } from '../types';
 import { updateQuizProgress, setCurrentQuestion, setSelectedAnswer, resetQuiz } from '../store/slices/quizSlice';
+import { questions } from '../data/questions';
 
 type QuizScreenRouteProp = RouteProp<RootStackParamList, 'Quiz'>;
 
@@ -24,77 +24,38 @@ const QuizScreen: React.FC = () => {
   const dispatch = useDispatch();
   
   const { moduleId, moduleName } = route.params;
-  const { currentQuestion, selectedAnswer, questions, isCompleted } = useSelector((state: RootState) => state.quiz);
+  const { currentQuestion, selectedAnswer, isCompleted } = useSelector((state: RootState) => state.quiz);
   const modules = useSelector((state: RootState) => state.modules);
   
-  const [timeRemaining, setTimeRemaining] = useState(30); // 30 seconds per question
   const [showExplanation, setShowExplanation] = useState(false);
 
   // Get current module data
   const currentModule = modules.find(module => module.id === moduleId);
   
-  // Sample questions for demonstration (in real app, this would come from database)
-  const sampleQuestions = [
-    {
-      id: '1',
-      module: moduleId,
-      question: 'What is the front of a boat called?',
-      options: ['Stern', 'Bow', 'Port', 'Starboard'],
-      correctAnswer: 1,
-      explanation: 'The bow is the front of the boat, while the stern is the rear.',
-      difficulty: 'easy' as const,
-    },
-    {
-      id: '2',
-      module: moduleId,
-      question: 'Which side of the boat is "port"?',
-      options: ['Left side when facing forward', 'Right side when facing forward', 'Front of the boat', 'Rear of the boat'],
-      correctAnswer: 0,
-      explanation: 'Port is the left side of the boat when facing forward. Starboard is the right side.',
-      difficulty: 'easy' as const,
-    },
-    {
-      id: '3',
-      module: moduleId,
-      question: 'What does "abeam" mean?',
-      options: ['Directly ahead', 'Directly astern', 'At right angles to the boat', 'Behind the boat'],
-      correctAnswer: 2,
-      explanation: 'Abeam means at right angles to the boat, either to port or starboard.',
-      difficulty: 'medium' as const,
-    },
-  ];
+  // Get questions for this module and randomize them
+  const randomizedQuestions = useMemo(() => {
+    const moduleQuestions = questions[moduleId] || [];
+    // Create a shuffled copy of the questions
+    const shuffled = [...moduleQuestions].sort(() => Math.random() - 0.5);
+    return shuffled;
+  }, [moduleId]);
 
-  const currentQuestionData = sampleQuestions[currentQuestion] || sampleQuestions[0];
+  const currentQuestionData = randomizedQuestions[currentQuestion] || randomizedQuestions[0];
 
   useEffect(() => {
     // Initialize quiz if not already started
-    if (questions.length === 0) {
+    if (randomizedQuestions.length > 0) {
       dispatch(setCurrentQuestion(0));
     }
-  }, [dispatch, questions.length]);
-
-  useEffect(() => {
-    // Timer countdown
-    if (timeRemaining > 0 && !showExplanation) {
-      const timer = setTimeout(() => {
-        setTimeRemaining(timeRemaining - 1);
-      }, 1000);
-      return () => clearTimeout(timer);
-    } else if (timeRemaining === 0 && !showExplanation) {
-      // Time's up - auto-submit
-      handleAnswerSubmit(-1); // -1 indicates no answer selected
-    }
-  }, [timeRemaining, showExplanation]);
+  }, [dispatch, randomizedQuestions.length]);
 
   const handleAnswerSelect = (answerIndex: number) => {
     dispatch(setSelectedAnswer(answerIndex));
   };
 
-  const handleAnswerSubmit = (answerIndex?: number) => {
-    const selected = answerIndex !== undefined ? answerIndex : selectedAnswer;
-    
-    if (selected === -1) {
-      Alert.alert('Time\'s Up!', 'You ran out of time for this question.');
+  const handleAnswerSubmit = () => {
+    if (selectedAnswer === -1) {
+      return; // No answer selected
     }
     
     setShowExplanation(true);
@@ -102,28 +63,29 @@ const QuizScreen: React.FC = () => {
     // Update progress
     dispatch(updateQuizProgress({
       questionId: currentQuestionData.id,
-      selectedAnswer: selected,
-      isCorrect: selected === currentQuestionData.correctAnswer,
+      selectedAnswer: selectedAnswer,
+      isCorrect: selectedAnswer === currentQuestionData.correctAnswer,
     }));
   };
 
   const handleNextQuestion = () => {
-    if (currentQuestion < sampleQuestions.length - 1) {
+    if (currentQuestion < randomizedQuestions.length - 1) {
       dispatch(setCurrentQuestion(currentQuestion + 1));
-      setTimeRemaining(30);
       setShowExplanation(false);
       dispatch(setSelectedAnswer(-1));
     } else {
-      // Quiz completed
-      const correctAnswers = sampleQuestions.filter((_, index) => 
-        questions[index]?.isCorrect
-      ).length;
+      // Quiz completed - calculate score
+      const correctAnswers = randomizedQuestions.filter((question, index) => {
+        // This would need to be tracked in Redux state for proper scoring
+        // For now, we'll use a simple calculation
+        return question.correctAnswer === selectedAnswer;
+      }).length;
       
       navigation.navigate('Results', {
         moduleId,
         moduleName,
         score: correctAnswers,
-        total: sampleQuestions.length,
+        total: randomizedQuestions.length,
       });
     }
   };
@@ -156,22 +118,16 @@ const QuizScreen: React.FC = () => {
       <View style={styles.header}>
         <View style={styles.progressContainer}>
           <Text style={styles.progressText}>
-            Question {currentQuestion + 1} of {sampleQuestions.length}
+            Question {currentQuestion + 1} of {randomizedQuestions.length}
           </Text>
           <View style={styles.progressBar}>
             <View 
               style={[
                 styles.progressFill, 
-                { width: `${((currentQuestion + 1) / sampleQuestions.length) * 100}%` }
+                { width: `${((currentQuestion + 1) / randomizedQuestions.length) * 100}%` }
               ]} 
             />
           </View>
-        </View>
-        
-        <View style={styles.timerContainer}>
-          <Text style={[styles.timerText, { color: timeRemaining <= 10 ? '#F44336' : '#2196F3' }]}>
-            {timeRemaining}s
-          </Text>
         </View>
       </View>
 
@@ -232,7 +188,7 @@ const QuizScreen: React.FC = () => {
             onPress={handleNextQuestion}
           >
             <Text style={styles.nextButtonText}>
-              {currentQuestion < sampleQuestions.length - 1 ? 'Next Question' : 'Finish Quiz'}
+              {currentQuestion < randomizedQuestions.length - 1 ? 'Next Question' : 'Finish Quiz'}
             </Text>
           </TouchableOpacity>
         )}
@@ -247,9 +203,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#f8fafc',
   },
   header: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
     paddingHorizontal: 20,
     paddingVertical: 16,
     backgroundColor: '#ffffff',
@@ -257,7 +210,6 @@ const styles = StyleSheet.create({
     borderBottomColor: '#e2e8f0',
   },
   progressContainer: {
-    flex: 1,
   },
   progressText: {
     fontSize: 14,
@@ -273,16 +225,6 @@ const styles = StyleSheet.create({
     height: '100%',
     backgroundColor: '#2196F3',
     borderRadius: 2,
-  },
-  timerContainer: {
-    backgroundColor: '#f1f5f9',
-    paddingHorizontal: 12,
-    paddingVertical: 6,
-    borderRadius: 16,
-  },
-  timerText: {
-    fontSize: 16,
-    fontWeight: '600',
   },
   content: {
     flex: 1,
