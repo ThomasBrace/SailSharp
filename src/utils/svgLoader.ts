@@ -81,14 +81,14 @@ export const svgContent = {
 
 // Helper function to render SVG component
 export const renderSvg = (imageName: string, width: number = 200, height: number = 150) => {
-  const svgContent = svgContent[imageName as keyof typeof svgContent];
-  if (!svgContent) {
+  const svgString = svgContent[imageName as keyof typeof svgContent];
+  if (!svgString) {
     return null;
   }
   
   return (
     <SvgXml 
-      xml={svgContent} 
+      xml={svgString} 
       width={width} 
       height={height}
     />
