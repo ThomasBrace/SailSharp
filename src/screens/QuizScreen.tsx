@@ -15,6 +15,7 @@ import { RootState } from '../store';
 import { RootStackParamList } from '../types';
 import { updateQuizProgress, setCurrentQuestion, setSelectedAnswer, resetQuiz } from '../store/slices/quizSlice';
 import { questions } from '../data/questions';
+import { renderSvg } from '../utils/svgLoader';
 
 type QuizScreenRouteProp = RouteProp<RootStackParamList, 'Quiz'>;
 
@@ -141,6 +142,13 @@ const QuizScreen: React.FC = () => {
           </View>
           
           <Text style={styles.questionText}>{currentQuestionData.question}</Text>
+          
+          {/* SVG Image */}
+          {currentQuestionData.image && (
+            <View style={styles.imageContainer}>
+              {renderSvg(currentQuestionData.image.replace('.svg', ''), 200, 150)}
+            </View>
+          )}
         </View>
 
         {/* Answer Options */}
@@ -259,6 +267,13 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     color: '#1e293b',
     lineHeight: 26,
+  },
+  imageContainer: {
+    alignItems: 'center',
+    marginTop: 16,
+    paddingVertical: 12,
+    backgroundColor: '#f8fafc',
+    borderRadius: 8,
   },
   answersContainer: {
     marginBottom: 24,
