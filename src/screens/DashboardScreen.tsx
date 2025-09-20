@@ -11,11 +11,13 @@ import {
 } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { useDispatch, useSelector } from 'react-redux';
+import { useNavigation } from '@react-navigation/native';
 import { RootState } from '../store';
 import { Module } from '../types';
 
 const DashboardScreen: React.FC = () => {
   const dispatch = useDispatch();
+  const navigation = useNavigation();
   const { modules, user } = useSelector((state: RootState) => state);
 
   const calculateOverallProgress = () => {
@@ -34,8 +36,11 @@ const DashboardScreen: React.FC = () => {
         module.isCompleted && styles.completedModule
       ]}
       onPress={() => {
-        // Navigate to module or quiz
-        console.log(`Navigate to ${module.name}`);
+        // Navigate to quiz for this module
+        navigation.navigate('Quiz', {
+          moduleId: module.id,
+          moduleName: module.name,
+        });
       }}
     >
       <View style={styles.moduleHeader}>
