@@ -15,7 +15,7 @@ import { RootState } from '../store';
 import { RootStackParamList } from '../types';
 import { updateQuizProgress, setCurrentQuestion, setSelectedAnswer, resetQuiz } from '../store/slices/quizSlice';
 import { questions } from '../data/questions';
-import { renderSvg } from '../utils/svgLoader';
+import { SvgImage } from '../utils/svgLoader';
 
 type QuizScreenRouteProp = RouteProp<RootStackParamList, 'Quiz'>;
 
@@ -146,7 +146,7 @@ const QuizScreen: React.FC = () => {
           {/* SVG Image */}
           {currentQuestionData.image && (
             <View style={styles.imageContainer}>
-              {renderSvg(currentQuestionData.image.replace('.svg', ''), 200, 150)}
+              <SvgImage imageName={currentQuestionData.image} />
             </View>
           )}
         </View>

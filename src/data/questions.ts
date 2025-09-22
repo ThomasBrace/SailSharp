@@ -23,7 +23,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       id: 'nautical_002',
       module: 'nautical_terms',
       question: 'What is the left side of a boat called when facing forward?',
-      image: 'boat_sides_001.svg',
+      image: 'rigging_001.svg',
       options: [
         'Starboard',
         'Port',
@@ -53,7 +53,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       id: 'nautical_004',
       module: 'nautical_terms',
       question: 'What is the horizontal spar that extends from the mast?',
-      image: 'rigging_002.svg',
+      image: 'rigging_001.svg',
       options: [
         'Mast',
         'Boom',
@@ -68,7 +68,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       id: 'nautical_005',
       module: 'nautical_terms',
       question: 'What term describes the direction from which the wind is coming?',
-      image: 'wind_direction_001.svg',
+      image: 'rigging_001.svg',
       options: [
         'Leeward',
         'Windward',
@@ -83,7 +83,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       id: 'nautical_006',
       module: 'nautical_terms',
       question: 'What is the term for turning the boat into the wind?',
-      image: 'sailing_maneuvers_001.svg',
+      image: 'rigging_001.svg',
       options: [
         'Tacking',
         'Gybing',
@@ -98,7 +98,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       id: 'nautical_007',
       module: 'nautical_terms',
       question: 'What is the rope used to control the angle of the sail?',
-      image: 'rigging_003.svg',
+      image: 'rigging_001.svg',
       options: [
         'Sheet',
         'Halyard',
@@ -113,7 +113,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       id: 'nautical_008',
       module: 'nautical_terms',
       question: 'What is the term for the depth of water beneath the boat?',
-      image: 'depth_001.svg',
+      image: 'rigging_001.svg',
       options: [
         'Draft',
         'Freeboard',
@@ -128,7 +128,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       id: 'nautical_009',
       module: 'nautical_terms',
       question: 'What is the term for the side of the boat away from the wind?',
-      image: 'wind_direction_002.svg',
+      image: 'rigging_001.svg',
       options: [
         'Windward',
         'Leeward',
@@ -143,7 +143,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       id: 'nautical_010',
       module: 'nautical_terms',
       question: 'What is the rope used to raise and lower sails?',
-      image: 'rigging_004.svg',
+      image: 'rigging_001.svg',
       options: [
         'Sheet',
         'Halyard',

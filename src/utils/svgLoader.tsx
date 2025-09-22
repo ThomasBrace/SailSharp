@@ -1,101 +1,153 @@
-// src/utils/svgLoader.ts
+// src/utils/svgLoader.tsx
 
 import React from 'react';
+import { View, Text } from 'react-native';
 import { SvgXml } from 'react-native-svg';
 
-// SVG content as strings (you can also load these from files)
-export const svgContent = {
-  boat_parts_001: `<svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
-    <!-- Boat hull -->
-    <path d="M20 120 Q100 100 180 120 L180 140 Q100 130 20 140 Z" fill="#8B4513" stroke="#654321" stroke-width="2"/>
-    
-    <!-- Mast -->
-    <line x1="100" y1="120" x2="100" y2="40" stroke="#654321" stroke-width="3"/>
-    
-    <!-- Bow (front) -->
-    <circle cx="20" cy="130" r="3" fill="#FF6B6B"/>
-    <text x="15" y="125" font-size="12" fill="#FF6B6B" font-weight="bold">Bow</text>
-    
-    <!-- Stern (rear) -->
-    <circle cx="180" cy="130" r="3" fill="#4ECDC4"/>
-    <text x="175" y="125" font-size="12" fill="#4ECDC4" font-weight="bold">Stern</text>
-    
-    <!-- Port side -->
-    <circle cx="50" cy="130" r="3" fill="#45B7D1"/>
-    <text x="45" y="115" font-size="12" fill="#45B7D1" font-weight="bold">Port</text>
-    
-    <!-- Starboard side -->
-    <circle cx="150" cy="130" r="3" fill="#96CEB4"/>
-    <text x="145" y="115" font-size="12" fill="#96CEB4" font-weight="bold">Starboard</text>
-    
-    <!-- Water line -->
-    <line x1="0" y1="120" x2="200" y2="120" stroke="#4A90E2" stroke-width="2" stroke-dasharray="5,5"/>
-  </svg>`,
-  
-  rigging_001: `<svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
-    <!-- Boat hull -->
-    <path d="M20 120 Q100 100 180 120 L180 140 Q100 130 20 140 Z" fill="#8B4513" stroke="#654321" stroke-width="2"/>
-    
-    <!-- Mast -->
-    <line x1="100" y1="120" x2="100" y2="40" stroke="#654321" stroke-width="3"/>
-    
-    <!-- Boom -->
-    <line x1="100" y1="60" x2="160" y2="60" stroke="#654321" stroke-width="2"/>
-    
-    <!-- Mainsail -->
-    <path d="M100 40 L100 60 L160 60 Z" fill="#E8F4FD" stroke="#4A90E2" stroke-width="1"/>
-    
-    <!-- Labels -->
-    <text x="95" y="35" font-size="12" fill="#654321" font-weight="bold">Mast</text>
-    <text x="130" y="55" font-size="12" fill="#654321" font-weight="bold">Boom</text>
-    
-    <!-- Water line -->
-    <line x1="0" y1="120" x2="200" y2="120" stroke="#4A90E2" stroke-width="2" stroke-dasharray="5,5"/>
-  </svg>`,
-  
-  wind_direction_001: `<svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
-    <!-- Boat hull -->
-    <path d="M20 120 Q100 100 180 120 L180 140 Q100 130 20 140 Z" fill="#8B4513" stroke="#654321" stroke-width="2"/>
-    
-    <!-- Mast -->
-    <line x1="100" y1="120" x2="100" y2="40" stroke="#654321" stroke-width="3"/>
-    
-    <!-- Wind direction arrows -->
-    <path d="M50 30 L70 30 M60 20 L60 40 M55 25 L60 20 L65 25" stroke="#FF6B6B" stroke-width="2" fill="none"/>
-    <path d="M150 30 L130 30 M140 20 L140 40 M135 25 L140 20 L145 25" stroke="#FF6B6B" stroke-width="2" fill="none"/>
-    
-    <!-- Labels -->
-    <text x="45" y="50" font-size="12" fill="#FF6B6B" font-weight="bold">Windward</text>
-    <text x="135" y="50" font-size="12" fill="#4ECDC4" font-weight="bold">Leeward</text>
-    
-    <!-- Windward side highlight -->
-    <rect x="20" y="100" width="80" height="20" fill="#FFE5E5" opacity="0.3"/>
-    
-    <!-- Leeward side highlight -->
-    <rect x="100" y="100" width="80" height="20" fill="#E5F9F6" opacity="0.3"/>
-    
-    <!-- Water line -->
-    <line x1="0" y1="120" x2="200" y2="120" stroke="#4A90E2" stroke-width="2" stroke-dasharray="5,5"/>
-  </svg>`,
+// SVG content from actual files
+const svgContentMap: { [key: string]: string } = {
+  'boat_parts_001.svg': `<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 792">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e6e7e8;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 9px;
+      }
+
+      .cls-2, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #fbb040;
+      }
+
+      .cls-4 {
+        fill: #939598;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <path class="cls-1" d="M306.52,22.74c3.33,0,6.42,1.71,8.2,4.53,20.36,32.34,141.18,232.9,141.18,438.68,0,147.13-31.72,210.05-31.72,210.05,0,0-67.39,18-117.66,19.12-50.27-1.12-117.66-19.12-117.66-19.12,0,0-31.72-62.92-31.72-210.05,0-205.78,120.82-406.34,141.18-438.68,1.77-2.82,4.87-4.53,8.2-4.53h0Z"/>
+    <path class="cls-4" d="M306,678.96s37.79,2.26,104.43-15.81c0,0,33.88-141.18,21.46-171.67,0,0-44.05-14.87-121.98-16h-7.82c-77.93,1.13-121.98,16-121.98,16-12.42,30.49,21.46,171.67,21.46,171.67,66.64,18.07,104.43,15.81,104.43,15.81"/>
+    <path class="cls-5" d="M293.45,60.73c-26.58,48.88-113.49,221.24-116.03,389.12-.08,5.38,4.91,9.31,9.94,7.86l23.97-6.93c5.52-1.59,9.06-7.14,8.25-12.98-4.28-31.04-8.37-138,76.2-375.95.55-1.54-1.56-2.56-2.34-1.12Z"/>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-2" x="252.35" y="354.65" width="22.02" height="298" rx="7.7" ry="7.7" transform="translate(144 -52.03) rotate(15.48)"/>
+    <circle class="cls-2" cx="306" cy="326.72" r="21.18"/>
+    <path class="cls-3" d="M306.26,370.73l-91.69,255.11c-3.37,9.39-16.86,8.78-19.36-.88-13.25-51.24-23.46-163.68,97.09-263.96,6.92-5.76,17.01,1.27,13.96,9.74Z"/>
+    <path class="cls-3" d="M306.55,55.01l-156.05,367.8c-2.33,5.49-10.43,4.24-11.02-1.69-4.82-48.53.77-183.13,161.96-369.28,2.27-2.62,6.45-.02,5.1,3.17Z"/>
+  </g>
+</svg>`,
+
+  'rigging_001.svg': `<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1088.75 1190.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ba832e;
+      }
+
+      .cls-2 {
+        fill: #e6e7e8;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 9px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-7 {
+        opacity: .4;
+      }
+
+      .cls-7, .cls-3, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #fbb040;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #21409a;
+      }
+
+      .cls-9 {
+        fill: #231f20;
+        opacity: .6;
+      }
+
+      .cls-6 {
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_3" data-name="Layer 3">
+    <path class="cls-4" d="M672.33,172.68l288.92,591.06c4.95,10.12-4.51,21.36-14.48,17.21-61.42-25.54-212.59-78.08-389.55-64.06-13.91,1.1-24.85-12.46-21.8-26.98l107.98-513.19c3.17-15.07,22.24-17.73,28.93-4.04Z"/>
+    <path class="cls-1" d="M658.33,185.05l14.04,502.77c.24,8.42-5.85,15.39-13.44,15.39h-86.96c-5.06,0-8.94-4.98-8.2-10.53,7.67-58,46.38-341.95,90.78-508.19.63-2.34,3.72-1.89,3.79.55Z"/>
+    <path class="cls-3" d="M618.64,58.16h-3.97c-4.52,0-8.18,5.92-8.18,13.23v827.94c0,7.31,3.66,13.23,8.18,13.23h3.97c4.52,0,8.18-5.92,8.18-13.23V71.39c0-7.31-3.66-13.23-8.18-13.23Z"/>
+    <rect class="cls-3" x="211.86" y="674.98" width="380.31" height="28.24" rx="14.12" ry="14.12"/>
+    <path class="cls-4" d="M570.65,658.69l-322.53,5.25c-15.42.25-30.53-16.26-23.54-30.69,43.67-90.23,150-391.19,341.21-516.78,11.57-7.6,26.37,4.04,26.37,18.38v500.77c0,12.6-9.58,22.88-21.51,23.07Z"/>
+    <path class="cls-6" d="M129.57,931.73l-13.66,124.12c-.82,7.42,5.1,13.83,12.56,13.66,16.91-.39,45.24-5.59,62.51-33.39.82-1.31,1.4-2.76,1.69-4.28l15.89-83.08c1.27-6.66-3.08-13.11-9.74-14.4-13.2-2.56-34.93-7.17-53.35-13.03-7.38-2.35-15.06,2.71-15.91,10.41Z"/>
+    <path class="cls-6" d="M567.08,1135.26s9.58-139.89,110.9-174.38l-369.67-18.29c-2.48-.5,184.64,37.66,126.14,191.58l132.63,1.08Z"/>
+    <path class="cls-9" d="M389.04,963.44c44.68,6.64,147.03,20.81,231.25,12.15,3.46-.36,5.62,3.48,3.33,6-8.72,9.59-23.01,26.11-27.04,35.68-5.48,13.01-136.25,1.96-157.35.22-1.54-.13-2.82-1.14-3.28-2.56-2.11-6.55-20.1-25.85-49.67-44.89-3.42-2.2-1.3-7.21,2.77-6.61Z"/>
+    <path class="cls-9" d="M148.28,930.25l45.7,10.27c5.36,1.2,8.76,5.47,7.81,9.8l-10.65,48.47c-.82,3.73-7.44,3.86-8.71.18-6.26-18.07-18.61-46.57-38.35-63.12-3.01-2.52.03-6.53,4.21-5.59Z"/>
+  </g>
+  <g id="Layer_4" data-name="Layer 4">
+    <path class="cls-2" d="M286.19,827.39l43.19-92.59c2.61-5.6,8.27-9.14,14.45-9.06,44.18.61,205.06,8.75,378.89,78.74,7.36,2.96,6.29,13.69-1.5,15.18-57.27,10.89-192.95,31.41-435.03,7.73Z"/>
+    <path class="cls-5" d="M133.32,795.4c-9.9,8.74-31.46,34.57-29.72,92.92.21,7.11,5.18,13.19,12.09,14.89,46.9,11.53,230.52,54.4,408.71,64.9,132.92,7.83,243.67-9.31,434.42-128.96,13.19-8.27,7.89-28.62-7.66-29.38-176.38-8.6-475.96-19.63-640.21-20.61-64.12-.38-122.1.24-167.89,2.34-3.6.16-7.04,1.52-9.74,3.9Z"/>
+    <path class="cls-8" d="M320.23,779.32l17.88-39.13c1.63-3.57,5.28-5.9,9.34-5.97,9.67-.16,28.99-.08,52.73,2.12,3.09.29,3.11,4.6.03,4.91l-40.88,4.06c-3.65.36-7.01,2.04-9.41,4.7l-27.57,30.58c-.95,1.06-2.71,0-2.12-1.29Z"/>
+    <path class="cls-7" d="M144.44,802.65c-6.73,7.33-26.21,32.17-32.29,79.29-.38,2.92,2.41,4.4,3.46,1.83,8.27-20.13,25.22-59.33,34.4-66.02s38.46-11.04,60.82-14.3c2.37-.35,2.17-5.31-.22-5.29-20.29.25-46.64.79-61.26,1.91-1.78.14-3.5,1.02-4.91,2.57Z"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <path class="cls-7" d="M276.22,652.46l278.47-5.66c14.19-.29,25.55-13.23,25.55-29.11v-250.84c0-3.5-4.55-3.89-5.02-.43-8.31,61.22-25.61,178.03-41.56,219.22-20.14,51.99-172.99,49.3-257.71,62.96-2.16.35-1.9,3.91.28,3.87Z"/>
+  </g>
+</svg>`,
+
+  'wind_direction_001.svg': `<svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="75" r="40" stroke="#AEC6CF" stroke-width="2" fill="#E0FFFF"/>
+  <path d="M100 30L110 50H90L100 30Z" fill="#6A5ACD"/>
+  <path d="M100 120L110 100H90L100 120Z" fill="#6A5ACD"/>
+  <path d="M100 30L100 120" stroke="#6A5ACD" stroke-width="2"/>
+  <text x="105" y="40" font-family="Arial" font-size="12" fill="#333">Windward</text>
+  <text x="105" y="110" font-family="Arial" font-size="12" fill="#333">Leeward</text>
+</svg>`,
 };
 
-// Helper function to render SVG component
-export const renderSvg = (imageName: string, width: number = 200, height: number = 150) => {
-  const svgString = svgContent[imageName as keyof typeof svgContent];
-  if (!svgString) {
+// Function to get SVG content
+const getSvgContent = (imageName: string): string => {
+  return svgContentMap[imageName] || '';
+};
+
+// SVG Image Component
+export const SvgImage: React.FC<{ imageName: string }> = ({ imageName }) => {
+  const svgContent = getSvgContent(imageName);
+
+  if (!svgContent) {
     return null;
   }
-  
+
   return (
-    <SvgXml 
-      xml={svgString} 
-      width={width} 
-      height={height}
-    />
+    <View style={{ alignItems: 'center', marginTop: 16, paddingVertical: 12, backgroundColor: '#f8fafc', borderRadius: 8 }}>
+      <SvgXml xml={svgContent} width={200} height={150} />
+    </View>
   );
 };
 
-// Helper function to get SVG content as string
-export const getSvgContent = (imageName: string): string => {
-  return svgContent[imageName as keyof typeof svgContent] || '';
+// Legacy function for backward compatibility
+export const renderSvg = (imageName: string, width: number = 200, height: number = 150) => {
+  return <SvgImage imageName={imageName} />;
 };
+
+export default SvgImage;
