@@ -4,6 +4,7 @@ import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 import { RootStackParamList } from '../types';
 
 type ResultsScreenRouteProp = RouteProp<RootStackParamList, 'Results'>;
@@ -110,28 +111,40 @@ const ResultsScreen: React.FC = () => {
           
           {isPassed ? (
             <View style={styles.recommendationItem}>
-              <Text style={styles.recommendationText}>
-                🎉 Congratulations! You've successfully completed this module.
-              </Text>
+              <View style={styles.recommendationRow}>
+                <Icon name="celebration" size={20} color="#22c55e" style={styles.recommendationIcon} />
+                <Text style={styles.recommendationText}>
+                  Congratulations! You've successfully completed this module.
+                </Text>
+              </View>
             </View>
           ) : (
             <View style={styles.recommendationItem}>
-              <Text style={styles.recommendationText}>
-                📚 Review the questions you missed and study the explanations.
-              </Text>
+              <View style={styles.recommendationRow}>
+                <Icon name="menu-book" size={20} color="#f59e0b" style={styles.recommendationIcon} />
+                <Text style={styles.recommendationText}>
+                  Review the questions you missed and study the explanations.
+                </Text>
+              </View>
             </View>
           )}
           
           <View style={styles.recommendationItem}>
-            <Text style={styles.recommendationText}>
-              🔄 Consider retaking the quiz to reinforce your knowledge.
-            </Text>
+            <View style={styles.recommendationRow}>
+              <Icon name="refresh" size={20} color="#2196F3" style={styles.recommendationIcon} />
+              <Text style={styles.recommendationText}>
+                Consider retaking the quiz to reinforce your knowledge.
+              </Text>
+            </View>
           </View>
           
           <View style={styles.recommendationItem}>
-            <Text style={styles.recommendationText}>
-              📖 Continue with other modules to complete your RYA Day Skipper theory.
-            </Text>
+            <View style={styles.recommendationRow}>
+              <Icon name="school" size={20} color="#8b5cf6" style={styles.recommendationIcon} />
+              <Text style={styles.recommendationText}>
+                Continue with other modules to complete your RYA Day Skipper theory.
+              </Text>
+            </View>
           </View>
         </View>
       </ScrollView>
@@ -300,10 +313,19 @@ const styles = StyleSheet.create({
   recommendationItem: {
     marginBottom: 12,
   },
+  recommendationRow: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+  },
+  recommendationIcon: {
+    marginRight: 8,
+    marginTop: 2,
+  },
   recommendationText: {
     fontSize: 14,
     color: '#64748b',
     lineHeight: 20,
+    flex: 1,
   },
   actionContainer: {
     paddingHorizontal: 20,

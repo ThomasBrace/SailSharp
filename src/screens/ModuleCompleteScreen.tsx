@@ -4,6 +4,7 @@ import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 import { RootStackParamList } from '../types';
 
 type ModuleCompleteScreenRouteProp = RouteProp<RootStackParamList, 'ModuleComplete'>;
@@ -35,7 +36,7 @@ const ModuleCompleteScreen: React.FC = () => {
         {/* Header */}
         <View style={styles.header}>
           <View style={styles.celebrationIcon}>
-            <Text style={styles.celebrationEmoji}>🎉</Text>
+            <Icon name="celebration" size={64} color="#22c55e" />
           </View>
           <Text style={styles.moduleName}>{moduleName}</Text>
           <Text style={styles.completionStatus}>Module Complete!</Text>
@@ -44,7 +45,7 @@ const ModuleCompleteScreen: React.FC = () => {
         {/* Achievement Badge */}
         <View style={styles.achievementContainer}>
           <View style={styles.achievementBadge}>
-            <Text style={styles.achievementIcon}>🏆</Text>
+            <Icon name="emoji-events" size={48} color="#fbbf24" />
             <Text style={styles.achievementTitle}>Module Mastered</Text>
             <Text style={styles.achievementScore}>{percentage}% Score</Text>
           </View>
@@ -90,27 +91,39 @@ const ModuleCompleteScreen: React.FC = () => {
           <Text style={styles.nextStepsTitle}>What's Next?</Text>
           
           <View style={styles.nextStepItem}>
-            <Text style={styles.nextStepText}>
-              🎯 Continue with other RYA Day Skipper modules to complete your theory course.
-            </Text>
+            <View style={styles.nextStepRow}>
+              <Icon name="flag" size={20} color="#22c55e" style={styles.nextStepIcon} />
+              <Text style={styles.nextStepText}>
+                Continue with other RYA Day Skipper modules to complete your theory course.
+              </Text>
+            </View>
           </View>
           
           <View style={styles.nextStepItem}>
-            <Text style={styles.nextStepText}>
-              📚 Review this module periodically to maintain your knowledge.
-            </Text>
+            <View style={styles.nextStepRow}>
+              <Icon name="menu-book" size={20} color="#2196F3" style={styles.nextStepIcon} />
+              <Text style={styles.nextStepText}>
+                Review this module periodically to maintain your knowledge.
+              </Text>
+            </View>
           </View>
           
           <View style={styles.nextStepItem}>
-            <Text style={styles.nextStepText}>
-              🚢 Consider practical sailing experience to complement your theoretical knowledge.
-            </Text>
+            <View style={styles.nextStepRow}>
+              <Icon name="directions-boat" size={20} color="#8b5cf6" style={styles.nextStepIcon} />
+              <Text style={styles.nextStepText}>
+                Consider practical sailing experience to complement your theoretical knowledge.
+              </Text>
+            </View>
           </View>
           
           <View style={styles.nextStepItem}>
-            <Text style={styles.nextStepText}>
-              📋 Track your progress across all modules in the dashboard.
-            </Text>
+            <View style={styles.nextStepRow}>
+              <Icon name="assessment" size={20} color="#f59e0b" style={styles.nextStepIcon} />
+              <Text style={styles.nextStepText}>
+                Track your progress across all modules in the dashboard.
+              </Text>
+            </View>
           </View>
         </View>
 
@@ -167,9 +180,6 @@ const styles = StyleSheet.create({
   celebrationIcon: {
     marginBottom: 16,
   },
-  celebrationEmoji: {
-    fontSize: 64,
-  },
   moduleName: {
     fontSize: 24,
     fontWeight: 'bold',
@@ -198,10 +208,6 @@ const styles = StyleSheet.create({
     elevation: 5,
     borderWidth: 2,
     borderColor: '#22c55e',
-  },
-  achievementIcon: {
-    fontSize: 48,
-    marginBottom: 12,
   },
   achievementTitle: {
     fontSize: 20,
@@ -292,10 +298,19 @@ const styles = StyleSheet.create({
   nextStepItem: {
     marginBottom: 12,
   },
+  nextStepRow: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+  },
+  nextStepIcon: {
+    marginRight: 8,
+    marginTop: 2,
+  },
   nextStepText: {
     fontSize: 14,
     color: '#64748b',
     lineHeight: 20,
+    flex: 1,
   },
   ryaContainer: {
     backgroundColor: '#f0f9ff',
