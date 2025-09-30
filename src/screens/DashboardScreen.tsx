@@ -21,13 +21,6 @@ const DashboardScreen: React.FC = () => {
   const modules = useSelector((state: RootState) => state.modules);
   const user = useSelector((state: RootState) => state.user);
 
-  const calculateOverallProgress = () => {
-    const totalQuestions = modules.reduce((sum, module) => sum + module.totalQuestions, 0);
-    const completedQuestions = modules.reduce((sum, module) => sum + module.completedQuestions, 0);
-    return totalQuestions > 0 ? Math.round((completedQuestions / totalQuestions) * 100) : 0;
-  };
-
-  const overallProgress = calculateOverallProgress();
 
   const renderModuleCard = (module: Module) => (
     <TouchableOpacity
@@ -58,19 +51,6 @@ const DashboardScreen: React.FC = () => {
         </View>
       </View>
       
-      <View style={styles.progressContainer}>
-        <View style={styles.progressBar}>
-          <View 
-            style={[
-              styles.progressFill, 
-              { width: `${(module.completedQuestions / module.totalQuestions) * 100}%` }
-            ]} 
-          />
-        </View>
-        <Text style={styles.progressText}>
-          {module.completedQuestions}/{module.totalQuestions} questions
-        </Text>
-      </View>
       
       {module.isCompleted && (
         <View style={styles.completedBadge}>
@@ -88,13 +68,6 @@ const DashboardScreen: React.FC = () => {
           <Text style={styles.subtitle}>Master RYA Day Skipper Theory</Text>
         </View>
 
-        <View style={styles.overallProgress}>
-          <Text style={styles.progressTitle}>Overall Progress</Text>
-          <View style={styles.progressBar}>
-            <View style={[styles.progressFill, { width: `${overallProgress}%` }]} />
-          </View>
-          <Text style={styles.progressPercentage}>{overallProgress}%</Text>
-        </View>
 
         <View style={styles.modulesContainer}>
           <Text style={styles.sectionTitle}>Course Modules</Text>
@@ -127,40 +100,6 @@ const styles = StyleSheet.create({
   subtitle: {
     fontSize: 16,
     color: '#e2e8f0',
-  },
-  overallProgress: {
-    margin: 20,
-    padding: 20,
-    backgroundColor: '#fff',
-    borderRadius: 12,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    elevation: 3,
-  },
-  progressTitle: {
-    fontSize: 18,
-    fontWeight: '600',
-    color: '#1e3a8a',
-    marginBottom: 12,
-  },
-  progressBar: {
-    height: 8,
-    backgroundColor: '#e2e8f0',
-    borderRadius: 4,
-    marginBottom: 8,
-  },
-  progressFill: {
-    height: '100%',
-    backgroundColor: '#3b82f6',
-    borderRadius: 4,
-  },
-  progressPercentage: {
-    fontSize: 16,
-    fontWeight: '600',
-    color: '#1e3a8a',
-    textAlign: 'center',
   },
   modulesContainer: {
     padding: 20,
@@ -212,15 +151,6 @@ const styles = StyleSheet.create({
   moduleDescription: {
     fontSize: 14,
     color: '#64748b',
-  },
-  progressContainer: {
-    marginBottom: 8,
-  },
-  progressText: {
-    fontSize: 12,
-    color: '#64748b',
-    textAlign: 'center',
-    marginTop: 4,
   },
   completedBadge: {
     backgroundColor: '#10b981',
