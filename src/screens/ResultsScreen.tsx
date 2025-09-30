@@ -4,13 +4,15 @@ import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
+import { StackNavigationProp } from '@react-navigation/stack';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { RootStackParamList } from '../types';
 
 type ResultsScreenRouteProp = RouteProp<RootStackParamList, 'Results'>;
+type ResultsScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Results'>;
 
 const ResultsScreen: React.FC = () => {
-  const navigation = useNavigation();
+  const navigation = useNavigation<ResultsScreenNavigationProp>();
   const route = useRoute<ResultsScreenRouteProp>();
   const { moduleId, moduleName, score, total } = route.params;
 
@@ -39,11 +41,6 @@ const ResultsScreen: React.FC = () => {
     navigation.navigate('Dashboard');
   };
 
-  const handleViewModuleComplete = () => {
-    if (isPassed) {
-      navigation.navigate('ModuleComplete', { moduleId, moduleName, score, total });
-    }
-  };
 
   return (
     <SafeAreaView style={styles.container} edges={['bottom']}>
@@ -151,20 +148,11 @@ const ResultsScreen: React.FC = () => {
 
       {/* Action Buttons */}
       <View style={styles.actionContainer}>
-        {isPassed && (
-          <TouchableOpacity
-            style={[styles.actionButton, styles.primaryButton]}
-            onPress={handleViewModuleComplete}
-          >
-            <Text style={styles.primaryButtonText}>View Module Complete</Text>
-          </TouchableOpacity>
-        )}
-        
         <TouchableOpacity
-          style={[styles.actionButton, styles.secondaryButton]}
+          style={[styles.actionButton, styles.primaryButton]}
           onPress={handleRetakeQuiz}
         >
-          <Text style={styles.secondaryButtonText}>Retake Quiz</Text>
+          <Text style={styles.primaryButtonText}>Retake Quiz</Text>
         </TouchableOpacity>
         
         <TouchableOpacity
