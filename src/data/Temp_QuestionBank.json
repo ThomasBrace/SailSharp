@@ -749,6 +749,13 @@
     "explanation": "'Pile Lts' means a pile fitted with lights for navigational purposes.",
     "difficulty": "medium"
   },
+
+
+
+
+
+
+
   {
     "id": "buoyage_001",
     "module": "buoyage",
@@ -1499,6 +1506,11 @@
     "explanation": "In Region B, red buoys are starboard-hand marks and should be kept to starboard when entering from seaward.",
     "difficulty": "easy"
 },
+
+
+
+
+
 {
     "id": "colregs_001",
     "module": "collision_regulations",
@@ -2999,6 +3011,11 @@
           "explanation": "Radar reflectors are shown as triangles or circles with an annotation to indicate presence on a buoy or structure.",
           "difficulty": "medium"
         },
+
+
+
+
+
         {
           "id": "buoyage_001",
           "module": "buoyage",
@@ -3749,6 +3766,9 @@
               "explanation": "A west cardinal mark indicates safe water lies to the west.",
               "difficulty": "medium"
             },
+
+
+
             {
               "id": "tides_001",
               "module": "tides_weather",
@@ -4499,6 +4519,11 @@
               "explanation": "Tide and tidal stream tables provide predicted strength and direction of tidal currents.",
               "difficulty": "medium"
             },
+
+
+
+
+
                 {
                   "id": "safety_001",
                   "module": "safety",
@@ -5249,6 +5274,11 @@
                       "explanation": "Small leaks should be managed with the bilge pump and temporary patch to prevent flooding while seeking assistance.",
                       "difficulty": "medium"
                     },
+
+
+
+
+
                         {
                           "id": "nautical_001",
                           "module": "nautical_terms",
@@ -5999,6 +6029,10 @@
                               "explanation": "Sprayhoods shield the cockpit and crew from wind and water spray while sailing.",
                               "difficulty": "medium"
                             },
+
+
+
+
                                 {
                                   "id": "mayday_001",
                                   "module": "mayday_procedures",
@@ -6374,6 +6408,10 @@
                                   "explanation": "Persistence with multiple methods increases chances of being noticed and rescued.",
                                   "difficulty": "medium"
                                 },
+
+
+
+                                
                                     {
                                       "id": "passage_001",
                                       "module": "passage_planning",
