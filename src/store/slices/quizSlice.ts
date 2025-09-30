@@ -62,9 +62,6 @@ const quizSlice = createSlice({
     },
     showResults: (state) => {
       state.showResults = true;
-      if (state.selectedAnswer === state.questions[state.currentQuestion]?.correctAnswer) {
-        state.score += 1;
-      }
     },
     nextQuestion: (state) => {
       state.currentQuestion += 1;

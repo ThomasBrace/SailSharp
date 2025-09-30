@@ -14,7 +14,7 @@ import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { RootState } from '../store';
 import { RootStackParamList } from '../types';
-import { updateQuizProgress, setCurrentQuestion, setSelectedAnswer, resetQuiz } from '../store/slices/quizSlice';
+import { updateQuizProgress, setCurrentQuestion, setSelectedAnswer, resetQuiz, startQuiz } from '../store/slices/quizSlice';
 import { questions } from '../data/questions';
 import { SvgImage } from '../utils/svgLoader';
 
@@ -27,7 +27,7 @@ const QuizScreen: React.FC = () => {
   const dispatch = useDispatch();
   
   const { moduleId, moduleName } = route.params;
-  const { currentQuestion, selectedAnswer, isCompleted } = useSelector((state: RootState) => state.quiz);
+  const { currentQuestion, selectedAnswer, isCompleted, score } = useSelector((state: RootState) => state.quiz);
   const modules = useSelector((state: RootState) => state.modules);
   
   const [showExplanation, setShowExplanation] = useState(false);
@@ -49,9 +49,9 @@ const QuizScreen: React.FC = () => {
   useEffect(() => {
     // Initialize quiz if not already started
     if (randomizedQuestions.length > 0) {
-      dispatch(setCurrentQuestion(0));
+      dispatch(startQuiz(randomizedQuestions));
     }
-  }, [dispatch, randomizedQuestions.length]);
+  }, [dispatch, randomizedQuestions]);
 
   const handleAnswerSelect = (answerIndex: number) => {
     dispatch(setSelectedAnswer(answerIndex));
@@ -78,17 +78,11 @@ const QuizScreen: React.FC = () => {
       setShowExplanation(false);
       dispatch(setSelectedAnswer(-1));
     } else {
-      // Quiz completed - calculate score
-      const correctAnswers = randomizedQuestions.filter((question, index) => {
-        // This would need to be tracked in Redux state for proper scoring
-        // For now, we'll use a simple calculation
-        return question.correctAnswer === selectedAnswer;
-      }).length;
-      
+      // Quiz completed - use the score from Redux state
       navigation.navigate('Results', {
         moduleId,
         moduleName,
-        score: correctAnswers,
+        score: score,
         total: randomizedQuestions.length,
       });
     }

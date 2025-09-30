@@ -1511,7 +1511,757 @@ export const questions: { [moduleId: string]: Question[] } = {
           correctAnswer: 3,
           explanation: 'A yellow buoy with an X topmark is a special mark, indicating a special area or feature such as a military exercise area or cable.',
           difficulty: 'medium'
-        }
+        },
+        {
+          "id": "buoyage_001",
+          "module": "buoyage",
+          "question": "What does a north cardinal mark indicate?",
+          "image": "buoyage_001.svg",
+          "options": [
+            "Safe water to the north",
+            "Safe water to the south",
+            "Danger to the north",
+            "Shallow water to the north"
+          ],
+          "correctAnswer": 0,
+          "explanation": "A north cardinal mark indicates that safe water lies to the north of the buoy.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "buoyage_002",
+          "module": "buoyage",
+          "question": "What colour is a south cardinal buoy?",
+          "image": "buoyage_002.svg",
+          "options": [
+            "Black with yellow band",
+            "Yellow with black band",
+            "Yellow above black",
+            "Black above yellow"
+          ],
+          "correctAnswer": 2,
+          "explanation": "A south cardinal buoy is yellow above black, with two black cones pointing downward.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "buoyage_003",
+          "module": "buoyage",
+          "question": "What topmark is found on an east cardinal buoy?",
+          "image": "buoyage_003.svg",
+          "options": [
+            "Two cones pointing upward",
+            "Two cones pointing downward",
+            "Two cones base to base",
+            "Two cones point to point"
+          ],
+          "correctAnswer": 2,
+          "explanation": "An east cardinal buoy has two black cones placed base-to-base, resembling an hourglass shape.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "buoyage_004",
+          "module": "buoyage",
+          "question": "What is the colour scheme of a west cardinal buoy?",
+          "image": "buoyage_004.svg",
+          "options": [
+            "Yellow-Black-Yellow",
+            "Black-Yellow-Black",
+            "Black with yellow band",
+            "Yellow with black band"
+          ],
+          "correctAnswer": 0,
+          "explanation": "A west cardinal buoy is painted yellow-black-yellow, with topmarks pointing inward (point-to-point).",
+          "difficulty": "medium"
+        },
+        {
+          "id": "buoyage_005",
+          "module": "buoyage",
+          "question": "What light characteristic does a north cardinal buoy display?",
+          "image": "buoyage_005.svg",
+          "options": [
+            "Continuous flashing",
+            "Quick or very quick flashing",
+            "Three flashes",
+            "Six flashes plus one long"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A north cardinal buoy shows a continuous quick (Q) or very quick (VQ) flashing white light.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "buoyage_006",
+          "module": "buoyage",
+          "question": "What is the light characteristic of a south cardinal buoy?",
+          "image": "buoyage_006.svg",
+          "options": [
+            "Q(6)+LFl",
+            "Q(9)",
+            "Q or VQ continuous",
+            "Iso 10s"
+          ],
+          "correctAnswer": 0,
+          "explanation": "A south cardinal buoy shows six quick flashes followed by one long flash (Q(6)+LFl).",
+          "difficulty": "hard"
+        },
+        {
+          "id": "buoyage_007",
+          "module": "buoyage",
+          "question": "How many flashes does an east cardinal buoy display?",
+          "image": "buoyage_007.svg",
+          "options": [
+            "3",
+            "6",
+            "9",
+            "Continuous"
+          ],
+          "correctAnswer": 0,
+          "explanation": "An east cardinal buoy shows a group of 3 quick or very quick flashes.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "buoyage_008",
+          "module": "buoyage",
+          "question": "What light sequence identifies a west cardinal buoy?",
+          "image": "buoyage_008.svg",
+          "options": [
+            "6 flashes + 1 long",
+            "9 flashes",
+            "3 flashes",
+            "Continuous flashing"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A west cardinal buoy shows a group of 9 quick or very quick flashes.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "buoyage_009",
+          "module": "buoyage",
+          "question": "What colour is an isolated danger mark?",
+          "image": "buoyage_009.svg",
+          "options": [
+            "Red and black horizontal bands",
+            "Black and yellow vertical stripes",
+            "Black and white checks",
+            "Green and red stripes"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Isolated danger marks are painted with horizontal red and black bands.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "buoyage_010",
+          "module": "buoyage",
+          "question": "What is the topmark of an isolated danger mark?",
+          "image": "buoyage_010.svg",
+          "options": [
+            "Two black spheres",
+            "Two cones point-to-point",
+            "Single black cone",
+            "Single red ball"
+          ],
+          "correctAnswer": 0,
+          "explanation": "An isolated danger mark has two black spheres as its topmark.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "buoyage_011",
+          "module": "buoyage",
+          "question": "What is the light characteristic of an isolated danger mark?",
+          "image": "buoyage_011.svg",
+          "options": [
+            "White Fl(2)",
+            "Red Iso 4s",
+            "Yellow Fl(5)",
+            "Green Fl(3)"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Isolated danger marks show a white light flashing twice (Fl(2)).",
+          "difficulty": "medium"
+        },
+        {
+          "id": "buoyage_012",
+          "module": "buoyage",
+          "question": "What does a safe water mark indicate?",
+          "image": "buoyage_012.svg",
+          "options": [
+            "Preferred channel",
+            "Centre of a channel or landfall",
+            "Hazard area",
+            "Tidal stream"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Safe water marks indicate there is navigable water all around them, often used as mid-channel or landfall buoys.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "buoyage_013",
+          "module": "buoyage",
+          "question": "What is the colour scheme of a safe water mark?",
+          "image": "buoyage_013.svg",
+          "options": [
+            "Red and white vertical stripes",
+            "Black and yellow bands",
+            "Green and red horizontal stripes",
+            "Black and white checks"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Safe water marks are painted with vertical red and white stripes.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "buoyage_014",
+          "module": "buoyage",
+          "question": "What topmark does a safe water mark have?",
+          "image": "buoyage_014.svg",
+          "options": [
+            "Red sphere",
+            "Two cones",
+            "Black sphere",
+            "Yellow cross"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Safe water marks have a single red sphere as their topmark.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "buoyage_015",
+          "module": "buoyage",
+          "question": "What light characteristic does a safe water mark display?",
+          "image": "buoyage_015.svg",
+          "options": [
+            "White Iso 10s",
+            "White Morse 'A'",
+            "White LFl 10s",
+            "Any of the above"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Safe water marks may show an isophase, long flash, or Morse 'A' white light.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "buoyage_016",
+          "module": "buoyage",
+          "question": "What do special marks indicate?",
+          "image": "buoyage_016.svg",
+          "options": [
+            "General danger",
+            "Safe water",
+            "Special areas or features",
+            "Preferred channel"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Special marks indicate specific areas or features such as cables, pipelines, or recreation zones.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "buoyage_017",
+          "module": "buoyage",
+          "question": "What colour are special marks?",
+          "image": "buoyage_017.svg",
+          "options": [
+            "Black",
+            "Yellow",
+            "Red",
+            "Green"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Special marks are painted yellow.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "buoyage_018",
+          "module": "buoyage",
+          "question": "What is the topmark of a special mark?",
+          "image": "buoyage_018.svg",
+          "options": [
+            "Yellow cross",
+            "Yellow sphere",
+            "Black cone",
+            "Red diamond"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Special marks use a yellow X-shaped cross as their topmark.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "buoyage_019",
+          "module": "buoyage",
+          "question": "What light characteristics do special marks display?",
+          "image": "buoyage_019.svg",
+          "options": [
+            "Yellow, any rhythm not used for cardinal, isolated danger, or safe water",
+            "White Iso",
+            "Red Fl(2)",
+            "Green Fl(3)"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Special marks show yellow lights with rhythms that do not conflict with other buoy types.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "buoyage_020",
+          "module": "buoyage",
+          "question": "In IALA Region A, what colour is a port-hand lateral mark?",
+          "image": "buoyage_020.svg",
+          "options": [
+            "Red",
+            "Green",
+            "Black",
+            "Yellow"
+          ],
+          "correctAnswer": 0,
+          "explanation": "In Region A, port-hand lateral marks are red.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "buoyage_021",
+          "module": "buoyage",
+          "question": "What shape is the topmark of a port-hand buoy in Region A?",
+          "image": "buoyage_021.svg",
+          "options": [
+            "Can (cylindrical)",
+            "Cone (point up)",
+            "Sphere",
+            "Cross"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Port-hand buoys use a cylindrical 'can' shape as their topmark.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "buoyage_022",
+          "module": "buoyage",
+          "question": "In IALA Region A, what colour is a starboard-hand lateral mark?",
+          "image": "buoyage_022.svg",
+          "options": [
+            "Red",
+            "Green",
+            "Yellow",
+            "Black"
+          ],
+          "correctAnswer": 1,
+          "explanation": "In Region A, starboard-hand lateral marks are green.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "buoyage_023",
+          "module": "buoyage",
+          "question": "What topmark shape is used for a starboard-hand buoy?",
+          "image": "buoyage_023.svg",
+          "options": [
+            "Cone (point up)",
+            "Can",
+            "Sphere",
+            "Cross"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Starboard-hand buoys are marked with a conical (point-up) topmark.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "buoyage_024",
+          "module": "buoyage",
+          "question": "What does a preferred channel buoy indicate?",
+          "image": "buoyage_024.svg",
+          "options": [
+            "Safe water on either side",
+            "Preferred channel when a fairway splits",
+            "No entry",
+            "Special area"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Preferred channel buoys indicate the main channel when a waterway divides.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "buoyage_025",
+          "module": "buoyage",
+          "question": "How is a preferred channel to port buoy marked?",
+          "image": "buoyage_025.svg",
+          "options": [
+            "Red with a green band",
+            "Green with a red band",
+            "Yellow with a black band",
+            "Black with a yellow band"
+          ],
+          "correctAnswer": 0,
+          "explanation": "A preferred channel to port buoy is red with a single green horizontal band.",
+          "difficulty": "medium"
+        },
+      {
+          "id": "buoyage_026",
+          "module": "buoyage",
+          "question": "How is a preferred channel to starboard buoy marked?",
+          "image": "buoyage_026.svg",
+          "options": [
+          "Green with a red band",
+          "Red with a green band",
+          "Yellow with a black band",
+          "Black with a yellow band"
+          ],
+          "correctAnswer": 0,
+          "explanation": "A preferred channel to starboard buoy is green with a single red horizontal band.",
+          "difficulty": "medium"
+      },
+      {
+          "id": "buoyage_027",
+          "module": "buoyage",
+          "question": "What shape is used for a port-hand buoy?",
+          "image": "buoyage_027.svg",
+          "options": [
+          "Can",
+          "Cone",
+          "Sphere",
+          "Cross"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Port-hand buoys are cylindrical, known as 'can' shape.",
+          "difficulty": "easy"
+      },
+      {
+          "id": "buoyage_028",
+          "module": "buoyage",
+          "question": "What shape is used for a starboard-hand buoy?",
+          "image": "buoyage_028.svg",
+          "options": [
+          "Cone",
+          "Can",
+          "Sphere",
+          "Diamond"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Starboard-hand buoys are conical in shape.",
+          "difficulty": "easy"
+      },
+      {
+          "id": "buoyage_029",
+          "module": "buoyage",
+          "question": "What does a lateral buoy indicate?",
+          "image": "buoyage_029.svg",
+          "options": [
+          "The safest side to pass a hazard",
+          "The limits of a channel",
+          "Special features",
+          "Open sea safe water"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Lateral buoys indicate the sides of a navigable channel.",
+          "difficulty": "easy"
+      },
+      {
+          "id": "buoyage_030",
+          "module": "buoyage",
+          "question": "In IALA Region B, what colour is a port-hand buoy?",
+          "image": "buoyage_030.svg",
+          "options": [
+          "Green",
+          "Red",
+          "Black",
+          "Yellow"
+          ],
+          "correctAnswer": 0,
+          "explanation": "In Region B (Americas, Japan, etc.), port-hand buoys are green.",
+          "difficulty": "medium"
+      },
+      {
+          "id": "buoyage_031",
+          "module": "buoyage",
+          "question": "In IALA Region B, what colour is a starboard-hand buoy?",
+          "image": "buoyage_031.svg",
+          "options": [
+          "Red",
+          "Green",
+          "Black",
+          "Yellow"
+          ],
+          "correctAnswer": 0,
+          "explanation": "In Region B, starboard-hand buoys are red.",
+          "difficulty": "medium"
+      },
+      {
+          "id": "buoyage_032",
+          "module": "buoyage",
+          "question": "What does the mnemonic 'Red Right Returning' refer to?",
+          "image": "buoyage_032.svg",
+          "options": [
+          "Region A buoyage system",
+          "Region B buoyage system",
+          "Cardinal marks",
+          "Special marks"
+          ],
+          "correctAnswer": 1,
+          "explanation": "‘Red Right Returning’ applies to Region B: red buoys should be kept to starboard when returning from sea.",
+          "difficulty": "medium"
+      },
+      {
+          "id": "buoyage_033",
+          "module": "buoyage",
+          "question": "What shape can starboard-hand buoys take if unlit?",
+          "image": "buoyage_033.svg",
+          "options": [
+          "Cone",
+          "Can",
+          "Sphere",
+          "Cross"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Even unlit, starboard-hand buoys maintain their conical shape for identification.",
+          "difficulty": "easy"
+      },
+      {
+          "id": "buoyage_034",
+          "module": "buoyage",
+          "question": "What shape can port-hand buoys take if unlit?",
+          "image": "buoyage_034.svg",
+          "options": [
+          "Cone",
+          "Can",
+          "Sphere",
+          "Diamond"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Port-hand buoys remain can-shaped even if unlit.",
+          "difficulty": "easy"
+      },
+      {
+          "id": "buoyage_035",
+          "module": "buoyage",
+          "question": "What is the purpose of a safe water mark at landfall?",
+          "image": "buoyage_035.svg",
+          "options": [
+          "Mark a hazard",
+          "Indicate a traffic separation scheme",
+          "Provide a point of reference on entering from sea",
+          "Indicate fishing area"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Safe water marks at landfall help vessels identify the entrance to a channel when approaching from sea.",
+          "difficulty": "medium"
+      },
+      {
+          "id": "buoyage_036",
+          "module": "buoyage",
+          "question": "What does a yellow buoy with a black 'X' topmark mean?",
+          "image": "buoyage_036.svg",
+          "options": [
+          "Special mark",
+          "Safe water mark",
+          "Isolated danger mark",
+          "Cardinal mark"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Yellow buoys with a black X topmark are special marks.",
+          "difficulty": "easy"
+      },
+      {
+          "id": "buoyage_037",
+          "module": "buoyage",
+          "question": "What do lateral buoys mark in a dredged channel?",
+          "image": "buoyage_037.svg",
+          "options": [
+          "Safe anchorage",
+          "Edges of the channel",
+          "Preferred turning area",
+          "Fishing zone"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Lateral buoys are placed on the sides of dredged or narrow channels.",
+          "difficulty": "medium"
+      },
+      {
+          "id": "buoyage_038",
+          "module": "buoyage",
+          "question": "What type of mark uses a white light Morse 'A' signal?",
+          "image": "buoyage_038.svg",
+          "options": [
+          "Safe water mark",
+          "South cardinal",
+          "Special mark",
+          "Isolated danger"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Safe water marks may show Morse 'A' (dot-dash) white lights.",
+          "difficulty": "medium"
+      },
+      {
+          "id": "buoyage_039",
+          "module": "buoyage",
+          "question": "What does a buoy with horizontal red and black bands indicate?",
+          "image": "buoyage_039.svg",
+          "options": [
+          "Safe water",
+          "Isolated danger",
+          "Special mark",
+          "Cardinal buoy"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Horizontal red and black bands identify isolated danger marks.",
+          "difficulty": "easy"
+      },
+      {
+          "id": "buoyage_040",
+          "module": "buoyage",
+          "question": "What colour light does a cardinal mark show?",
+          "image": "buoyage_040.svg",
+          "options": [
+          "Red",
+          "Green",
+          "Yellow",
+          "White"
+          ],
+          "correctAnswer": 3,
+          "explanation": "All cardinal marks display white lights, with different rhythms to indicate direction.",
+          "difficulty": "easy"
+      },
+      {
+          "id": "buoyage_041",
+          "module": "buoyage",
+          "question": "What is the meaning of a buoy with black and yellow vertical stripes?",
+          "image": "buoyage_041.svg",
+          "options": [
+          "Safe water mark",
+          "Special mark",
+          "Cardinal buoy",
+          "Emergency wreck mark"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Emergency wreck marks are painted with vertical blue and yellow stripes (recent introduction).",
+          "difficulty": "hard"
+      },
+      {
+          "id": "buoyage_042",
+          "module": "buoyage",
+          "question": "What light does an emergency wreck marking buoy show?",
+          "image": "buoyage_042.svg",
+          "options": [
+          "Blue and yellow alternating flashes",
+          "White Morse 'A'",
+          "Red Fl(2)",
+          "Yellow Fl(5)"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Emergency wreck marking buoys show alternating blue and yellow quick flashing lights.",
+          "difficulty": "hard"
+      },
+      {
+          "id": "buoyage_043",
+          "module": "buoyage",
+          "question": "What is the purpose of an emergency wreck marking buoy?",
+          "image": "buoyage_043.svg",
+          "options": [
+          "Indicate a permanent hazard",
+          "Mark the site of a newly sunk wreck until permanent marks are established",
+          "Mark dredged channels",
+          "Mark fishing grounds"
+          ],
+          "correctAnswer": 1,
+          "explanation": "These buoys provide immediate marking of a new wreck until permanent aids are deployed.",
+          "difficulty": "medium"
+      },
+      {
+          "id": "buoyage_044",
+          "module": "buoyage",
+          "question": "What is the topmark of an emergency wreck buoy?",
+          "image": "buoyage_044.svg",
+          "options": [
+          "Yellow cross",
+          "Blue-yellow stripes",
+          "Vertical blue-yellow pole",
+          "It has no topmark"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Emergency wreck buoys have no topmark, only distinctive striping and light pattern.",
+          "difficulty": "medium"
+      },
+      {
+          "id": "buoyage_045",
+          "module": "buoyage",
+          "question": "Which buoy shows alternating blue and yellow stripes?",
+          "image": "buoyage_045.svg",
+          "options": [
+          "Special mark",
+          "Safe water mark",
+          "Emergency wreck buoy",
+          "Cardinal buoy"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Blue and yellow vertical stripes are used exclusively on emergency wreck buoys.",
+          "difficulty": "medium"
+      },
+      {
+          "id": "buoyage_046",
+          "module": "buoyage",
+          "question": "Which buoyage system is used in Europe?",
+          "image": "buoyage_046.svg",
+          "options": [
+          "IALA Region A",
+          "IALA Region B",
+          "Both A and B",
+          "Neither"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Europe follows the IALA Region A buoyage system.",
+          "difficulty": "easy"
+      },
+      {
+          "id": "buoyage_047",
+          "module": "buoyage",
+          "question": "Which buoyage system is used in North America?",
+          "image": "buoyage_047.svg",
+          "options": [
+          "IALA Region A",
+          "IALA Region B",
+          "Both",
+          "Neither"
+          ],
+          "correctAnswer": 1,
+          "explanation": "North America follows the IALA Region B buoyage system.",
+          "difficulty": "easy"
+      },
+      {
+          "id": "buoyage_048",
+          "module": "buoyage",
+          "question": "What is the key difference between IALA Region A and B buoyage?",
+          "image": "buoyage_048.svg",
+          "options": [
+          "The colour of cardinal marks",
+          "The colour of isolated danger marks",
+          "The colour of lateral marks",
+          "The shape of safe water marks"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The difference between Regions A and B lies in the colour system for lateral buoys: red and green are reversed.",
+          "difficulty": "medium"
+      },
+      {
+          "id": "buoyage_049",
+          "module": "buoyage",
+          "question": "When approaching a harbour in Region A, which side should a red buoy be kept?",
+          "image": "buoyage_049.svg",
+          "options": [
+          "To port",
+          "To starboard",
+          "Ahead",
+          "It does not matter"
+          ],
+          "correctAnswer": 0,
+          "explanation": "In Region A, red buoys are port-hand marks and should be kept to port when entering from seaward.",
+          "difficulty": "easy"
+      },
+      {
+          "id": "buoyage_050",
+          "module": "buoyage",
+          "question": "When approaching a harbour in Region B, which side should a red buoy be kept?",
+          "image": "buoyage_050.svg",
+          "options": [
+          "To port",
+          "To starboard",
+          "Ahead",
+          "Either side"
+          ],
+          "correctAnswer": 1,
+          "explanation": "In Region B, red buoys are starboard-hand marks and should be kept to starboard when entering from seaward.",
+          "difficulty": "easy"
+      }
       ],
       irpcs: [
         {
