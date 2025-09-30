@@ -11,6 +11,7 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
+import { StackNavigationProp } from '@react-navigation/stack';
 import { RootState } from '../store';
 import { RootStackParamList } from '../types';
 import { updateQuizProgress, setCurrentQuestion, setSelectedAnswer, resetQuiz } from '../store/slices/quizSlice';
@@ -18,9 +19,10 @@ import { questions } from '../data/questions';
 import { SvgImage } from '../utils/svgLoader';
 
 type QuizScreenRouteProp = RouteProp<RootStackParamList, 'Quiz'>;
+type QuizScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Quiz'>;
 
 const QuizScreen: React.FC = () => {
-  const navigation = useNavigation();
+  const navigation = useNavigation<QuizScreenNavigationProp>();
   const route = useRoute<QuizScreenRouteProp>();
   const dispatch = useDispatch();
   
@@ -33,12 +35,13 @@ const QuizScreen: React.FC = () => {
   // Get current module data
   const currentModule = modules.find(module => module.id === moduleId);
   
-  // Get questions for this module and randomize them
+  // Get questions for this module, randomize them, and select 10
   const randomizedQuestions = useMemo(() => {
     const moduleQuestions = questions[moduleId] || [];
     // Create a shuffled copy of the questions
     const shuffled = [...moduleQuestions].sort(() => Math.random() - 0.5);
-    return shuffled;
+    // Select only the first 10 questions (or all if less than 10)
+    return shuffled.slice(0, 10);
   }, [moduleId]);
 
   const currentQuestionData = randomizedQuestions[currentQuestion] || randomizedQuestions[0];
