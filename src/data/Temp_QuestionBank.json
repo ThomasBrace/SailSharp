@@ -1124,757 +1124,2629 @@
     "explanation": "A preferred channel to port buoy is red with a single green horizontal band.",
     "difficulty": "medium"
   },
-{
+  {
     "id": "buoyage_026",
     "module": "buoyage",
     "question": "How is a preferred channel to starboard buoy marked?",
     "image": "buoyage_026.svg",
     "options": [
-    "Green with a red band",
-    "Red with a green band",
-    "Yellow with a black band",
-    "Black with a yellow band"
+      "Green with a red band",
+      "Red with a green band",
+      "Yellow with a black band",
+      "Black with a yellow band"
     ],
     "correctAnswer": 0,
     "explanation": "A preferred channel to starboard buoy is green with a single red horizontal band.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "buoyage_027",
     "module": "buoyage",
     "question": "What shape is used for a port-hand buoy?",
     "image": "buoyage_027.svg",
     "options": [
-    "Can",
-    "Cone",
-    "Sphere",
-    "Cross"
+      "Can",
+      "Cone",
+      "Sphere",
+      "Cross"
     ],
     "correctAnswer": 0,
     "explanation": "Port-hand buoys are cylindrical, known as 'can' shape.",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "buoyage_028",
     "module": "buoyage",
     "question": "What shape is used for a starboard-hand buoy?",
     "image": "buoyage_028.svg",
     "options": [
-    "Cone",
-    "Can",
-    "Sphere",
-    "Diamond"
+      "Cone",
+      "Can",
+      "Sphere",
+      "Diamond"
     ],
     "correctAnswer": 0,
     "explanation": "Starboard-hand buoys are conical in shape.",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "buoyage_029",
     "module": "buoyage",
     "question": "What does a lateral buoy indicate?",
     "image": "buoyage_029.svg",
     "options": [
-    "The safest side to pass a hazard",
-    "The limits of a channel",
-    "Special features",
-    "Open sea safe water"
+      "The safest side to pass a hazard",
+      "The limits of a channel",
+      "Special features",
+      "Open sea safe water"
     ],
     "correctAnswer": 1,
     "explanation": "Lateral buoys indicate the sides of a navigable channel.",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "buoyage_030",
     "module": "buoyage",
     "question": "In IALA Region B, what colour is a port-hand buoy?",
     "image": "buoyage_030.svg",
     "options": [
-    "Green",
-    "Red",
-    "Black",
-    "Yellow"
+      "Green",
+      "Red",
+      "Black",
+      "Yellow"
     ],
     "correctAnswer": 0,
     "explanation": "In Region B (Americas, Japan, etc.), port-hand buoys are green.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "buoyage_031",
     "module": "buoyage",
     "question": "In IALA Region B, what colour is a starboard-hand buoy?",
     "image": "buoyage_031.svg",
     "options": [
-    "Red",
-    "Green",
-    "Black",
-    "Yellow"
+      "Red",
+      "Green",
+      "Black",
+      "Yellow"
     ],
     "correctAnswer": 0,
     "explanation": "In Region B, starboard-hand buoys are red.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "buoyage_032",
     "module": "buoyage",
     "question": "What does the mnemonic 'Red Right Returning' refer to?",
     "image": "buoyage_032.svg",
     "options": [
-    "Region A buoyage system",
-    "Region B buoyage system",
-    "Cardinal marks",
-    "Special marks"
+      "Region A buoyage system",
+      "Region B buoyage system",
+      "Cardinal marks",
+      "Special marks"
     ],
     "correctAnswer": 1,
     "explanation": "‘Red Right Returning’ applies to Region B: red buoys should be kept to starboard when returning from sea.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "buoyage_033",
     "module": "buoyage",
     "question": "What shape can starboard-hand buoys take if unlit?",
     "image": "buoyage_033.svg",
     "options": [
-    "Cone",
-    "Can",
-    "Sphere",
-    "Cross"
+      "Cone",
+      "Can",
+      "Sphere",
+      "Cross"
     ],
     "correctAnswer": 0,
     "explanation": "Even unlit, starboard-hand buoys maintain their conical shape for identification.",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "buoyage_034",
     "module": "buoyage",
     "question": "What shape can port-hand buoys take if unlit?",
     "image": "buoyage_034.svg",
     "options": [
-    "Cone",
-    "Can",
-    "Sphere",
-    "Diamond"
+      "Cone",
+      "Can",
+      "Sphere",
+      "Diamond"
     ],
     "correctAnswer": 1,
     "explanation": "Port-hand buoys remain can-shaped even if unlit.",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "buoyage_035",
     "module": "buoyage",
     "question": "What is the purpose of a safe water mark at landfall?",
     "image": "buoyage_035.svg",
     "options": [
-    "Mark a hazard",
-    "Indicate a traffic separation scheme",
-    "Provide a point of reference on entering from sea",
-    "Indicate fishing area"
+      "Mark a hazard",
+      "Indicate a traffic separation scheme",
+      "Provide a point of reference on entering from sea",
+      "Indicate fishing area"
     ],
     "correctAnswer": 2,
     "explanation": "Safe water marks at landfall help vessels identify the entrance to a channel when approaching from sea.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "buoyage_036",
     "module": "buoyage",
     "question": "What does a yellow buoy with a black 'X' topmark mean?",
     "image": "buoyage_036.svg",
     "options": [
-    "Special mark",
-    "Safe water mark",
-    "Isolated danger mark",
-    "Cardinal mark"
+      "Special mark",
+      "Safe water mark",
+      "Isolated danger mark",
+      "Cardinal mark"
     ],
     "correctAnswer": 0,
     "explanation": "Yellow buoys with a black X topmark are special marks.",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "buoyage_037",
     "module": "buoyage",
     "question": "What do lateral buoys mark in a dredged channel?",
     "image": "buoyage_037.svg",
     "options": [
-    "Safe anchorage",
-    "Edges of the channel",
-    "Preferred turning area",
-    "Fishing zone"
+      "Safe anchorage",
+      "Edges of the channel",
+      "Preferred turning area",
+      "Fishing zone"
     ],
     "correctAnswer": 1,
     "explanation": "Lateral buoys are placed on the sides of dredged or narrow channels.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "buoyage_038",
     "module": "buoyage",
     "question": "What type of mark uses a white light Morse 'A' signal?",
     "image": "buoyage_038.svg",
     "options": [
-    "Safe water mark",
-    "South cardinal",
-    "Special mark",
-    "Isolated danger"
+      "Safe water mark",
+      "South cardinal",
+      "Special mark",
+      "Isolated danger"
     ],
     "correctAnswer": 0,
     "explanation": "Safe water marks may show Morse 'A' (dot-dash) white lights.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "buoyage_039",
     "module": "buoyage",
     "question": "What does a buoy with horizontal red and black bands indicate?",
     "image": "buoyage_039.svg",
     "options": [
-    "Safe water",
-    "Isolated danger",
-    "Special mark",
-    "Cardinal buoy"
+      "Safe water",
+      "Isolated danger",
+      "Special mark",
+      "Cardinal buoy"
     ],
     "correctAnswer": 1,
     "explanation": "Horizontal red and black bands identify isolated danger marks.",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "buoyage_040",
     "module": "buoyage",
     "question": "What colour light does a cardinal mark show?",
     "image": "buoyage_040.svg",
     "options": [
-    "Red",
-    "Green",
-    "Yellow",
-    "White"
+      "Red",
+      "Green",
+      "Yellow",
+      "White"
     ],
     "correctAnswer": 3,
     "explanation": "All cardinal marks display white lights, with different rhythms to indicate direction.",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "buoyage_041",
     "module": "buoyage",
     "question": "What is the meaning of a buoy with black and yellow vertical stripes?",
     "image": "buoyage_041.svg",
     "options": [
-    "Safe water mark",
-    "Special mark",
-    "Cardinal buoy",
-    "Emergency wreck mark"
+      "Safe water mark",
+      "Special mark",
+      "Cardinal buoy",
+      "Emergency wreck mark"
     ],
     "correctAnswer": 3,
     "explanation": "Emergency wreck marks are painted with vertical blue and yellow stripes (recent introduction).",
     "difficulty": "hard"
-},
-{
+  },
+  {
     "id": "buoyage_042",
     "module": "buoyage",
     "question": "What light does an emergency wreck marking buoy show?",
     "image": "buoyage_042.svg",
     "options": [
-    "Blue and yellow alternating flashes",
-    "White Morse 'A'",
-    "Red Fl(2)",
-    "Yellow Fl(5)"
+      "Blue and yellow alternating flashes",
+      "White Morse 'A'",
+      "Red Fl(2)",
+      "Yellow Fl(5)"
     ],
     "correctAnswer": 0,
     "explanation": "Emergency wreck marking buoys show alternating blue and yellow quick flashing lights.",
     "difficulty": "hard"
-},
-{
+  },
+  {
     "id": "buoyage_043",
     "module": "buoyage",
     "question": "What is the purpose of an emergency wreck marking buoy?",
     "image": "buoyage_043.svg",
     "options": [
-    "Indicate a permanent hazard",
-    "Mark the site of a newly sunk wreck until permanent marks are established",
-    "Mark dredged channels",
-    "Mark fishing grounds"
+      "Indicate a permanent hazard",
+      "Mark the site of a newly sunk wreck until permanent marks are established",
+      "Mark dredged channels",
+      "Mark fishing grounds"
     ],
     "correctAnswer": 1,
     "explanation": "These buoys provide immediate marking of a new wreck until permanent aids are deployed.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "buoyage_044",
     "module": "buoyage",
     "question": "What is the topmark of an emergency wreck buoy?",
     "image": "buoyage_044.svg",
     "options": [
-    "Yellow cross",
-    "Blue-yellow stripes",
-    "Vertical blue-yellow pole",
-    "It has no topmark"
+      "Yellow cross",
+      "Blue-yellow stripes",
+      "Vertical blue-yellow pole",
+      "It has no topmark"
     ],
     "correctAnswer": 3,
     "explanation": "Emergency wreck buoys have no topmark, only distinctive striping and light pattern.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "buoyage_045",
     "module": "buoyage",
     "question": "Which buoy shows alternating blue and yellow stripes?",
     "image": "buoyage_045.svg",
     "options": [
-    "Special mark",
-    "Safe water mark",
-    "Emergency wreck buoy",
-    "Cardinal buoy"
+      "Special mark",
+      "Safe water mark",
+      "Emergency wreck buoy",
+      "Cardinal buoy"
     ],
     "correctAnswer": 2,
     "explanation": "Blue and yellow vertical stripes are used exclusively on emergency wreck buoys.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "buoyage_046",
     "module": "buoyage",
     "question": "Which buoyage system is used in Europe?",
     "image": "buoyage_046.svg",
     "options": [
-    "IALA Region A",
-    "IALA Region B",
-    "Both A and B",
-    "Neither"
+      "IALA Region A",
+      "IALA Region B",
+      "Both A and B",
+      "Neither"
     ],
     "correctAnswer": 0,
     "explanation": "Europe follows the IALA Region A buoyage system.",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "buoyage_047",
     "module": "buoyage",
     "question": "Which buoyage system is used in North America?",
     "image": "buoyage_047.svg",
     "options": [
-    "IALA Region A",
-    "IALA Region B",
-    "Both",
-    "Neither"
+      "IALA Region A",
+      "IALA Region B",
+      "Both",
+      "Neither"
     ],
     "correctAnswer": 1,
     "explanation": "North America follows the IALA Region B buoyage system.",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "buoyage_048",
     "module": "buoyage",
     "question": "What is the key difference between IALA Region A and B buoyage?",
     "image": "buoyage_048.svg",
     "options": [
-    "The colour of cardinal marks",
-    "The colour of isolated danger marks",
-    "The colour of lateral marks",
-    "The shape of safe water marks"
+      "The colour of cardinal marks",
+      "The colour of isolated danger marks",
+      "The colour of lateral marks",
+      "The shape of safe water marks"
     ],
     "correctAnswer": 2,
     "explanation": "The difference between Regions A and B lies in the colour system for lateral buoys: red and green are reversed.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "buoyage_049",
     "module": "buoyage",
     "question": "When approaching a harbour in Region A, which side should a red buoy be kept?",
     "image": "buoyage_049.svg",
     "options": [
-    "To port",
-    "To starboard",
-    "Ahead",
-    "It does not matter"
+      "To port",
+      "To starboard",
+      "Ahead",
+      "It does not matter"
     ],
     "correctAnswer": 0,
     "explanation": "In Region A, red buoys are port-hand marks and should be kept to port when entering from seaward.",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "buoyage_050",
     "module": "buoyage",
     "question": "When approaching a harbour in Region B, which side should a red buoy be kept?",
     "image": "buoyage_050.svg",
     "options": [
-    "To port",
-    "To starboard",
-    "Ahead",
-    "Either side"
+      "To port",
+      "To starboard",
+      "Ahead",
+      "Either side"
     ],
     "correctAnswer": 1,
     "explanation": "In Region B, red buoys are starboard-hand marks and should be kept to starboard when entering from seaward.",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "colregs_001",
     "module": "collision_regulations",
     "question": "When two power-driven vessels are meeting head-on, what should each do?",
     "image": "colregs_001.svg",
     "options": [
-    "Both turn to port",
-    "Both turn to starboard",
-    "The smaller vessel gives way",
-    "Maintain course and speed"
+      "Both turn to port",
+      "Both turn to starboard",
+      "The smaller vessel gives way",
+      "Maintain course and speed"
     ],
     "correctAnswer": 1,
     "explanation": "Rule 14: When vessels meet head-on, each should alter course to starboard to pass port side to port side.",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "colregs_002",
     "module": "collision_regulations",
     "question": "In a crossing situation, which vessel is the stand-on vessel?",
     "image": "colregs_002.svg",
     "options": [
-    "The vessel on the port side",
-    "The vessel on the starboard side",
-    "The larger vessel",
-    "The faster vessel"
+      "The vessel on the port side",
+      "The vessel on the starboard side",
+      "The larger vessel",
+      "The faster vessel"
     ],
     "correctAnswer": 1,
     "explanation": "Rule 15: The vessel which has the other on her port side is the stand-on vessel; the one with the other on her starboard side must give way.",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "colregs_003",
     "module": "collision_regulations",
     "question": "Which vessel must keep out of the way of a vessel constrained by her draught?",
     "image": "colregs_003.svg",
     "options": [
-    "Only power-driven vessels",
-    "All other vessels except those not under command or restricted in their ability to manoeuvre",
-    "Sailing vessels only",
-    "Fishing vessels only"
+      "Only power-driven vessels",
+      "All other vessels except those not under command or restricted in their ability to manoeuvre",
+      "Sailing vessels only",
+      "Fishing vessels only"
     ],
     "correctAnswer": 1,
     "explanation": "Rule 18: A vessel constrained by her draught has priority over all except vessels not under command and vessels restricted in their ability to manoeuvre.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "colregs_004",
     "module": "collision_regulations",
     "question": "Which sound signal indicates a vessel altering course to starboard?",
     "image": "colregs_004.svg",
     "options": [
-    "One short blast",
-    "Two short blasts",
-    "Three short blasts",
-    "Five short blasts"
+      "One short blast",
+      "Two short blasts",
+      "Three short blasts",
+      "Five short blasts"
     ],
     "correctAnswer": 0,
     "explanation": "Rule 34: One short blast means 'I am altering my course to starboard.'",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "colregs_005",
     "module": "collision_regulations",
     "question": "Which sound signal indicates a vessel altering course to port?",
     "image": "colregs_005.svg",
     "options": [
-    "One short blast",
-    "Two short blasts",
-    "Three short blasts",
-    "Five short blasts"
+      "One short blast",
+      "Two short blasts",
+      "Three short blasts",
+      "Five short blasts"
     ],
     "correctAnswer": 1,
     "explanation": "Rule 34: Two short blasts mean 'I am altering my course to port.'",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "colregs_006",
     "module": "collision_regulations",
     "question": "Which sound signal indicates a vessel operating astern propulsion?",
     "image": "colregs_006.svg",
     "options": [
-    "One short blast",
-    "Two short blasts",
-    "Three short blasts",
-    "Five short blasts"
+      "One short blast",
+      "Two short blasts",
+      "Three short blasts",
+      "Five short blasts"
     ],
     "correctAnswer": 2,
     "explanation": "Rule 34: Three short blasts mean 'I am operating astern propulsion.'",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "colregs_007",
     "module": "collision_regulations",
     "question": "What should the stand-on vessel do if the give-way vessel does not take action?",
     "image": "colregs_007.svg",
     "options": [
-    "Immediately alter course to port",
-    "Maintain course regardless",
-    "Take action to avoid collision",
-    "Sound five short blasts"
+      "Immediately alter course to port",
+      "Maintain course regardless",
+      "Take action to avoid collision",
+      "Sound five short blasts"
     ],
     "correctAnswer": 2,
     "explanation": "Rule 17: The stand-on vessel must take action to avoid collision if the give-way vessel does not act.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "colregs_008",
     "module": "collision_regulations",
     "question": "Which sound signal indicates danger or doubt?",
     "image": "colregs_008.svg",
     "options": [
-    "One long blast",
-    "Two long blasts",
-    "Five or more short blasts",
-    "Three short blasts"
+      "One long blast",
+      "Two long blasts",
+      "Five or more short blasts",
+      "Three short blasts"
     ],
     "correctAnswer": 2,
     "explanation": "Rule 34: Five or more short blasts are used to indicate danger or doubt.",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "colregs_009",
     "module": "collision_regulations",
     "question": "At night, what lights does a power-driven vessel underway show?",
     "image": "colregs_009.svg",
     "options": [
-    "Red and green sidelights and a white sternlight",
-    "Red and green sidelights, a white sternlight, and a masthead light",
-    "Red sidelights only",
-    "Green sidelights only"
+      "Red and green sidelights and a white sternlight",
+      "Red and green sidelights, a white sternlight, and a masthead light",
+      "Red sidelights only",
+      "Green sidelights only"
     ],
     "correctAnswer": 1,
     "explanation": "Rule 23: Power-driven vessels show red/green sidelights, a white sternlight, and one or two masthead lights depending on length.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "colregs_010",
     "module": "collision_regulations",
     "question": "What day shape does a vessel at anchor display?",
     "image": "colregs_010.svg",
     "options": [
-    "A ball",
-    "A cone",
-    "Two balls",
-    "A cylinder"
+      "A ball",
+      "A cone",
+      "Two balls",
+      "A cylinder"
     ],
     "correctAnswer": 0,
     "explanation": "Rule 30: A vessel at anchor must display a black ball in the forepart.",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "colregs_011",
     "module": "collision_regulations",
     "question": "What lights must a vessel under sail alone show at night?",
     "image": "colregs_011.svg",
     "options": [
-    "Red and green sidelights and a sternlight",
-    "White masthead light only",
-    "Red sidelights only",
-    "Green sidelights only"
+      "Red and green sidelights and a sternlight",
+      "White masthead light only",
+      "Red sidelights only",
+      "Green sidelights only"
     ],
     "correctAnswer": 0,
     "explanation": "Rule 25: Sailing vessels under way must show red/green sidelights and a white sternlight.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "colregs_012",
     "module": "collision_regulations",
     "question": "What day shape does a vessel constrained by her draught display?",
     "image": "colregs_012.svg",
     "options": [
-    "Ball-diamond-ball",
-    "Cylinder",
-    "Two cones apex together",
-    "Three black balls in a vertical line"
+      "Ball-diamond-ball",
+      "Cylinder",
+      "Two cones apex together",
+      "Three black balls in a vertical line"
     ],
     "correctAnswer": 1,
     "explanation": "Rule 28: A vessel constrained by her draught must display a black cylinder as a day shape.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "colregs_013",
     "module": "collision_regulations",
     "question": "What is the minimum length of a vessel required to show a second masthead light?",
     "image": "colregs_013.svg",
     "options": [
-    "20m",
-    "50m",
-    "100m",
-    "75m"
+      "20m",
+      "50m",
+      "100m",
+      "75m"
     ],
     "correctAnswer": 1,
     "explanation": "Rule 23: Power-driven vessels 50m or more in length must show a second masthead light aft and higher than the forward one.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "colregs_014",
     "module": "collision_regulations",
     "question": "What lights does a vessel restricted in her ability to manoeuvre display?",
     "image": "colregs_014.svg",
     "options": [
-    "Red over green",
-    "Red over white",
-    "Red-white-red vertically",
-    "Three white lights"
+      "Red over green",
+      "Red over white",
+      "Red-white-red vertically",
+      "Three white lights"
     ],
     "correctAnswer": 2,
     "explanation": "Rule 27: Vessels restricted in ability to manoeuvre display red-white-red vertically.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "colregs_015",
     "module": "collision_regulations",
     "question": "What day shape is used for a vessel restricted in her ability to manoeuvre?",
     "image": "colregs_015.svg",
     "options": [
-    "Three black balls in a vertical line",
-    "Ball-diamond-ball",
-    "Single black ball",
-    "Two cones apex together"
+      "Three black balls in a vertical line",
+      "Ball-diamond-ball",
+      "Single black ball",
+      "Two cones apex together"
     ],
     "correctAnswer": 1,
     "explanation": "Rule 27: Restricted ability vessels show ball-diamond-ball day shapes.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "colregs_016",
     "module": "collision_regulations",
     "question": "What day shape is used for a vessel not under command?",
     "image": "colregs_016.svg",
     "options": [
-    "Ball-diamond-ball",
-    "Two black balls in a vertical line",
-    "Black cylinder",
-    "Black cone"
+      "Ball-diamond-ball",
+      "Two black balls in a vertical line",
+      "Black cylinder",
+      "Black cone"
     ],
     "correctAnswer": 1,
     "explanation": "Rule 27: A vessel not under command shows two black balls in a vertical line.",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "colregs_017",
     "module": "collision_regulations",
     "question": "What lights does a vessel not under command display at night?",
     "image": "colregs_017.svg",
     "options": [
-    "Red over red",
-    "Red over green",
-    "White over white",
-    "Green over white"
+      "Red over red",
+      "Red over green",
+      "White over white",
+      "Green over white"
     ],
     "correctAnswer": 0,
     "explanation": "Rule 27: Vessels not under command show two red lights in a vertical line.",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "colregs_018",
     "module": "collision_regulations",
     "question": "When must navigation lights be displayed?",
     "image": "colregs_018.svg",
     "options": [
-    "Only when under way",
-    "Only when at anchor",
-    "From sunset to sunrise and in restricted visibility",
-    "Only when under sail"
+      "Only when under way",
+      "Only when at anchor",
+      "From sunset to sunrise and in restricted visibility",
+      "Only when under sail"
     ],
     "correctAnswer": 2,
     "explanation": "Rule 20: Navigation lights must be shown from sunset to sunrise and in restricted visibility.",
     "difficulty": "easy"
-},
-{
+  },
+  {
     "id": "colregs_019",
     "module": "collision_regulations",
     "question": "What sound signal must a power-driven vessel make in restricted visibility?",
     "image": "colregs_019.svg",
     "options": [
-    "One prolonged blast every 2 minutes",
-    "Two prolonged blasts every 2 minutes",
-    "One short blast every minute",
-    "Five short blasts every 2 minutes"
+      "One prolonged blast every 2 minutes",
+      "Two prolonged blasts every 2 minutes",
+      "One short blast every minute",
+      "Five short blasts every 2 minutes"
     ],
     "correctAnswer": 0,
     "explanation": "Rule 35: A power-driven vessel underway must sound one prolonged blast at intervals not more than 2 minutes in restricted visibility.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "colregs_020",
     "module": "collision_regulations",
     "question": "What sound signal must a sailing vessel make in restricted visibility?",
     "image": "colregs_020.svg",
     "options": [
-    "One prolonged blast",
-    "One prolonged and two short blasts every 2 minutes",
-    "Two prolonged blasts every 2 minutes",
-    "Five short blasts"
+      "One prolonged blast",
+      "One prolonged and two short blasts every 2 minutes",
+      "Two prolonged blasts every 2 minutes",
+      "Five short blasts"
     ],
     "correctAnswer": 1,
     "explanation": "Rule 35: A sailing vessel must sound one prolonged and two short blasts at intervals not more than 2 minutes.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "colregs_021",
     "module": "collision_regulations",
     "question": "What lights does a fishing vessel engaged in trawling display?",
     "image": "colregs_021.svg",
     "options": [
-    "Red over white",
-    "Green over white",
-    "White over red",
-    "White over green"
+      "Red over white",
+      "Green over white",
+      "White over red",
+      "White over green"
     ],
     "correctAnswer": 1,
     "explanation": "Rule 26: Fishing vessels engaged in trawling show green over white vertically.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "colregs_022",
     "module": "collision_regulations",
     "question": "What day shape does a fishing vessel display when fishing with gear extending more than 150m horizontally?",
     "image": "colregs_022.svg",
     "options": [
-    "A cone apex upwards",
-    "Two black balls",
-    "A cone apex downwards",
-    "Two cones apex together"
+      "A cone apex upwards",
+      "Two black balls",
+      "A cone apex downwards",
+      "Two cones apex together"
     ],
     "correctAnswer": 2,
     "explanation": "Rule 26: A cone apex downwards indicates fishing gear extending more than 150m horizontally.",
     "difficulty": "hard"
-},
-{
+  },
+  {
     "id": "colregs_023",
     "module": "collision_regulations",
     "question": "What lights does a vessel engaged in fishing other than trawling display?",
     "image": "colregs_023.svg",
     "options": [
-    "Green over white",
-    "Red over white",
-    "White over red",
-    "Red over green"
+      "Green over white",
+      "Red over white",
+      "White over red",
+      "Red over green"
     ],
     "correctAnswer": 1,
     "explanation": "Rule 26: Vessels engaged in fishing (other than trawling) display red over white vertically.",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "colregs_024",
     "module": "collision_regulations",
     "question": "What lights must a vessel engaged in pilotage display?",
     "image": "colregs_024.svg",
     "options": [
-    "White over white",
-    "Red over white",
-    "White over red",
-    "Green over white"
+      "White over white",
+      "Red over white",
+      "White over red",
+      "Green over white"
     ],
     "correctAnswer": 2,
     "explanation": "Pilot vessels show white over red vertically at night (‘white over red, pilot ahead’).",
     "difficulty": "medium"
-},
-{
+  },
+  {
     "id": "colregs_025",
     "module": "collision_regulations",
     "question": "What day shape does a vessel aground display?",
     "image": "colregs_025.svg",
     "options": [
-    "One black ball",
-    "Two black balls",
-    "Three black balls in a vertical line",
-    "Cylinder"
+      "One black ball",
+      "Two black balls",
+      "Three black balls in a vertical line",
+      "Cylinder"
     ],
     "correctAnswer": 2,
     "explanation": "Rule 30: A vessel aground shows three black balls in a vertical line during the day.",
     "difficulty": "medium"
-}
+  },
+  {
+    "id": "colregs_026",
+    "module": "collision_regulations",
+    "question": "What lights must a vessel aground display at night?",
+    "image": "colregs_026.svg",
+    "options": [
+      "Red over red",
+      "Red over white",
+      "Three red lights in a vertical line",
+      "White over red"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Rule 30: A vessel aground must display three red lights vertically in a vertical line at night.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "colregs_027",
+    "module": "collision_regulations",
+    "question": "What lights does a vessel constrained by her draught show at night?",
+    "image": "colregs_027.svg",
+    "options": [
+      "Two red lights at the masthead",
+      "Three white masthead lights in a vertical line",
+      "Red over white over red sidelights",
+      "Green over white"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rule 28: A vessel constrained by her draught shows three white masthead lights in a vertical line.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "colregs_028",
+    "module": "collision_regulations",
+    "question": "Which vessel has the right of way when overtaking?",
+    "image": "colregs_028.svg",
+    "options": [
+      "The overtaking vessel",
+      "The vessel being overtaken",
+      "The larger vessel",
+      "The vessel on the port side"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rule 13: The overtaking vessel must keep clear of the vessel being overtaken.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "colregs_029",
+    "module": "collision_regulations",
+    "question": "What lights does a sailing vessel being overtaken by another sailing vessel show?",
+    "image": "colregs_029.svg",
+    "options": [
+      "Red and green sidelights",
+      "White sternlight only",
+      "Red over green",
+      "No special lights beyond normal sailing lights"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The overtaken sailing vessel displays normal navigation lights; the overtaking vessel must keep clear.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "colregs_030",
+    "module": "collision_regulations",
+    "question": "What lights must a pilot vessel show when underway?",
+    "image": "colregs_030.svg",
+    "options": [
+      "Red over white vertically",
+      "White over red vertically",
+      "Two white lights vertically",
+      "Red over red"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rule 28: Pilot vessels underway show white over red vertically.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "colregs_031",
+    "module": "collision_regulations",
+    "question": "What sound signal indicates a vessel at anchor less than 50m?",
+    "image": "colregs_031.svg",
+    "options": [
+      "One prolonged followed by one short",
+      "One short blast",
+      "One prolonged blast",
+      "Five short blasts"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Rule 30: Vessels at anchor less than 50m show one prolonged blast every minute.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "colregs_032",
+    "module": "collision_regulations",
+    "question": "What sound signal indicates a vessel at anchor over 100m?",
+    "image": "colregs_032.svg",
+    "options": [
+      "One prolonged blast",
+      "One prolonged blast followed by two short",
+      "Two prolonged blasts",
+      "Five short blasts"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rule 30: Vessels at anchor 100m or more must sound one prolonged blast followed by two short blasts.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "colregs_033",
+    "module": "collision_regulations",
+    "question": "Which vessels must give way in a crossing situation?",
+    "image": "colregs_033.svg",
+    "options": [
+      "The vessel with the other on her starboard side",
+      "The vessel with the other on her port side",
+      "The larger vessel",
+      "The smaller vessel"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Rule 15: In a crossing situation, the vessel with the other on her starboard side must give way.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "colregs_034",
+    "module": "collision_regulations",
+    "question": "What action should a give-way vessel take in a crossing situation?",
+    "image": "colregs_034.svg",
+    "options": [
+      "Maintain course and speed",
+      "Alter course to pass astern",
+      "Sound five short blasts",
+      "Increase speed"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rule 16: The give-way vessel must take early and substantial action to keep clear, usually altering course to pass astern.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "colregs_035",
+    "module": "collision_regulations",
+    "question": "When two sailing vessels are on the same tack, who gives way?",
+    "image": "colregs_035.svg",
+    "options": [
+      "The windward vessel",
+      "The leeward vessel",
+      "The larger vessel",
+      "The faster vessel"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Rule 12: When on the same tack, the windward vessel must keep clear of the leeward vessel.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "colregs_036",
+    "module": "collision_regulations",
+    "question": "When two sailing vessels are on opposite tacks, who gives way?",
+    "image": "colregs_036.svg",
+    "options": [
+      "The vessel with wind on port side",
+      "The vessel with wind on starboard side",
+      "The larger vessel",
+      "The smaller vessel"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Rule 12: When on opposite tacks, the vessel with wind on port side must keep clear of the vessel with wind on starboard side.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "colregs_037",
+    "module": "collision_regulations",
+    "question": "Which vessel must give way when a sailing vessel meets a power-driven vessel?",
+    "image": "colregs_037.svg",
+    "options": [
+      "Sailing vessel",
+      "Power-driven vessel",
+      "Both maintain course",
+      "Neither"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Rule 18: Sailing vessels must give way to power-driven vessels.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "colregs_038",
+    "module": "collision_regulations",
+    "question": "Which vessel must give way to a vessel engaged in fishing?",
+    "image": "colregs_038.svg",
+    "options": [
+      "All vessels except those not under command",
+      "Only power-driven vessels",
+      "Only sailing vessels",
+      "No one"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Rule 18: All vessels must give way to a vessel engaged in fishing, except those not under command or restricted in ability to manoeuvre.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "colregs_039",
+    "module": "collision_regulations",
+    "question": "Which vessel has priority when two power-driven vessels are crossing?",
+    "image": "colregs_039.svg",
+    "options": [
+      "The vessel on the port side",
+      "The vessel on the starboard side",
+      "The faster vessel",
+      "The larger vessel"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rule 15: The vessel which has the other on her port side must give way; the vessel with the other on her starboard side is stand-on.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "colregs_040",
+    "module": "collision_regulations",
+    "question": "What lights are displayed by a vessel towing at night?",
+    "image": "colregs_040.svg",
+    "options": [
+      "Two masthead lights in a vertical line",
+      "Sidelights and sternlight only",
+      "Red over white lights",
+      "White over red lights"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Rule 24: A towing vessel shows two masthead lights in a vertical line, and a white sternlight.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "colregs_041",
+    "module": "collision_regulations",
+    "question": "What light does a vessel being towed display at night?",
+    "image": "colregs_041.svg",
+    "options": [
+      "White masthead light",
+      "Sidelights and sternlight",
+      "Red light",
+      "Green light"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rule 24: The vessel being towed shows sidelights and a sternlight.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "colregs_042",
+    "module": "collision_regulations",
+    "question": "Which vessels must give way in narrow channels?",
+    "image": "colregs_042.svg",
+    "options": [
+      "Power-driven vessels less than 20m",
+      "Vessels leaving the channel",
+      "All vessels",
+      "Vessels restricted in ability to manoeuvre"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rule 9: Vessels leaving a narrow channel must keep out of the way of those staying in the channel.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "colregs_043",
+    "module": "collision_regulations",
+    "question": "What side must a vessel keep when navigating a narrow channel?",
+    "image": "colregs_043.svg",
+    "options": [
+      "Starboard side of the channel",
+      "Port side of the channel",
+      "Centre of the channel",
+      "Either side"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Rule 9: Vessels must keep as near to the starboard side of the channel as is safe and practicable.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "colregs_044",
+    "module": "collision_regulations",
+    "question": "Which vessels may navigate the channel in restricted visibility?",
+    "image": "colregs_044.svg",
+    "options": [
+      "All vessels",
+      "Only power-driven vessels",
+      "Only vessels not under command",
+      "Only vessels that can safely navigate"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Rule 9: Vessels in narrow channels must only navigate if they can do so safely.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "colregs_045",
+    "module": "collision_regulations",
+    "question": "What sound signal should a vessel in fog make if underway but not making way?",
+    "image": "colregs_045.svg",
+    "options": [
+      "One prolonged blast every 2 minutes",
+      "Two prolonged blasts every 2 minutes",
+      "Three short blasts",
+      "Five short blasts"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rule 35: A power-driven vessel underway but not making way must sound two prolonged blasts at intervals of not more than 2 minutes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "colregs_046",
+    "module": "collision_regulations",
+    "question": "What is the sound signal for a sailing vessel underway and making way in fog?",
+    "image": "colregs_046.svg",
+    "options": [
+      "One prolonged blast every 2 minutes",
+      "One prolonged followed by two short",
+      "Two prolonged blasts",
+      "Five short blasts"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rule 35: A sailing vessel underway and making way sounds one prolonged followed by two short blasts every 2 minutes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "colregs_047",
+    "module": "collision_regulations",
+    "question": "What is the sound signal for a vessel restricted in ability to manoeuvre in fog?",
+    "image": "colregs_047.svg",
+    "options": [
+      "One prolonged blast",
+      "One prolonged and two short",
+      "Two prolonged blasts",
+      "Five short blasts"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rule 35: A vessel restricted in ability to manoeuvre sounds one prolonged followed by two short blasts.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "colregs_048",
+    "module": "collision_regulations",
+    "question": "Which vessels must keep out of the way of vessels constrained by their draught?",
+    "image": "colregs_048.svg",
+    "options": [
+      "All vessels except those not under command or restricted",
+      "Only sailing vessels",
+      "Only power-driven vessels",
+      "No one"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Rule 18: All vessels must keep clear of a vessel constrained by her draught, except those not under command or restricted.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "colregs_049",
+    "module": "collision_regulations",
+    "question": "When two vessels are in a head-on situation, what sound signal is used?",
+    "image": "colregs_049.svg",
+    "options": [
+      "One short blast each",
+      "Two short blasts each",
+      "One prolonged blast each",
+      "Five short blasts each"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Rule 34: In a head-on situation, each vessel sounds one prolonged blast.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "colregs_050",
+    "module": "collision_regulations",
+    "question": "What is the primary purpose of the COLREGS?",
+    "image": "colregs_050.svg",
+    "options": [
+      "To prevent collisions at sea",
+      "To define port regulations",
+      "To mark navigation buoys",
+      "To manage commercial shipping schedules"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The International Regulations for Preventing Collisions at Sea (COLREGS) are designed to prevent collisions at sea.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "chart_001",
+    "module": "chart_symbols",
+    "question": "What does a lighthouse symbol on a chart indicate?",
+    "image": "chart_001.svg",
+    "options": [
+      "A navigational light",
+      "A port",
+      "A marina",
+      "A wreck"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A lighthouse symbol indicates a navigational light structure, often on land or a prominent headland.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "chart_002",
+    "module": "chart_symbols",
+    "question": "What symbol represents a wreck that is always submerged?",
+    "image": "chart_002.svg",
+    "options": [
+      "Crossed anchors",
+      "Asterisks",
+      "A small black dot with a cross",
+      "Circle with a dot"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A wreck always submerged is shown as a small black dot with a cross on nautical charts.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_003",
+    "module": "chart_symbols",
+    "question": "How is a marina depicted on a chart?",
+    "image": "chart_003.svg",
+    "options": [
+      "Anchor symbol",
+      "White rectangle",
+      "Black triangle",
+      "Blue square"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A marina or anchorage area is usually depicted with an anchor symbol.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "chart_004",
+    "module": "chart_symbols",
+    "question": "What does a depth contour line indicate?",
+    "image": "chart_004.svg",
+    "options": [
+      "Depth of water along that line",
+      "Location of hazards",
+      "Tidal streams",
+      "Buoy positions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Depth contour lines (isobaths) connect points of equal depth.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "chart_005",
+    "module": "chart_symbols",
+    "question": "How are rocks that are exposed at low water shown?",
+    "image": "chart_005.svg",
+    "options": [
+      "Black X",
+      "Small black asterisk",
+      "Dot",
+      "Triangle"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rocks awash or exposed at low water are shown with a small black asterisk.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_006",
+    "module": "chart_symbols",
+    "question": "How is a sandbank depicted on a chart?",
+    "image": "chart_006.svg",
+    "options": [
+      "Shaded area with dots",
+      "Crossed anchors",
+      "Dashed line",
+      "Triangle symbol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sandbanks are shown as shaded areas with small dots or stippling to indicate the type of seabed.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_007",
+    "module": "chart_symbols",
+    "question": "What does a light beacon symbol indicate?",
+    "image": "chart_007.svg",
+    "options": [
+      "A navigational mark showing light",
+      "A buoy",
+      "A port",
+      "An anchorage"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A light beacon is a fixed navigational mark with a light characteristic.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "chart_008",
+    "module": "chart_symbols",
+    "question": "What does a black and yellow striped buoy with two black cones pointing downward indicate?",
+    "image": "chart_008.svg",
+    "options": [
+      "North cardinal mark",
+      "South cardinal mark",
+      "East cardinal mark",
+      "West cardinal mark"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A black and yellow striped buoy with two black cones pointing downward is a south cardinal mark, indicating safe water to the south.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_009",
+    "module": "chart_symbols",
+    "question": "How is a dangerous wreck indicated on a chart?",
+    "image": "chart_009.svg",
+    "options": [
+      "Crossed anchors",
+      "Small black cross",
+      "Circle with a dot",
+      "Black X"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Dangerous wrecks are indicated with a black X on the chart.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_010",
+    "module": "chart_symbols",
+    "question": "What does a magenta dashed line represent on a chart?",
+    "image": "chart_010.svg",
+    "options": [
+      "Traffic separation scheme",
+      "Safe water mark",
+      "Depth contour",
+      "Buoyage boundary"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Magenta dashed lines are used to mark traffic separation schemes on charts.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_011",
+    "module": "chart_symbols",
+    "question": "How are overhead cables shown on a chart?",
+    "image": "chart_011.svg",
+    "options": [
+      "Dashed line with height annotation",
+      "Solid line",
+      "Circle",
+      "Triangle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Overhead cables are depicted with dashed lines and the air draught height indicated.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_012",
+    "module": "chart_symbols",
+    "question": "What symbol is used for a bridge on a chart?",
+    "image": "chart_012.svg",
+    "options": [
+      "Two parallel lines",
+      "Solid rectangle",
+      "Black dot",
+      "Triangle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bridges are shown as two parallel lines across a channel, often with height annotations.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_013",
+    "module": "chart_symbols",
+    "question": "What colour represents shallow water on a chart?",
+    "image": "chart_013.svg",
+    "options": [
+      "Blue",
+      "Green",
+      "Yellow",
+      "White"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Shallow water is usually shown in blue, deeper areas are white.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "chart_014",
+    "module": "chart_symbols",
+    "question": "How is a rock awash at high water shown on a chart?",
+    "image": "chart_014.svg",
+    "options": [
+      "Black dot",
+      "Small black cross",
+      "Circle",
+      "Triangle"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rocks awash at high water are shown as a small black cross.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_015",
+    "module": "chart_symbols",
+    "question": "What does a magenta circle with a dot in the centre indicate?",
+    "image": "chart_015.svg",
+    "options": [
+      "Isolated danger mark",
+      "Safe water mark",
+      "Port-hand buoy",
+      "Special mark"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A magenta circle with a dot in the centre indicates a safe water mark on charts.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_016",
+    "module": "chart_symbols",
+    "question": "How is a light vessel shown on a chart?",
+    "image": "chart_016.svg",
+    "options": [
+      "Anchor symbol with light annotation",
+      "Black dot",
+      "Triangle",
+      "Circle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Light vessels are depicted with an anchor symbol and a light characteristic annotation.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_017",
+    "module": "chart_symbols",
+    "question": "What symbol shows an area where anchoring is prohibited?",
+    "image": "chart_017.svg",
+    "options": [
+      "Anchoring prohibited symbol",
+      "Crossed anchors",
+      "Black dot",
+      "Blue square"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Anchoring prohibited areas are marked with a symbol resembling an anchor with a line through it.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_018",
+    "module": "chart_symbols",
+    "question": "How is a submarine cable indicated?",
+    "image": "chart_018.svg",
+    "options": [
+      "Dashed line with annotation",
+      "Solid line",
+      "Black dot",
+      "Triangle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Submarine cables are shown as dashed lines with the annotation 'CABLE'.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_019",
+    "module": "chart_symbols",
+    "question": "What symbol indicates a port or harbour?",
+    "image": "chart_019.svg",
+    "options": [
+      "Solid rectangle",
+      "Anchor symbol",
+      "Black dot",
+      "Triangle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ports and harbours are represented by solid rectangles or filled shapes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "chart_020",
+    "module": "chart_symbols",
+    "question": "What symbol shows an overhead obstruction such as a bridge or power line?",
+    "image": "chart_020.svg",
+    "options": [
+      "Dashed line with height",
+      "Solid line",
+      "Black dot",
+      "Circle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Overhead obstructions are shown with dashed lines and the vertical clearance indicated.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_021",
+    "module": "chart_symbols",
+    "question": "What is indicated by a triangle with a number inside on a chart?",
+    "image": "chart_021.svg",
+    "options": [
+      "Height of lighthouse or beacon",
+      "Depth of water",
+      "Port number",
+      "Buoy number"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Triangles with numbers indicate height of lights, beacons, or landmarks.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_022",
+    "module": "chart_symbols",
+    "question": "How is an area of rocks that dries at low water shown?",
+    "image": "chart_022.svg",
+    "options": [
+      "Black X",
+      "Asterisk",
+      "Circle",
+      "Triangle"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rocks that dry at low water are shown as an asterisk or small star symbol.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_023",
+    "module": "chart_symbols",
+    "question": "How are tidal streams often represented on a chart?",
+    "image": "chart_023.svg",
+    "options": [
+      "Arrows with speed annotation",
+      "Dashed line",
+      "Solid line",
+      "Triangle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tidal streams are depicted with arrows indicating direction and speed annotation.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_024",
+    "module": "chart_symbols",
+    "question": "What symbol indicates a marina or yacht haven?",
+    "image": "chart_024.svg",
+    "options": [
+      "Anchor symbol",
+      "Black dot",
+      "Triangle",
+      "Solid rectangle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Marinas are shown with an anchor symbol on charts.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "chart_025",
+    "module": "chart_symbols",
+    "question": "How are buoys depicted on charts?",
+    "image": "chart_025.svg",
+    "options": [
+      "Circle with topmark annotation",
+      "Triangle",
+      "Solid rectangle",
+      "Black dot"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Buoys are represented as circles with annotations showing type and characteristics.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_026",
+    "module": "chart_symbols",
+    "question": "What does a red and white vertical striped buoy indicate?",
+    "image": "chart_026.svg",
+    "options": [
+      "Safe water mark",
+      "Port-hand buoy",
+      "Isolated danger mark",
+      "Starboard-hand buoy"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Red and white vertical striped buoys indicate an isolated danger mark.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_027",
+    "module": "chart_symbols",
+    "question": "How is a safe water mark represented on a chart?",
+    "image": "chart_027.svg",
+    "options": [
+      "Red and white vertical stripes",
+      "Red and white horizontal stripes",
+      "Black and yellow vertical stripes",
+      "Blue circle"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Safe water marks are depicted with red and white horizontal stripes, indicating navigable water all around.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_028",
+    "module": "chart_symbols",
+    "question": "Which symbol indicates a port-hand lateral buoy?",
+    "image": "chart_028.svg",
+    "options": [
+      "Red cylinder or pillar",
+      "Green cone",
+      "Red and white stripes",
+      "Yellow diamond"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Port-hand buoys are red and cylindrical or pillar-shaped, marking the left-hand side of a channel when entering from sea.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "chart_029",
+    "module": "chart_symbols",
+    "question": "Which symbol indicates a starboard-hand lateral buoy?",
+    "image": "chart_029.svg",
+    "options": [
+      "Green cone",
+      "Red cylinder",
+      "Black X",
+      "Yellow triangle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Starboard-hand buoys are green and conical, marking the right-hand side of a channel when entering from sea.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "chart_030",
+    "module": "chart_symbols",
+    "question": "What does a yellow special mark indicate?",
+    "image": "chart_030.svg",
+    "options": [
+      "Special purpose or caution",
+      "Port-hand side",
+      "Starboard-hand side",
+      "Isolated danger"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Yellow special marks indicate areas of special caution or purpose, such as pipelines or spoil grounds.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_031",
+    "module": "chart_symbols",
+    "question": "How is a rock that is submerged shown on a chart?",
+    "image": "chart_031.svg",
+    "options": [
+      "Black X",
+      "Small black dot with cross",
+      "Circle",
+      "Triangle"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Submerged rocks are shown as a small black dot with a cross.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_032",
+    "module": "chart_symbols",
+    "question": "What does a magenta symbol of a shipwreck indicate?",
+    "image": "chart_032.svg",
+    "options": [
+      "Dangerous wreck",
+      "Safe water",
+      "Marina",
+      "Port"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Magenta shipwreck symbols indicate a wreck, sometimes with details of depth or hazard.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_033",
+    "module": "chart_symbols",
+    "question": "What does a sound signal symbol on a chart indicate?",
+    "image": "chart_033.svg",
+    "options": [
+      "Fog signal",
+      "Buoy type",
+      "Depth contour",
+      "Port entrance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A sound signal symbol shows that a fog signal or audible warning exists at that location.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_034",
+    "module": "chart_symbols",
+    "question": "How are tidal diamonds represented on a chart?",
+    "image": "chart_034.svg",
+    "options": [
+      "Diamond shape with letter",
+      "Circle with dot",
+      "Triangle",
+      "Black X"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tidal diamonds are shown as diamond symbols with letters corresponding to tidal stream tables.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_035",
+    "module": "chart_symbols",
+    "question": "How is a cable area depicted on a chart?",
+    "image": "chart_035.svg",
+    "options": [
+      "Dashed line with CABLE annotation",
+      "Solid line",
+      "Circle",
+      "Triangle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Submarine cables are marked with a dashed line labeled 'CABLE'.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_036",
+    "module": "chart_symbols",
+    "question": "How are depths shown on a chart?",
+    "image": "chart_036.svg",
+    "options": [
+      "Numbers in metres or feet",
+      "Colour only",
+      "Dots",
+      "Lines"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Depths are shown with numbers in metres or feet, sometimes with contour lines.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "chart_037",
+    "module": "chart_symbols",
+    "question": "What does a small black triangle symbol indicate?",
+    "image": "chart_037.svg",
+    "options": [
+      "Navigational mark on land",
+      "Buoy",
+      "Rock",
+      "Port"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Small black triangles usually represent navigational aids or beacons on land.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_038",
+    "module": "chart_symbols",
+    "question": "How is a beacon indicated on a chart?",
+    "image": "chart_038.svg",
+    "options": [
+      "Triangle or square with annotation",
+      "Circle",
+      "Solid rectangle",
+      "Black X"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Beacons are shown as triangles or squares with annotations describing characteristics.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_039",
+    "module": "chart_symbols",
+    "question": "How are buoys with lights represented?",
+    "image": "chart_039.svg",
+    "options": [
+      "Circle with topmark and light annotation",
+      "Triangle",
+      "Black dot",
+      "Square"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lighted buoys are represented with a circle and symbols indicating topmarks and light characteristics.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_040",
+    "module": "chart_symbols",
+    "question": "What colour is used for safe water areas?",
+    "image": "chart_040.svg",
+    "options": [
+      "White",
+      "Blue",
+      "Green",
+      "Yellow"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Areas of deep or safe water are usually left white on charts.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "chart_041",
+    "module": "chart_symbols",
+    "question": "How is a drying height indicated?",
+    "image": "chart_041.svg",
+    "options": [
+      "Number next to rock or contour",
+      "Triangle",
+      "Black dot",
+      "Line"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Drying heights are shown with a number next to rocks or shoals, indicating height above chart datum.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_042",
+    "module": "chart_symbols",
+    "question": "What symbol represents a tidal stream direction?",
+    "image": "chart_042.svg",
+    "options": [
+      "Arrow with speed",
+      "Circle",
+      "Triangle",
+      "Black dot"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tidal stream directions are shown as arrows with numbers indicating speed in knots.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_043",
+    "module": "chart_symbols",
+    "question": "How is a rock that dries at low water indicated?",
+    "image": "chart_043.svg",
+    "options": [
+      "Asterisk",
+      "Triangle",
+      "Black dot",
+      "Circle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Rocks drying at low water are represented by an asterisk.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_044",
+    "module": "chart_symbols",
+    "question": "What symbol shows a spoil ground or dredged area?",
+    "image": "chart_044.svg",
+    "options": [
+      "Yellow with X or hatching",
+      "Black dot",
+      "Triangle",
+      "Circle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Spoil grounds or dredged areas are usually yellow with hatching or an X.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_045",
+    "module": "chart_symbols",
+    "question": "How is a prominent landmark indicated?",
+    "image": "chart_045.svg",
+    "options": [
+      "Triangle with height annotation",
+      "Circle",
+      "Black dot",
+      "Square"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Prominent landmarks are shown as triangles with a height annotation for navigation reference.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_046",
+    "module": "chart_symbols",
+    "question": "How are drying banks or flats shown?",
+    "image": "chart_046.svg",
+    "options": [
+      "Cross-hatched or shaded areas",
+      "Black dot",
+      "Triangle",
+      "Circle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Drying banks are shown by shading or hatching to indicate areas exposed at low tide.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_047",
+    "module": "chart_symbols",
+    "question": "What does a small circle with a letter inside indicate?",
+    "image": "chart_047.svg",
+    "options": [
+      "Tidal diamond",
+      "Buoy",
+      "Rock",
+      "Port"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tidal diamonds are circles with letters corresponding to tidal stream tables.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_048",
+    "module": "chart_symbols",
+    "question": "How is a power cable on a chart represented?",
+    "image": "chart_048.svg",
+    "options": [
+      "Dashed line with annotation",
+      "Solid line",
+      "Triangle",
+      "Black dot"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Submarine power cables are shown with dashed lines and labeled 'CABLE' or 'POWER'.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_049",
+    "module": "chart_symbols",
+    "question": "What symbol indicates a pilot boarding area?",
+    "image": "chart_049.svg",
+    "options": [
+      "P inside a circle",
+      "Anchor symbol",
+      "Black dot",
+      "Triangle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pilot boarding areas are indicated with a 'P' inside a circle or specific symbol.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chart_050",
+    "module": "chart_symbols",
+    "question": "How is a radar reflector shown on a chart?",
+    "image": "chart_050.svg",
+    "options": [
+      "Triangle or circle with annotation",
+      "Black dot",
+      "Square",
+      "Cross"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Radar reflectors are shown as triangles or circles with an annotation to indicate presence on a buoy or structure.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_001",
+    "module": "buoyage",
+    "question": "What colour is a port-hand lateral mark?",
+    "image": "buoyage_001.svg",
+    "options": [
+      "Red",
+      "Green",
+      "Yellow",
+      "Black and yellow"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Port-hand lateral marks are red and indicate the left side of the channel when entering from seaward.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "buoyage_002",
+    "module": "buoyage",
+    "question": "What shape is a starboard-hand lateral buoy?",
+    "image": "buoyage_002.svg",
+    "options": [
+      "Cone",
+      "Cylinder",
+      "Sphere",
+      "Diamond"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Starboard-hand lateral buoys are conical in shape, marking the right-hand side of a channel when entering from seaward.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "buoyage_003",
+    "module": "buoyage",
+    "question": "What topmark does a port-hand buoy display?",
+    "image": "buoyage_003.svg",
+    "options": [
+      "Single cylinder",
+      "Single cone pointing up",
+      "Two cones pointing together",
+      "Sphere"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Port-hand buoys display a single cylindrical topmark.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_004",
+    "module": "buoyage",
+    "question": "What topmark does a starboard-hand buoy display?",
+    "image": "buoyage_004.svg",
+    "options": [
+      "Single cone pointing up",
+      "Single cylinder",
+      "Sphere",
+      "Crossed cones"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Starboard-hand buoys display a single cone pointing upwards.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_005",
+    "module": "buoyage",
+    "question": "Which colour is a safe water mark?",
+    "image": "buoyage_005.svg",
+    "options": [
+      "Red and white vertical stripes",
+      "Red",
+      "Green",
+      "Yellow"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Safe water marks are red and white vertically striped, indicating navigable water all around.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "buoyage_006",
+    "module": "buoyage",
+    "question": "Which topmark is used on an isolated danger mark?",
+    "image": "buoyage_006.svg",
+    "options": [
+      "Two black spheres",
+      "Single cone",
+      "Cylinder",
+      "Single sphere"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Isolated danger marks have two black spheres as topmarks.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_007",
+    "module": "buoyage",
+    "question": "What is the purpose of a special mark?",
+    "image": "buoyage_007.svg",
+    "options": [
+      "Indicate special area or caution",
+      "Mark port side",
+      "Mark starboard side",
+      "Indicate isolated danger"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Special marks are yellow and indicate areas such as pipelines, spoil grounds, or caution zones.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_008",
+    "module": "buoyage",
+    "question": "What does a black and yellow striped buoy with two black cones pointing downward indicate?",
+    "image": "buoyage_008.svg",
+    "options": [
+      "North cardinal mark",
+      "South cardinal mark",
+      "East cardinal mark",
+      "West cardinal mark"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A black and yellow striped buoy with two black cones pointing downward is a south cardinal mark, indicating safe water to the south.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_009",
+    "module": "buoyage",
+    "question": "What does a black and yellow buoy with two cones pointing up indicate?",
+    "image": "buoyage_009.svg",
+    "options": [
+      "North cardinal mark",
+      "South cardinal mark",
+      "East cardinal mark",
+      "West cardinal mark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Two cones pointing upwards indicate a north cardinal mark; safe water is to the north.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_010",
+    "module": "buoyage",
+    "question": "What does a black and yellow buoy with cones pointing away from each other indicate?",
+    "image": "buoyage_010.svg",
+    "options": [
+      "East cardinal mark",
+      "North cardinal mark",
+      "South cardinal mark",
+      "West cardinal mark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cones pointing away from each other indicate an east cardinal mark; safe water lies to the east.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_011",
+    "module": "buoyage",
+    "question": "What does a black and yellow buoy with cones pointing towards each other indicate?",
+    "image": "buoyage_011.svg",
+    "options": [
+      "West cardinal mark",
+      "East cardinal mark",
+      "North cardinal mark",
+      "South cardinal mark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cones pointing toward each other indicate a west cardinal mark; safe water is to the west.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_012",
+    "module": "buoyage",
+    "question": "What colour is used for a port lateral mark in IALA Region A?",
+    "image": "buoyage_012.svg",
+    "options": [
+      "Red",
+      "Green",
+      "Yellow",
+      "Black"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In IALA Region A, port-hand buoys are red; Region B is the opposite.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "buoyage_013",
+    "module": "buoyage",
+    "question": "What colour is a starboard lateral mark in IALA Region B?",
+    "image": "buoyage_013.svg",
+    "options": [
+      "Red",
+      "Green",
+      "Yellow",
+      "Black"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In IALA Region B, starboard-hand buoys are green.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "buoyage_014",
+    "module": "buoyage",
+    "question": "Which buoy marks a danger with safe water all around?",
+    "image": "buoyage_014.svg",
+    "options": [
+      "Isolated danger mark",
+      "Safe water mark",
+      "Port-hand mark",
+      "Starboard-hand mark"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Safe water marks indicate navigable water all around the buoy.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "buoyage_015",
+    "module": "buoyage",
+    "question": "Which mark is yellow with no lateral significance?",
+    "image": "buoyage_015.svg",
+    "options": [
+      "Special mark",
+      "Port-hand mark",
+      "Starboard-hand mark",
+      "Isolated danger mark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Special marks are yellow and indicate caution areas, not lateral navigation.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_016",
+    "module": "buoyage",
+    "question": "What shape is an isolated danger mark?",
+    "image": "buoyage_016.svg",
+    "options": [
+      "Black sphere",
+      "Cylinder",
+      "Cone",
+      "Yellow diamond"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Isolated danger marks are black with one or more red horizontal bands and a spherical topmark.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_017",
+    "module": "buoyage",
+    "question": "Which buoy indicates safe water lies to the north?",
+    "image": "buoyage_017.svg",
+    "options": [
+      "North cardinal mark",
+      "East cardinal mark",
+      "West cardinal mark",
+      "South cardinal mark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A north cardinal mark, with two cones pointing up, indicates safe water to the north.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_018",
+    "module": "buoyage",
+    "question": "Which buoy indicates safe water lies to the south?",
+    "image": "buoyage_018.svg",
+    "options": [
+      "South cardinal mark",
+      "East cardinal mark",
+      "West cardinal mark",
+      "North cardinal mark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A south cardinal mark, with two cones pointing downward, indicates safe water to the south.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_019",
+    "module": "buoyage",
+    "question": "Which buoy indicates safe water lies to the east?",
+    "image": "buoyage_019.svg",
+    "options": [
+      "East cardinal mark",
+      "North cardinal mark",
+      "West cardinal mark",
+      "South cardinal mark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "East cardinal marks have cones pointing away from each other; safe water lies to the east.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_020",
+    "module": "buoyage",
+    "question": "Which buoy indicates safe water lies to the west?",
+    "image": "buoyage_020.svg",
+    "options": [
+      "West cardinal mark",
+      "North cardinal mark",
+      "East cardinal mark",
+      "South cardinal mark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "West cardinal marks have cones pointing toward each other; safe water lies to the west.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_021",
+    "module": "buoyage",
+    "question": "What colour are isolated danger marks?",
+    "image": "buoyage_021.svg",
+    "options": [
+      "Black with red bands",
+      "Red",
+      "Green",
+      "Yellow"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Isolated danger marks are black with one or more red horizontal bands.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_022",
+    "module": "buoyage",
+    "question": "Which buoy type has no topmark but is painted yellow?",
+    "image": "buoyage_022.svg",
+    "options": [
+      "Special mark",
+      "Port-hand mark",
+      "Starboard-hand mark",
+      "Isolated danger mark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Special marks are yellow with no topmark, used for special areas or caution.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_023",
+    "module": "buoyage",
+    "question": "What colour is a starboard lateral buoy in IALA Region A?",
+    "image": "buoyage_023.svg",
+    "options": [
+      "Green",
+      "Red",
+      "Yellow",
+      "Black"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In IALA Region A, starboard-hand buoys are green, while port-hand buoys are red.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "buoyage_024",
+    "module": "buoyage",
+    "question": "What colour is a port lateral mark in IALA Region B?",
+    "image": "buoyage_024.svg",
+    "options": [
+      "Green",
+      "Red",
+      "Yellow",
+      "Black"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In IALA Region B, the colours are reversed; port-hand buoys are green.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "buoyage_025",
+    "module": "buoyage",
+    "question": "What is the main purpose of cardinal marks?",
+    "image": "buoyage_025.svg",
+    "options": [
+      "Indicate where safe water lies",
+      "Mark port side",
+      "Mark starboard side",
+      "Indicate marinas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cardinal marks indicate where the safe water lies in relation to the mark.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "buoyage_026",
+    "module": "buoyage",
+    "question": "What topmark does a north cardinal mark display?",
+    "image": "buoyage_026.svg",
+    "options": [
+      "Two black cones pointing up",
+      "Two black cones pointing down",
+      "Two cones pointing away",
+      "Two cones pointing towards each other"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A north cardinal mark has two black cones pointing upwards, indicating safe water to the north.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_027",
+    "module": "buoyage",
+    "question": "What topmark does a south cardinal mark display?",
+    "image": "buoyage_027.svg",
+    "options": [
+      "Two black cones pointing down",
+      "Two black cones pointing up",
+      "Two cones pointing away",
+      "Two cones pointing towards each other"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A south cardinal mark has two black cones pointing downwards, indicating safe water to the south.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_028",
+    "module": "buoyage",
+    "question": "What topmark does an east cardinal mark display?",
+    "image": "buoyage_028.svg",
+    "options": [
+      "Two cones pointing away from each other",
+      "Two cones pointing up",
+      "Two cones pointing down",
+      "Two cones pointing towards each other"
+    ],
+    "correctAnswer": 0,
+    "explanation": "East cardinal marks have cones pointing away from each other; safe water lies to the east.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_029",
+    "module": "buoyage",
+    "question": "What topmark does a west cardinal mark display?",
+    "image": "buoyage_029.svg",
+    "options": [
+      "Two cones pointing towards each other",
+      "Two cones pointing up",
+      "Two cones pointing down",
+      "Two cones pointing away"
+    ],
+    "correctAnswer": 0,
+    "explanation": "West cardinal marks have cones pointing towards each other; safe water lies to the west.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_030",
+    "module": "buoyage",
+    "question": "How is a lateral buoy light characteristic usually shown on a chart?",
+    "image": "buoyage_030.svg",
+    "options": [
+      "Flashing with colour",
+      "Solid light",
+      "No light",
+      "Flickering white"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lateral buoys may have a light that flashes in the buoy colour, e.g., red or green.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_031",
+    "module": "buoyage",
+    "question": "Which shape is used for a port-hand buoy?",
+    "image": "buoyage_031.svg",
+    "options": [
+      "Cylinder or pillar",
+      "Cone",
+      "Sphere",
+      "Diamond"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Port-hand buoys are cylindrical or pillar-shaped.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "buoyage_032",
+    "module": "buoyage",
+    "question": "Which shape is used for a starboard-hand buoy?",
+    "image": "buoyage_032.svg",
+    "options": [
+      "Cone",
+      "Cylinder",
+      "Sphere",
+      "Diamond"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Starboard-hand buoys are conical.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "buoyage_033",
+    "module": "buoyage",
+    "question": "Which mark indicates an isolated danger with safe water around it?",
+    "image": "buoyage_033.svg",
+    "options": [
+      "Isolated danger mark",
+      "Safe water mark",
+      "Port-hand mark",
+      "Starboard-hand mark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Isolated danger marks indicate a hazard but safe water exists all around the buoy.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_034",
+    "module": "buoyage",
+    "question": "Which mark is yellow and used for special purposes?",
+    "image": "buoyage_034.svg",
+    "options": [
+      "Special mark",
+      "Port-hand mark",
+      "Starboard-hand mark",
+      "Safe water mark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Special marks are yellow and indicate areas of special interest or caution.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_035",
+    "module": "buoyage",
+    "question": "Which topmark does an isolated danger mark display?",
+    "image": "buoyage_035.svg",
+    "options": [
+      "Two black spheres",
+      "Single cone",
+      "Cylinder",
+      "No topmark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Isolated danger marks have two black spherical topmarks.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_036",
+    "module": "buoyage",
+    "question": "What colour are cardinal marks primarily?",
+    "image": "buoyage_036.svg",
+    "options": [
+      "Black and yellow",
+      "Red",
+      "Green",
+      "Yellow"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cardinal marks are black and yellow to distinguish them from lateral marks.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_037",
+    "module": "buoyage",
+    "question": "How are safe water marks often topped?",
+    "image": "buoyage_037.svg",
+    "options": [
+      "Sphere",
+      "Cone",
+      "Cylinder",
+      "None"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Safe water marks often have a single red sphere as a topmark.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_038",
+    "module": "buoyage",
+    "question": "Which colour is used for starboard lateral marks in IALA Region A?",
+    "image": "buoyage_038.svg",
+    "options": [
+      "Green",
+      "Red",
+      "Yellow",
+      "Black"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Starboard-hand marks in Region A are green; port-hand marks are red.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "buoyage_039",
+    "module": "buoyage",
+    "question": "Which colour is used for port lateral marks in IALA Region B?",
+    "image": "buoyage_039.svg",
+    "options": [
+      "Green",
+      "Red",
+      "Yellow",
+      "Black"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In IALA Region B, port-hand marks are green, opposite to Region A.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "buoyage_040",
+    "module": "buoyage",
+    "question": "Which buoy indicates danger with safe water all around?",
+    "image": "buoyage_040.svg",
+    "options": [
+      "Safe water mark",
+      "Port-hand mark",
+      "Starboard-hand mark",
+      "Special mark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Safe water marks indicate water navigable on all sides.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "buoyage_041",
+    "module": "buoyage",
+    "question": "What is the purpose of a cardinal mark?",
+    "image": "buoyage_041.svg",
+    "options": [
+      "Show where safe water lies",
+      "Mark port side",
+      "Mark starboard side",
+      "Indicate a marina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cardinal marks indicate the direction of safe water in relation to the mark.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_042",
+    "module": "buoyage",
+    "question": "Which buoy type uses a black and yellow horizontal pattern?",
+    "image": "buoyage_042.svg",
+    "options": [
+      "Cardinal mark",
+      "Port-hand mark",
+      "Starboard-hand mark",
+      "Special mark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cardinal marks use black and yellow colour patterns to indicate the direction of safe water.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_043",
+    "module": "buoyage",
+    "question": "What is the topmark of a north cardinal mark?",
+    "image": "buoyage_043.svg",
+    "options": [
+      "Two cones pointing up",
+      "Two cones pointing down",
+      "Two cones pointing away",
+      "Two cones pointing towards each other"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Two cones pointing up signify a north cardinal mark.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_044",
+    "module": "buoyage",
+    "question": "What is the topmark of a south cardinal mark?",
+    "image": "buoyage_044.svg",
+    "options": [
+      "Two cones pointing down",
+      "Two cones pointing up",
+      "Two cones pointing away",
+      "Two cones pointing towards each other"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Two cones pointing down signify a south cardinal mark.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_045",
+    "module": "buoyage",
+    "question": "What is the topmark of an east cardinal mark?",
+    "image": "buoyage_045.svg",
+    "options": [
+      "Two cones pointing away from each other",
+      "Two cones pointing up",
+      "Two cones pointing down",
+      "Two cones pointing towards each other"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cones pointing away from each other indicate an east cardinal mark.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_046",
+    "module": "buoyage",
+    "question": "What is the topmark of a west cardinal mark?",
+    "image": "buoyage_046.svg",
+    "options": [
+      "Two cones pointing towards each other",
+      "Two cones pointing up",
+      "Two cones pointing down",
+      "Two cones pointing away"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cones pointing toward each other indicate a west cardinal mark.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_047",
+    "module": "buoyage",
+    "question": "Which cardinal mark indicates safe water to the north?",
+    "image": "buoyage_047.svg",
+    "options": [
+      "North cardinal mark",
+      "South cardinal mark",
+      "East cardinal mark",
+      "West cardinal mark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A north cardinal mark indicates safe water lies to the north.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_048",
+    "module": "buoyage",
+    "question": "Which cardinal mark indicates safe water to the south?",
+    "image": "buoyage_048.svg",
+    "options": [
+      "South cardinal mark",
+      "North cardinal mark",
+      "East cardinal mark",
+      "West cardinal mark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A south cardinal mark indicates safe water lies to the south.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_049",
+    "module": "buoyage",
+    "question": "Which cardinal mark indicates safe water to the east?",
+    "image": "buoyage_049.svg",
+    "options": [
+      "East cardinal mark",
+      "West cardinal mark",
+      "North cardinal mark",
+      "South cardinal mark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An east cardinal mark indicates safe water lies to the east.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "buoyage_050",
+    "module": "buoyage",
+    "question": "Which cardinal mark indicates safe water to the west?",
+    "image": "buoyage_050.svg",
+    "options": [
+      "West cardinal mark",
+      "East cardinal mark",
+      "North cardinal mark",
+      "South cardinal mark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A west cardinal mark indicates safe water lies to the west.",
+    "difficulty": "medium"
+  }
 ]
-  
-  
-  
