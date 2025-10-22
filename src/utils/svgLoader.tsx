@@ -123,6 +123,46 @@ const svgContentMap: { [key: string]: string } = {
   <text x="105" y="40" font-family="Arial" font-size="12" fill="#333">Windward</text>
   <text x="105" y="110" font-family="Arial" font-size="12" fill="#333">Leeward</text>
 </svg>`,
+
+  'SailSharp_ShipOnly': `<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024">
+  <g id="Boat_Fill">
+    <polygon fill="#bcbec0" stroke="#8ebce5" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" points="61.3 410.6 512.3 509 965.5 407 512.3 558.4 61.3 410.6"/>
+    <polygon fill="#fff" stroke="#8ebce5" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" points="61.3 410.6 237.6 721.8 802.1 720.9 965.5 407 512.3 558.4 61.3 410.6"/>
+    <polygon fill="#fff" stroke="#8ebce5" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" points="509.9 226.1 346.6 504.2 512.3 558.4 672.6 504.9 509.9 226.1"/>
+  </g>
+  <g id="Boat_Decoration">
+    <polygon fill="#f1f2f2" stroke="#8ebce5" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" points="508.5 226.1 514.3 558.6 671 505 508.5 226.1"/>
+    <polyline fill="none" stroke="#8ebce5" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" points="513.4 564.4 802.1 720.9 965.5 407 512.3 558.4"/>
+    <polyline fill="none" stroke="#8ebce5" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" points="237.8 717.4 513.4 564.4 803.6 718.1"/>
+  </g>
+  <g id="Boat_Fold_Lines">
+    <line stroke="#bcbec0" stroke-width="2" stroke-miterlimit="10" x1="511.1" y1="258.3" x2="513.4" y2="539.6"/>
+    <line stroke="#bcbec0" stroke-width="2" stroke-miterlimit="10" x1="254.2" y1="707.7" x2="501.7" y2="570.9"/>
+    <line stroke="#bcbec0" stroke-width="2" stroke-miterlimit="10" x1="780.9" y1="705.9" x2="525.8" y2="570.9"/>
+  </g>
+  <g id="Outlines">
+    <polygon fill="none" stroke="#231f20" stroke-width="8" stroke-miterlimit="10" points="61.3 410.6 237.6 721.8 802.1 720.9 965.5 407 512.3 558.4 61.3 410.6"/>
+    <polygon fill="none" stroke="#231f20" stroke-width="8" stroke-miterlimit="10" points="510 226 347 504.5 512.7 558.8 672.7 504.7 510 226"/>
+    <polygon fill="none" stroke="#231f20" stroke-width="8" stroke-miterlimit="10" points="657.4 476.3 672.7 504.7 965.5 407 657.4 476.3"/>
+    <polygon fill="none" stroke="#231f20" stroke-width="8" stroke-miterlimit="10" points="363.4 476.5 347 504.5 61.3 410.6 363.4 476.5"/>
+  </g>
+</svg>`,
+
+  'SailSharp_SeaOnly': `<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024">
+  <g id="Sea_Bottom_copy" opacity="0.5">
+    <path fill="#8ebce5" stroke="#8ebce5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" d="M1245.1,100.3h0c-62.2-75.4-148.6-75.4-210.8,0h0c-62.2,75.4-148.6,75.4-210.8,0h0c-62.2-75.4-148.6-75.4-210.8,0h0c-62.2,75.4-148.6,75.4-210.8,0h0c-62.2-75.4-148.6-75.4-210.8,0h0c-62.2,75.4-148.6,75.4-210.8,0h0c-62.2-75.4-148.6-75.4-210.8,0v1052.7l1475.6-18.1V100.3Z"/>
+    <path fill="#8ebce5" stroke="#8ebce5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" d="M1245.1,281h0c-62.2-75.4-148.6-75.4-210.8,0h0c-62.2,75.4-148.6,75.4-210.8,0h0c-62.2-75.4-148.6-75.4-210.8,0h0c-62.2,75.4-148.6,75.4-210.8,0h0c-62.2-75.4-148.6-75.4-210.8,0h0c-62.2,75.4-148.6,75.4-210.8,0h0c-62.2-75.4-148.6-75.4-210.8,0v942h1475.6V281Z"/>
+    <path fill="#8ebce5" stroke="#8ebce5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" d="M1245.1,461.7h0c-62.2-75.4-148.6-75.4-210.8,0h0c-62.2,75.4-148.6,75.4-210.8,0h0c-62.2-75.4-148.6-75.4-210.8,0h0c-62.2,75.4-148.6,75.4-210.8,0h0c-62.2-75.4-148.6-75.4-210.8,0h0c-62.2,75.4-148.6,75.4-210.8,0h0c-62.2-75.4-148.6-75.4-210.8,0v808.8h1475.6V461.7Z"/>
+    <polygon fill="#8ebce5" stroke="#8ebce5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" points="-230.5 -89.4 -230.5 1270.4 1245.1 1270.4 1245.1 -55.5 -230.5 -89.4"/>
+  </g>
+  <g id="Sea_Top_copy" opacity="0.3">
+    <path fill="#6a8dac" stroke="#8ebce5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" d="M1245.1,642.3h0c-62.2-75.4-148.6-75.4-210.8,0h0c-62.2,75.4-148.6,75.4-210.8,0h0c-62.2-75.4-148.6-75.4-210.8,0h0c-62.2,75.4-148.6,75.4-210.8,0h0c-62.2-75.4-148.6-75.4-210.8,0h0c-62.2,75.4-148.6,75.4-210.8,0h0c-62.2-75.4-148.6-75.4-210.8,0v540l1475.6-47.4v-492.6Z"/>
+    <path fill="#6a8dac" stroke="#8ebce5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" d="M1245.1,823h0c-62.2-75.4-148.6-75.4-210.8,0h0c-62.2,75.4-148.6,75.4-210.8,0h0c-62.2-75.4-148.6-75.4-210.8,0h0c-62.2,75.4-148.6,75.4-210.8,0h0c-62.2-75.4-148.6-75.4-210.8,0h0c-62.2,75.4-148.6,75.4-210.8,0h0c-62.2-75.4-148.6-75.4-210.8,0v474.5h1475.6v-474.5Z"/>
+    <path fill="#6a8dac" stroke="#8ebce5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" d="M1245.1,1003.7h0c-62.2-75.4-148.6-75.4-210.8,0h0c-62.2,75.4-148.6,75.4-210.8,0h0c-62.2-75.4-148.6-75.4-210.8,0h0c-62.2,75.4-148.6,75.4-210.8,0h0c-62.2-75.4-148.6-75.4-210.8,0h0c-62.2,75.4-148.6,75.4-210.8,0h0c-62.2-75.4-148.6-75.4-210.8,0v293.8h1475.6v-293.8Z"/>
+  </g>
+</svg>`,
 };
 
 // Function to get SVG content

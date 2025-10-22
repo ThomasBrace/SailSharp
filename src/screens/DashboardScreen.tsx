@@ -7,6 +7,7 @@ import {
   StyleSheet,
   TouchableOpacity,
   ScrollView,
+  useWindowDimensions,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Icon from 'react-native-vector-icons/MaterialIcons';
@@ -14,12 +15,14 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useNavigation } from '@react-navigation/native';
 import { RootState } from '../store';
 import { Module } from '../types';
+import { ShipLogo, WaveBackground } from '../components/BrandElements';
 
 const DashboardScreen: React.FC = () => {
   const dispatch = useDispatch();
   const navigation = useNavigation();
   const modules = useSelector((state: RootState) => state.modules);
   const user = useSelector((state: RootState) => state.user);
+  const { width: screenWidth } = useWindowDimensions();
 
 
   const renderModuleCard = (module: Module) => (
@@ -62,16 +65,32 @@ const DashboardScreen: React.FC = () => {
 
   return (
     <SafeAreaView style={styles.container} edges={['bottom']}>
-      <ScrollView style={styles.scrollView}>
+      <ScrollView 
+        style={styles.scrollView}
+        contentContainerStyle={styles.scrollViewContent}
+      >
         <View style={styles.header}>
-          <Text style={styles.title}>Welcome to SailSharp</Text>
-          <Text style={styles.subtitle}>Master RYA Day Skipper Theory</Text>
+          {/* Header Content on Top */}
+          <View style={styles.headerContent}>
+            <View style={styles.headerText}>
+              <Text style={styles.title}>Welcome to SailSharp</Text>
+              <Text style={styles.subtitle}>Master RYA Day Skipper Theory</Text>
+            </View>
+          </View>
         </View>
-
 
         <View style={styles.modulesContainer}>
           <Text style={styles.sectionTitle}>Course Modules</Text>
           {modules.map(renderModuleCard)}
+        </View>
+
+        {/* Footer Wave Decoration */}
+        <View style={styles.footer}>
+          <WaveBackground 
+            width={screenWidth + 20} 
+            height={120} 
+            style={styles.footerWave}
+          />
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -86,10 +105,40 @@ const styles = StyleSheet.create({
   scrollView: {
     flex: 1,
   },
+  scrollViewContent: {
+    paddingBottom: 0,
+  },
   header: {
-    padding: 20,
+    position: 'relative',
     backgroundColor: '#1e3a8a',
+    overflow: 'hidden',
+    minHeight: 110,
+  },
+  waveBackgroundLayer: {
+    position: 'absolute',
+    bottom: 0,
+    left: -10,
+    right: -10,
+    width: '110%',
+    zIndex: 0,
+  },
+  waveDecoration: {
+    opacity: 1,
+  },
+  headerContent: {
+    position: 'relative',
+    zIndex: 1,
+    flexDirection: 'row',
     alignItems: 'center',
+    paddingTop: 30,
+    paddingHorizontal: 20,
+    paddingBottom: 0,
+  },
+  headerLogo: {
+    marginRight: 0,
+  },
+  headerText: {
+    flex: 1,
   },
   title: {
     fontSize: 28,
@@ -163,6 +212,18 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 12,
     fontWeight: '600',
+  },
+  footer: {
+    width: '100%',
+    marginTop: -30,
+    marginBottom: -40,
+    overflow: 'visible',
+    alignItems: 'center',
+  },
+  footerWave: {
+    opacity: 1,
+    marginLeft: -10,
+    marginBottom: -20,
   },
 });
 

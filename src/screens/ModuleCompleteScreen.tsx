@@ -6,6 +6,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { RootStackParamList } from '../types';
+import { AnimatedShip, WaveBackground } from '../components/BrandElements';
 
 type ModuleCompleteScreenRouteProp = RouteProp<RootStackParamList, 'ModuleComplete'>;
 
@@ -33,22 +34,37 @@ const ModuleCompleteScreen: React.FC = () => {
   return (
     <SafeAreaView style={styles.container} edges={['bottom']}>
       <ScrollView style={styles.content} showsVerticalScrollIndicator={false}>
-        {/* Header */}
+        {/* Header with Ship Logo */}
         <View style={styles.header}>
           <View style={styles.celebrationIcon}>
-            <Icon name="celebration" size={64} color="#22c55e" />
+            <AnimatedShip size={100} />
           </View>
           <Text style={styles.moduleName}>{moduleName}</Text>
           <Text style={styles.completionStatus}>Module Complete!</Text>
+          <WaveBackground 
+            width={350} 
+            height={60} 
+            style={styles.headerWave}
+          />
         </View>
 
         {/* Achievement Badge */}
         <View style={styles.achievementContainer}>
+          <WaveBackground 
+            width={300} 
+            height={50} 
+            style={styles.achievementTopWave}
+          />
           <View style={styles.achievementBadge}>
             <Icon name="emoji-events" size={48} color="#fbbf24" />
             <Text style={styles.achievementTitle}>Module Mastered</Text>
             <Text style={styles.achievementScore}>{percentage}% Score</Text>
           </View>
+          <WaveBackground 
+            width={300} 
+            height={50} 
+            style={styles.achievementBottomWave}
+          />
         </View>
 
         {/* Completion Message */}
@@ -191,10 +207,23 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: '#22c55e',
     fontWeight: '600',
+    marginBottom: 10,
+  },
+  headerWave: {
+    marginTop: 10,
+    opacity: 0.5,
   },
   achievementContainer: {
     alignItems: 'center',
     marginBottom: 32,
+  },
+  achievementTopWave: {
+    marginBottom: -20,
+    opacity: 0.4,
+  },
+  achievementBottomWave: {
+    marginTop: -20,
+    opacity: 0.4,
   },
   achievementBadge: {
     backgroundColor: '#ffffff',

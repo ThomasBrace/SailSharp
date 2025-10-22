@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 727.72 494.78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f1f2f2;
+      }
+
+      .cls-2 {
+        fill: #e6e7e8;
+      }
+    </style>
+  </defs>
+  <g id="Boat_Decoration" data-name="Boat Decoration">
+    <g>
+      <polygon class="cls-1" points="270.67 0 276.54 332.46 433.19 278.9 270.67 0"/>
+      <polyline class="cls-1" points="275.63 338.27 564.32 494.78 727.72 180.84 274.49 332.3"/>
+      <polyline class="cls-2" points="0 491.28 275.63 338.27 565.77 492"/>
+    </g>
+  </g>
+</svg>

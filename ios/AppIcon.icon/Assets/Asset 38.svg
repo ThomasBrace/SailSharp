@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 527.62 450.36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #bcbec0;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Boat_Fold_Lines" data-name="Boat Fold Lines">
+    <g>
+      <line class="cls-1" x1="257.33" y1="0" x2="259.67" y2="281.37"/>
+      <line class="cls-1" x1=".48" y1="449.48" x2="248.02" y2="312.61"/>
+      <line class="cls-1" x1="527.15" y1="447.67" x2="272.08" y2="312.61"/>
+    </g>
+  </g>
+</svg>

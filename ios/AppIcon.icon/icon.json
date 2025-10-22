@@ -1,0 +1,191 @@
+{
+  "fill" : {
+    "automatic-gradient" : "extended-srgb:0.00000,0.53333,1.00000,1.00000"
+  },
+  "groups" : [
+    {
+      "hidden" : false,
+      "layers" : [
+        {
+          "blend-mode" : "normal",
+          "fill" : "automatic",
+          "image-name" : "Asset 22 2.svg",
+          "name" : "Asset 22 2",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -28.3515625,
+              865.21875
+            ]
+          }
+        },
+        {
+          "hidden" : false,
+          "image-name" : "Asset 22 2.svg",
+          "name" : "Asset 22 2",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -24.8046875,
+              674.4296875
+            ]
+          }
+        },
+        {
+          "hidden" : false,
+          "image-name" : "Asset 40.svg",
+          "name" : "Asset 40",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              144.8984375,
+              -557.984375
+            ]
+          }
+        },
+        {
+          "glass" : true,
+          "hidden" : true,
+          "image-name" : "Asset 39.svg",
+          "name" : "Asset 39",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -4.2109375,
+              2.40625
+            ]
+          }
+        },
+        {
+          "fill" : {
+            "solid" : "extended-srgb:0.00000,0.53333,1.00000,1.00000"
+          },
+          "glass" : false,
+          "hidden" : true,
+          "image-name" : "Asset 38.svg",
+          "name" : "Asset 38",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              2.7890625,
+              14.7109375
+            ]
+          }
+        },
+        {
+          "fill-specializations" : [
+            {
+              "appearance" : "dark",
+              "value" : {
+                "automatic-gradient" : "display-p3:0.95219,0.97355,0.95422,1.00000"
+              }
+            }
+          ],
+          "glass" : false,
+          "hidden" : false,
+          "image-name" : "Asset 37.svg",
+          "name" : "Asset 37",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              83.953125,
+              -8.9765625
+            ]
+          }
+        },
+        {
+          "blend-mode" : "normal",
+          "fill" : "automatic",
+          "glass" : true,
+          "hidden" : false,
+          "image-name" : "Asset 36.svg",
+          "name" : "Asset 36",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -5.0234375,
+              -12.34375
+            ]
+          }
+        },
+        {
+          "hidden" : false,
+          "image-name" : "Asset 22 2.svg",
+          "name" : "Asset 22 2",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -9.296875,
+              430.625
+            ]
+          }
+        },
+        {
+          "hidden" : false,
+          "image-name" : "Asset 22 2.svg",
+          "name" : "Asset 22 2",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -21.3828125,
+              229.8203125
+            ]
+          }
+        },
+        {
+          "fill" : "automatic",
+          "hidden" : false,
+          "image-name" : "Asset 22 2.svg",
+          "name" : "Asset 22 2",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -21.3125,
+              39.3671875
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    },
+    {
+      "layers" : [
+        {
+          "fill" : "automatic",
+          "glass" : true,
+          "hidden" : true,
+          "image-name" : "SailSharp_Logo.svg",
+          "name" : "SailSharp_Logo",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}

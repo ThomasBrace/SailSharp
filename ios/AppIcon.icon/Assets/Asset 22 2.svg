@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1480.6 1114.27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8ebce5;
+        opacity: .32;
+        stroke: #8ebce5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g id="Sea_Bottom_copy" data-name="Sea Bottom copy">
+    <path class="cls-1" d="M1478.1,59.06h0c-62.23-75.41-148.57-75.41-210.8,0h0c-62.23,75.41-148.57,75.41-210.8,0h0c-62.23-75.41-148.57-75.41-210.8,0h0c-62.23,75.41-148.57,75.41-210.8,0h0c-62.23-75.41-148.57-75.41-210.8,0h0c-62.23,75.41-148.57,75.41-210.8,0h0c-62.23-75.41-148.57-75.41-210.8,0v1052.71l1475.6-18.07V59.06Z"/>
+  </g>
+</svg>
