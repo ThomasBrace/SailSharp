@@ -5,10 +5,10 @@ import { Question } from '../types';
 export const questions: { [moduleId: string]: Question[] } = {
   nautical_terms: [
     {
-      id: 'nautical_001',
+      id: 'nautical_terms_001',
       module: 'nautical_terms',
       question: 'What is the correct term for the front of a boat?',
-      image: 'boat_parts_001.svg',
+      image: 'BoatFront_002.svg',
       options: [
         'Bow',
         'Stern',
@@ -20,10 +20,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       difficulty: 'easy'
     },
     {
-      id: 'nautical_002',
+      id: 'nautical_terms_002',
       module: 'nautical_terms',
       question: 'What is the left side of a boat called when facing forward?',
-      image: 'rigging_001.svg',
+      image: 'BoatFront_001.svg',
       options: [
         'Starboard',
         'Port',
@@ -35,10 +35,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       difficulty: 'easy'
     },
     {
-      id: 'nautical_003',
+      id: 'nautical_terms_003',
       module: 'nautical_terms',
       question: 'What is the main vertical spar that supports the sails?',
-      image: 'rigging_001.svg',
+      image: 'BoatFront_001.svg',
       options: [
         'Boom',
         'Mast',
@@ -50,10 +50,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       difficulty: 'easy'
     },
     {
-      id: 'nautical_004',
+      id: 'nautical_terms_004',
       module: 'nautical_terms',
       question: 'What is the horizontal spar that extends from the mast?',
-      image: 'rigging_001.svg',
+      image: 'BoatFront_001.svg',
       options: [
         'Mast',
         'Boom',
@@ -65,10 +65,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       difficulty: 'medium'
     },
     {
-      id: 'nautical_005',
+      id: 'nautical_terms_005',
       module: 'nautical_terms',
       question: 'What term describes the direction from which the wind is coming?',
-      image: 'rigging_001.svg',
+      image: 'BoatFront_001.svg',
       options: [
         'Leeward',
         'Windward',
@@ -80,10 +80,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       difficulty: 'medium'
     },
     {
-      id: 'nautical_006',
+      id: 'nautical_terms_006',
       module: 'nautical_terms',
       question: 'What is the term for turning the boat into the wind?',
-      image: 'rigging_001.svg',
+      image: 'BoatFront_001.svg',
       options: [
         'Tacking',
         'Gybing',
@@ -95,10 +95,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       difficulty: 'medium'
     },
     {
-      id: 'nautical_007',
+      id: 'nautical_terms_007',
       module: 'nautical_terms',
       question: 'What is the rope used to control the angle of the sail?',
-      image: 'rigging_001.svg',
+      image: 'BoatFront_001.svg',
       options: [
         'Sheet',
         'Halyard',
@@ -110,10 +110,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       difficulty: 'medium'
     },
     {
-      id: 'nautical_008',
+      id: 'nautical_terms_008',
       module: 'nautical_terms',
       question: 'What is the term for the depth of water beneath the boat?',
-      image: 'rigging_001.svg',
+      image: 'BoatFront_001.svg',
       options: [
         'Draft',
         'Freeboard',
@@ -125,10 +125,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       difficulty: 'hard'
     },
     {
-      id: 'nautical_009',
+      id: 'nautical_terms_009',
       module: 'nautical_terms',
       question: 'What is the term for the side of the boat away from the wind?',
-      image: 'rigging_001.svg',
+      image: 'BoatFront_001.svg',
       options: [
         'Windward',
         'Leeward',
@@ -140,10 +140,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       difficulty: 'medium'
     },
     {
-      id: 'nautical_010',
+      id: 'nautical_terms_010',
       module: 'nautical_terms',
       question: 'What is the rope used to raise and lower sails?',
-      image: 'rigging_001.svg',
+      image: 'BoatFront_001.svg',
       options: [
         'Sheet',
         'Halyard',
@@ -155,7 +155,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       difficulty: 'easy'
     },
     {
-      "id": "nautical_001",
+      "id": "nautical_terms_011",
       "module": "nautical_terms",
       "question": "What does the term 'port' refer to on a boat?",
       "image": "nautical_001.svg",
@@ -170,7 +170,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "easy"
     },
     {
-      "id": "nautical_002",
+      "id": "nautical_terms_012",
       "module": "nautical_terms",
       "question": "What does 'starboard' mean?",
       "image": "nautical_002.svg",
@@ -185,7 +185,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "easy"
     },
     {
-      "id": "nautical_003",
+      "id": "nautical_terms_013",
       "module": "nautical_terms",
       "question": "What is the 'bow' of a boat?",
       "image": "nautical_003.svg",
@@ -200,7 +200,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "easy"
     },
     {
-      "id": "nautical_004",
+      "id": "nautical_terms_014",
       "module": "nautical_terms",
       "question": "What is the 'stern' of a vessel?",
       "image": "nautical_004.svg",
@@ -215,7 +215,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "easy"
     },
     {
-      "id": "nautical_005",
+      "id": "nautical_terms_015",
       "module": "nautical_terms",
       "question": "What does 'beam' refer to on a boat?",
       "image": "nautical_005.svg",
@@ -230,7 +230,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "nautical_006",
+      "id": "nautical_terms_016",
       "module": "nautical_terms",
       "question": "What is the 'draft' of a boat?",
       "image": "nautical_006.svg",
@@ -245,7 +245,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "nautical_007",
+      "id": "nautical_terms_017",
       "module": "nautical_terms",
       "question": "What does 'helm' refer to?",
       "image": "nautical_007.svg",
@@ -260,7 +260,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "easy"
     },
     {
-      "id": "nautical_008",
+      "id": "nautical_terms_018",
       "module": "nautical_terms",
       "question": "What is a 'keel'?",
       "image": "nautical_008.svg",
@@ -275,7 +275,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "nautical_009",
+      "id": "nautical_terms_019",
       "module": "nautical_terms",
       "question": "What is a 'tiller' used for?",
       "image": "nautical_009.svg",
@@ -290,7 +290,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "easy"
     },
     {
-      "id": "nautical_010",
+      "id": "nautical_terms_020",
       "module": "nautical_terms",
       "question": "What is the purpose of a 'cleat' on a boat?",
       "image": "nautical_010.svg",
@@ -305,7 +305,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "easy"
     },
     {
-      "id": "nautical_011",
+      "id": "nautical_terms_021",
       "module": "nautical_terms",
       "question": "What is a 'boom' on a sailing boat?",
       "image": "nautical_011.svg",
@@ -320,7 +320,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "nautical_012",
+      "id": "nautical_terms_022",
       "module": "nautical_terms",
       "question": "What does 'shrouds' refer to?",
       "image": "nautical_012.svg",
@@ -335,7 +335,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "nautical_013",
+      "id": "nautical_terms_023",
       "module": "nautical_terms",
       "question": "What is a 'forestay'?",
       "image": "nautical_013.svg",
@@ -350,7 +350,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "nautical_014",
+      "id": "nautical_terms_024",
       "module": "nautical_terms",
       "question": "What is a 'sheet' on a sailing boat?",
       "image": "nautical_014.svg",
@@ -365,7 +365,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "nautical_015",
+      "id": "nautical_terms_025",
       "module": "nautical_terms",
       "question": "What does 'tacking' mean?",
       "image": "nautical_015.svg",
@@ -380,7 +380,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "nautical_016",
+      "id": "nautical_terms_026",
       "module": "nautical_terms",
       "question": "What does 'gybing' mean?",
       "image": "nautical_016.svg",
@@ -395,7 +395,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "nautical_017",
+      "id": "nautical_terms_027",
       "module": "nautical_terms",
       "question": "What is a 'winch' used for?",
       "image": "nautical_017.svg",
@@ -410,7 +410,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "nautical_018",
+      "id": "nautical_terms_028",
       "module": "nautical_terms",
       "question": "What is the 'cockpit' of a boat?",
       "image": "nautical_018.svg",
@@ -425,7 +425,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "easy"
     },
     {
-      "id": "nautical_019",
+      "id": "nautical_terms_029",
       "module": "nautical_terms",
       "question": "What is the 'keelson'?",
       "image": "nautical_019.svg",
@@ -440,7 +440,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "nautical_020",
+      "id": "nautical_terms_030",
       "module": "nautical_terms",
       "question": "What does 'fairlead' mean?",
       "image": "nautical_020.svg",
@@ -455,7 +455,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "nautical_021",
+      "id": "nautical_terms_031",
       "module": "nautical_terms",
       "question": "What is a 'pulpit' on a boat?",
       "image": "nautical_021.svg",
@@ -470,7 +470,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "nautical_022",
+      "id": "nautical_terms_032",
       "module": "nautical_terms",
       "question": "What does 'hull' refer to?",
       "image": "nautical_022.svg",
@@ -485,7 +485,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "easy"
     },
     {
-      "id": "nautical_023",
+      "id": "nautical_terms_033",
       "module": "nautical_terms",
       "question": "What is a 'dodger'?",
       "image": "nautical_023.svg",
@@ -500,7 +500,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "nautical_024",
+      "id": "nautical_terms_034",
       "module": "nautical_terms",
       "question": "What is a 'companionway'?",
       "image": "nautical_024.svg",
@@ -515,7 +515,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "nautical_025",
+      "id": "nautical_terms_035",
       "module": "nautical_terms",
       "question": "What does 'leeward' mean?",
       "image": "nautical_025.svg",
@@ -530,7 +530,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
         {
-          "id": "nautical_026",
+          "id": "nautical_terms_036",
           "module": "nautical_terms",
           "question": "What does 'windward' mean?",
           "image": "nautical_026.svg",
@@ -545,7 +545,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_027",
+          "id": "nautical_terms_037",
           "module": "nautical_terms",
           "question": "What is a 'backstay'?",
           "image": "nautical_027.svg",
@@ -560,7 +560,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_028",
+          "id": "nautical_terms_038",
           "module": "nautical_terms",
           "question": "What is a 'preventer' used for?",
           "image": "nautical_028.svg",
@@ -575,7 +575,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_029",
+          "id": "nautical_terms_039",
           "module": "nautical_terms",
           "question": "What is a 'sail track'?",
           "image": "nautical_029.svg",
@@ -590,7 +590,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_030",
+          "id": "nautical_terms_040",
           "module": "nautical_terms",
           "question": "What is a 'reef' in sailing?",
           "image": "nautical_030.svg",
@@ -605,7 +605,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_031",
+          "id": "nautical_terms_041",
           "module": "nautical_terms",
           "question": "What is a 'telltale'?",
           "image": "nautical_031.svg",
@@ -620,7 +620,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_032",
+          "id": "nautical_terms_042",
           "module": "nautical_terms",
           "question": "What does 'luffing' mean?",
           "image": "nautical_032.svg",
@@ -635,7 +635,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_033",
+          "id": "nautical_terms_043",
           "module": "nautical_terms",
           "question": "What is a 'hatch'?",
           "image": "nautical_033.svg",
@@ -650,7 +650,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "easy"
         },
         {
-          "id": "nautical_034",
+          "id": "nautical_terms_044",
           "module": "nautical_terms",
           "question": "What is a 'spinnaker'?",
           "image": "nautical_034.svg",
@@ -665,7 +665,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_035",
+          "id": "nautical_terms_045",
           "module": "nautical_terms",
           "question": "What is the 'foot' of a sail?",
           "image": "nautical_035.svg",
@@ -680,7 +680,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_036",
+          "id": "nautical_terms_046",
           "module": "nautical_terms",
           "question": "What is the 'head' of a sail?",
           "image": "nautical_036.svg",
@@ -695,7 +695,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_037",
+          "id": "nautical_terms_047",
           "module": "nautical_terms",
           "question": "What is the 'clew' of a sail?",
           "image": "nautical_037.svg",
@@ -710,7 +710,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_038",
+          "id": "nautical_terms_048",
           "module": "nautical_terms",
           "question": "What is the 'luff' of a sail?",
           "image": "nautical_038.svg",
@@ -725,7 +725,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_039",
+          "id": "nautical_terms_049",
           "module": "nautical_terms",
           "question": "What is a 'lazy sheet'?",
           "image": "nautical_039.svg",
@@ -740,7 +740,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_040",
+          "id": "nautical_terms_050",
           "module": "nautical_terms",
           "question": "What is a 'backstay adjuster' used for?",
           "image": "nautical_040.svg",
@@ -755,7 +755,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_041",
+          "id": "nautical_terms_051",
           "module": "nautical_terms",
           "question": "What is a 'jackline'?",
           "image": "nautical_041.svg",
@@ -770,7 +770,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_042",
+          "id": "nautical_terms_052",
           "module": "nautical_terms",
           "question": "What is a 'spreader'?",
           "image": "nautical_042.svg",
@@ -785,7 +785,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_043",
+          "id": "nautical_terms_053",
           "module": "nautical_terms",
           "question": "What is a 'turnbuckle' used for?",
           "image": "nautical_043.svg",
@@ -800,7 +800,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_044",
+          "id": "nautical_terms_054",
           "module": "nautical_terms",
           "question": "What is a 'bosun’s chair'?",
           "image": "nautical_044.svg",
@@ -815,7 +815,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_045",
+          "id": "nautical_terms_055",
           "module": "nautical_terms",
           "question": "What is the 'thwart' on a small boat?",
           "image": "nautical_045.svg",
@@ -830,7 +830,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_046",
+          "id": "nautical_terms_056",
           "module": "nautical_terms",
           "question": "What is a 'fairlead block'?",
           "image": "nautical_046.svg",
@@ -845,7 +845,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_047",
+          "id": "nautical_terms_057",
           "module": "nautical_terms",
           "question": "What is the 'hull speed' of a boat?",
           "image": "nautical_047.svg",
@@ -860,7 +860,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_048",
+          "id": "nautical_terms_058",
           "module": "nautical_terms",
           "question": "What is a 'toe rail'?",
           "image": "nautical_048.svg",
@@ -875,7 +875,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_049",
+          "id": "nautical_terms_059",
           "module": "nautical_terms",
           "question": "What is a 'backstay adjuster'?",
           "image": "nautical_049.svg",
@@ -890,7 +890,7 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "nautical_050",
+          "id": "nautical_terms_060",
           "module": "nautical_terms",
           "question": "What is a 'sprayhood'?",
           "image": "nautical_050.svg",
@@ -905,10 +905,10 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
   ],
-    chart_symbols: [
+  navigation: [
       {
-        id: 'chart_001',
-        module: 'chart_symbols',
+        id: 'navigation_001',
+        module: 'navigation',
         question: 'What does a red and white striped buoy indicate?',
         image: 'buoyage_001.svg',
         options: [
@@ -922,8 +922,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'chart_002',
-        module: 'chart_symbols',
+        id: 'navigation_002',
+        module: 'navigation',
         question: 'What does a black and yellow striped buoy with two black cones pointing upward indicate?',
         image: 'buoyage_002.svg',
         options: [
@@ -937,8 +937,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'chart_003',
-        module: 'chart_symbols',
+        id: 'navigation_003',
+        module: 'navigation',
         question: 'What does a red and white checkered buoy indicate?',
         image: 'buoyage_003.svg',
         options: [
@@ -952,8 +952,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'easy'
       },
       {
-        id: 'chart_004',
-        module: 'chart_symbols',
+        id: 'navigation_004',
+        module: 'navigation',
         question: 'What does a yellow buoy with an X topmark indicate?',
         image: 'buoyage_004.svg',
         options: [
@@ -967,8 +967,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'chart_005',
-        module: 'chart_symbols',
+        id: 'navigation_005',
+        module: 'navigation',
         question: 'What does a red buoy with a red light indicate?',
         image: 'buoyage_005.svg',
         options: [
@@ -982,8 +982,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'easy'
       },
       {
-        id: 'chart_006',
-        module: 'chart_symbols',
+        id: 'navigation_006',
+        module: 'navigation',
         question: 'What does a green buoy with a green light indicate?',
         image: 'buoyage_006.svg',
         options: [
@@ -997,8 +997,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'easy'
       },
       {
-        id: 'chart_007',
-        module: 'chart_symbols',
+        id: 'navigation_007',
+        module: 'navigation',
         question: 'What does a red and white vertically striped buoy indicate?',
         image: 'buoyage_007.svg',
         options: [
@@ -1012,8 +1012,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'easy'
       },
       {
-        id: 'chart_008',
-        module: 'chart_symbols',
+        id: 'navigation_008',
+        module: 'navigation',
         question: 'What does a black and yellow striped buoy with two black cones pointing downward indicate?',
         image: 'buoyage_008.svg',
         options: [
@@ -1027,8 +1027,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'chart_009',
-        module: 'chart_symbols',
+        id: 'navigation_009',
+        module: 'navigation',
         question: 'What does a black and yellow striped buoy with two black cones pointing away from each other indicate?',
         image: 'buoyage_009.svg',
         options: [
@@ -1042,8 +1042,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'chart_010',
-        module: 'chart_symbols',
+        id: 'navigation_010',
+        module: 'navigation',
         question: 'What does a black and yellow striped buoy with two black cones pointing toward each other indicate?',
         image: 'buoyage_010.svg',
         options: [
@@ -1057,8 +1057,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        "id": "chart_001",
-        "module": "chart_symbols",
+        "id": "navigation_011",
+        "module": "navigation",
         "question": "On a nautical chart, what does a blue shaded area usually represent?",
         "image": "chart_001.svg",
         "options": [
@@ -1072,8 +1072,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_002",
-        "module": "chart_symbols",
+        "id": "navigation_012",
+        "module": "navigation",
         "question": "What does an anchor symbol on a chart usually indicate?",
         "image": "chart_002.svg",
         "options": [
@@ -1087,8 +1087,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_003",
-        "module": "chart_symbols",
+        "id": "navigation_013",
+        "module": "navigation",
         "question": "What do magenta diamonds on a chart indicate?",
         "image": "chart_003.svg",
         "options": [
@@ -1102,8 +1102,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_004",
-        "module": "chart_symbols",
+        "id": "navigation_014",
+        "module": "navigation",
         "question": "On a chart, what does a magenta circle with a dot in the center usually represent?",
         "image": "chart_004.svg",
         "options": [
@@ -1117,8 +1117,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_005",
-        "module": "chart_symbols",
+        "id": "navigation_015",
+        "module": "navigation",
         "question": "What does the symbol of a small black cross usually represent on a chart?",
         "image": "chart_005.svg",
         "options": [
@@ -1132,8 +1132,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_006",
-        "module": "chart_symbols",
+        "id": "navigation_016",
+        "module": "navigation",
         "question": "What does the abbreviation 'F' next to a light on a chart mean?",
         "image": "chart_006.svg",
         "options": [
@@ -1147,8 +1147,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_007",
-        "module": "chart_symbols",
+        "id": "navigation_017",
+        "module": "navigation",
         "question": "What does the abbreviation 'Fl(3)10s' mean on a chart?",
         "image": "chart_007.svg",
         "options": [
@@ -1162,8 +1162,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_008",
-        "module": "chart_symbols",
+        "id": "navigation_018",
+        "module": "navigation",
         "question": "What does a black and yellow striped buoy with two black cones pointing downward indicate?",
         "image": "chart_008.svg",
         "options": [
@@ -1177,8 +1177,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_009",
-        "module": "chart_symbols",
+        "id": "navigation_019",
+        "module": "navigation",
         "question": "What does a symbol of a fish net with dots across a chart indicate?",
         "image": "chart_009.svg",
         "options": [
@@ -1192,8 +1192,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_010",
-        "module": "chart_symbols",
+        "id": "navigation_020",
+        "module": "navigation",
         "question": "What do magenta dashed lines on a chart usually represent?",
         "image": "chart_010.svg",
         "options": [
@@ -1207,8 +1207,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_011",
-        "module": "chart_symbols",
+        "id": "navigation_021",
+        "module": "navigation",
         "question": "What does the abbreviation 'Oc' next to a light mean?",
         "image": "chart_011.svg",
         "options": [
@@ -1222,8 +1222,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_012",
-        "module": "chart_symbols",
+        "id": "navigation_022",
+        "module": "navigation",
         "question": "What does a magenta 'P' symbol usually mark on charts?",
         "image": "chart_012.svg",
         "options": [
@@ -1237,8 +1237,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_013",
-        "module": "chart_symbols",
+        "id": "navigation_023",
+        "module": "navigation",
         "question": "What does a small open circle with a dot in the center on a chart indicate?",
         "image": "chart_013.svg",
         "options": [
@@ -1252,8 +1252,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_014",
-        "module": "chart_symbols",
+        "id": "navigation_024",
+        "module": "navigation",
         "question": "On a chart, what does 'PA' stand for near a depth sounding?",
         "image": "chart_014.svg",
         "options": [
@@ -1267,8 +1267,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_015",
-        "module": "chart_symbols",
+        "id": "navigation_025",
+        "module": "navigation",
         "question": "What does 'ED' stand for on a chart?",
         "image": "chart_015.svg",
         "options": [
@@ -1282,8 +1282,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_016",
-        "module": "chart_symbols",
+        "id": "navigation_026",
+        "module": "navigation",
         "question": "What symbol usually marks a submarine cable on charts?",
         "image": "chart_016.svg",
         "options": [
@@ -1297,8 +1297,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_017",
-        "module": "chart_symbols",
+        "id": "navigation_027",
+        "module": "navigation",
         "question": "What does a drying height symbol look like?",
         "image": "chart_017.svg",
         "options": [
@@ -1312,8 +1312,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_018",
-        "module": "chart_symbols",
+        "id": "navigation_028",
+        "module": "navigation",
         "question": "What does 'M' in seabed notation indicate?",
         "image": "chart_018.svg",
         "options": [
@@ -1327,8 +1327,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_019",
-        "module": "chart_symbols",
+        "id": "navigation_029",
+        "module": "navigation",
         "question": "What does 'S' in seabed notation indicate?",
         "image": "chart_019.svg",
         "options": [
@@ -1342,8 +1342,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_020",
-        "module": "chart_symbols",
+        "id": "navigation_030",
+        "module": "navigation",
         "question": "What does 'Sh' in seabed notation mean?",
         "image": "chart_020.svg",
         "options": [
@@ -1357,8 +1357,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_021",
-        "module": "chart_symbols",
+        "id": "navigation_031",
+        "module": "navigation",
         "question": "On a chart, what does 'Gr' in seabed notation indicate?",
         "image": "chart_021.svg",
         "options": [
@@ -1372,8 +1372,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_022",
-        "module": "chart_symbols",
+        "id": "navigation_032",
+        "module": "navigation",
         "question": "What does a symbol of a small circle with radiating lines mean?",
         "image": "chart_022.svg",
         "options": [
@@ -1387,8 +1387,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_023",
-        "module": "chart_symbols",
+        "id": "navigation_033",
+        "module": "navigation",
         "question": "What does a black square symbol usually represent?",
         "image": "chart_023.svg",
         "options": [
@@ -1402,8 +1402,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_024",
-        "module": "chart_symbols",
+        "id": "navigation_034",
+        "module": "navigation",
         "question": "What does the abbreviation 'Lt Ho' mean on a chart?",
         "image": "chart_024.svg",
         "options": [
@@ -1417,8 +1417,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_025",
-        "module": "chart_symbols",
+        "id": "navigation_035",
+        "module": "navigation",
         "question": "What does a purple TSS area marked on a chart indicate?",
         "image": "chart_025.svg",
         "options": [
@@ -1432,8 +1432,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_026",
-        "module": "chart_symbols",
+        "id": "navigation_036",
+        "module": "navigation",
         "question": "What does 'Wk' indicate on a chart?",
         "image": "chart_026.svg",
         "options": [
@@ -1447,8 +1447,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_027",
-        "module": "chart_symbols",
+        "id": "navigation_037",
+        "module": "navigation",
         "question": "What does the symbol of a dotted magenta circle around a buoy indicate?",
         "image": "chart_027.svg",
         "options": [
@@ -1462,8 +1462,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_028",
-        "module": "chart_symbols",
+        "id": "navigation_038",
+        "module": "navigation",
         "question": "What does the abbreviation 'Iso' mean for a light characteristic?",
         "image": "chart_028.svg",
         "options": [
@@ -1477,8 +1477,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_029",
-        "module": "chart_symbols",
+        "id": "navigation_039",
+        "module": "navigation",
         "question": "On a chart, what does 'Mo(A)' mean in a light description?",
         "image": "chart_029.svg",
         "options": [
@@ -1492,8 +1492,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "hard"
       },
       {
-        "id": "chart_030",
-        "module": "chart_symbols",
+        "id": "navigation_040",
+        "module": "navigation",
         "question": "What do two concentric magenta circles around a buoy symbol indicate?",
         "image": "chart_030.svg",
         "options": [
@@ -1507,8 +1507,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_031",
-        "module": "chart_symbols",
+        "id": "navigation_041",
+        "module": "navigation",
         "question": "What does the abbreviation 'Tr' mean in seabed notation?",
         "image": "chart_031.svg",
         "options": [
@@ -1522,8 +1522,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_032",
-        "module": "chart_symbols",
+        "id": "navigation_042",
+        "module": "navigation",
         "question": "What does 'Coral' in seabed notation indicate?",
         "image": "chart_032.svg",
         "options": [
@@ -1537,8 +1537,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_033",
-        "module": "chart_symbols",
+        "id": "navigation_043",
+        "module": "navigation",
         "question": "What does 'Bk' mean in seabed notation?",
         "image": "chart_033.svg",
         "options": [
@@ -1552,8 +1552,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_034",
-        "module": "chart_symbols",
+        "id": "navigation_044",
+        "module": "navigation",
         "question": "What symbol is used for a wreck that is considered dangerous?",
         "image": "chart_034.svg",
         "options": [
@@ -1567,8 +1567,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "hard"
       },
       {
-        "id": "chart_035",
-        "module": "chart_symbols",
+        "id": "navigation_045",
+        "module": "navigation",
         "question": "What does 'Obstn' mean on a chart?",
         "image": "chart_035.svg",
         "options": [
@@ -1582,8 +1582,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_036",
-        "module": "chart_symbols",
+        "id": "navigation_046",
+        "module": "navigation",
         "question": "What symbol marks a rock that is always covered by water?",
         "image": "chart_036.svg",
         "options": [
@@ -1597,8 +1597,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_037",
-        "module": "chart_symbols",
+        "id": "navigation_047",
+        "module": "navigation",
         "question": "What does the abbreviation 'VR' mean in a light description?",
         "image": "chart_037.svg",
         "options": [
@@ -1612,8 +1612,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_038",
-        "module": "chart_symbols",
+        "id": "navigation_048",
+        "module": "navigation",
         "question": "What does 'Unsurveyed' area shading on charts mean?",
         "image": "chart_038.svg",
         "options": [
@@ -1627,8 +1627,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_039",
-        "module": "chart_symbols",
+        "id": "navigation_049",
+        "module": "navigation",
         "question": "What does 'Pile' indicate on a chart?",
         "image": "chart_039.svg",
         "options": [
@@ -1642,8 +1642,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_040",
-        "module": "chart_symbols",
+        "id": "navigation_050",
+        "module": "navigation",
         "question": "What does 'Psn' mean on a chart?",
         "image": "chart_040.svg",
         "options": [
@@ -1657,8 +1657,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_041",
-        "module": "chart_symbols",
+        "id": "navigation_051",
+        "module": "navigation",
         "question": "What does a magenta anchor symbol with a circle mean?",
         "image": "chart_041.svg",
         "options": [
@@ -1672,8 +1672,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_042",
-        "module": "chart_symbols",
+        "id": "navigation_052",
+        "module": "navigation",
         "question": "What does a green or red sector light on a chart indicate?",
         "image": "chart_042.svg",
         "options": [
@@ -1687,8 +1687,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_043",
-        "module": "chart_symbols",
+        "id": "navigation_053",
+        "module": "navigation",
         "question": "What does a dotted black line across a charted area usually represent?",
         "image": "chart_043.svg",
         "options": [
@@ -1702,8 +1702,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_044",
-        "module": "chart_symbols",
+        "id": "navigation_054",
+        "module": "navigation",
         "question": "What does a star symbol with a dot represent on a chart?",
         "image": "chart_044.svg",
         "options": [
@@ -1717,8 +1717,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_045",
-        "module": "chart_symbols",
+        "id": "navigation_055",
+        "module": "navigation",
         "question": "What does 'Dir' in a light description mean?",
         "image": "chart_045.svg",
         "options": [
@@ -1732,8 +1732,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_046",
-        "module": "chart_symbols",
+        "id": "navigation_056",
+        "module": "navigation",
         "question": "What does a triangle symbol on land represent?",
         "image": "chart_046.svg",
         "options": [
@@ -1747,8 +1747,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_047",
-        "module": "chart_symbols",
+        "id": "navigation_057",
+        "module": "navigation",
         "question": "What does the abbreviation 'Fog Sig' mean on a chart?",
         "image": "chart_047.svg",
         "options": [
@@ -1762,8 +1762,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_048",
-        "module": "chart_symbols",
+        "id": "navigation_058",
+        "module": "navigation",
         "question": "What does 'N' represent in a seabed description?",
         "image": "chart_048.svg",
         "options": [
@@ -1777,8 +1777,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "hard"
       },
       {
-        "id": "chart_049",
-        "module": "chart_symbols",
+        "id": "navigation_059",
+        "module": "navigation",
         "question": "What does a bold magenta line across a charted channel usually represent?",
         "image": "chart_049.svg",
         "options": [
@@ -1792,8 +1792,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_050",
-        "module": "chart_symbols",
+        "id": "navigation_060",
+        "module": "navigation",
         "question": "What does the abbreviation 'Pile Lts' mean on a chart?",
         "image": "chart_050.svg",
         "options": [
@@ -1807,8 +1807,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_001",
-        "module": "chart_symbols",
+        "id": "navigation_061",
+        "module": "navigation",
         "question": "What does a lighthouse symbol on a chart indicate?",
         "image": "chart_001.svg",
         "options": [
@@ -1822,8 +1822,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_002",
-        "module": "chart_symbols",
+        "id": "navigation_062",
+        "module": "navigation",
         "question": "What symbol represents a wreck that is always submerged?",
         "image": "chart_002.svg",
         "options": [
@@ -1837,8 +1837,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_003",
-        "module": "chart_symbols",
+        "id": "navigation_063",
+        "module": "navigation",
         "question": "How is a marina depicted on a chart?",
         "image": "chart_003.svg",
         "options": [
@@ -1852,8 +1852,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_004",
-        "module": "chart_symbols",
+        "id": "navigation_064",
+        "module": "navigation",
         "question": "What does a depth contour line indicate?",
         "image": "chart_004.svg",
         "options": [
@@ -1867,8 +1867,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_005",
-        "module": "chart_symbols",
+        "id": "navigation_065",
+        "module": "navigation",
         "question": "How are rocks that are exposed at low water shown?",
         "image": "chart_005.svg",
         "options": [
@@ -1882,8 +1882,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_006",
-        "module": "chart_symbols",
+        "id": "navigation_066",
+        "module": "navigation",
         "question": "How is a sandbank depicted on a chart?",
         "image": "chart_006.svg",
         "options": [
@@ -1897,8 +1897,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_007",
-        "module": "chart_symbols",
+        "id": "navigation_067",
+        "module": "navigation",
         "question": "What does a light beacon symbol indicate?",
         "image": "chart_007.svg",
         "options": [
@@ -1912,8 +1912,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_008",
-        "module": "chart_symbols",
+        "id": "navigation_068",
+        "module": "navigation",
         "question": "What does a black and yellow striped buoy with two black cones pointing downward indicate?",
         "image": "chart_008.svg",
         "options": [
@@ -1927,8 +1927,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_009",
-        "module": "chart_symbols",
+        "id": "navigation_069",
+        "module": "navigation",
         "question": "How is a dangerous wreck indicated on a chart?",
         "image": "chart_009.svg",
         "options": [
@@ -1942,8 +1942,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_010",
-        "module": "chart_symbols",
+        "id": "navigation_070",
+        "module": "navigation",
         "question": "What does a magenta dashed line represent on a chart?",
         "image": "chart_010.svg",
         "options": [
@@ -1957,8 +1957,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_011",
-        "module": "chart_symbols",
+        "id": "navigation_071",
+        "module": "navigation",
         "question": "How are overhead cables shown on a chart?",
         "image": "chart_011.svg",
         "options": [
@@ -1972,8 +1972,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_012",
-        "module": "chart_symbols",
+        "id": "navigation_072",
+        "module": "navigation",
         "question": "What symbol is used for a bridge on a chart?",
         "image": "chart_012.svg",
         "options": [
@@ -1987,8 +1987,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_013",
-        "module": "chart_symbols",
+        "id": "navigation_073",
+        "module": "navigation",
         "question": "What colour represents shallow water on a chart?",
         "image": "chart_013.svg",
         "options": [
@@ -2002,8 +2002,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_014",
-        "module": "chart_symbols",
+        "id": "navigation_074",
+        "module": "navigation",
         "question": "How is a rock awash at high water shown on a chart?",
         "image": "chart_014.svg",
         "options": [
@@ -2017,8 +2017,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_015",
-        "module": "chart_symbols",
+        "id": "navigation_075",
+        "module": "navigation",
         "question": "What does a magenta circle with a dot in the centre indicate?",
         "image": "chart_015.svg",
         "options": [
@@ -2032,8 +2032,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_016",
-        "module": "chart_symbols",
+        "id": "navigation_076",
+        "module": "navigation",
         "question": "How is a light vessel shown on a chart?",
         "image": "chart_016.svg",
         "options": [
@@ -2047,8 +2047,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_017",
-        "module": "chart_symbols",
+        "id": "navigation_077",
+        "module": "navigation",
         "question": "What symbol shows an area where anchoring is prohibited?",
         "image": "chart_017.svg",
         "options": [
@@ -2062,8 +2062,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_018",
-        "module": "chart_symbols",
+        "id": "navigation_078",
+        "module": "navigation",
         "question": "How is a submarine cable indicated?",
         "image": "chart_018.svg",
         "options": [
@@ -2077,8 +2077,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_019",
-        "module": "chart_symbols",
+        "id": "navigation_079",
+        "module": "navigation",
         "question": "What symbol indicates a port or harbour?",
         "image": "chart_019.svg",
         "options": [
@@ -2092,8 +2092,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_020",
-        "module": "chart_symbols",
+        "id": "navigation_080",
+        "module": "navigation",
         "question": "What symbol shows an overhead obstruction such as a bridge or power line?",
         "image": "chart_020.svg",
         "options": [
@@ -2107,8 +2107,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_021",
-        "module": "chart_symbols",
+        "id": "navigation_081",
+        "module": "navigation",
         "question": "What is indicated by a triangle with a number inside on a chart?",
         "image": "chart_021.svg",
         "options": [
@@ -2122,8 +2122,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_022",
-        "module": "chart_symbols",
+        "id": "navigation_082",
+        "module": "navigation",
         "question": "How is an area of rocks that dries at low water shown?",
         "image": "chart_022.svg",
         "options": [
@@ -2137,8 +2137,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_023",
-        "module": "chart_symbols",
+        "id": "navigation_083",
+        "module": "navigation",
         "question": "How are tidal streams often represented on a chart?",
         "image": "chart_023.svg",
         "options": [
@@ -2152,8 +2152,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_024",
-        "module": "chart_symbols",
+        "id": "navigation_084",
+        "module": "navigation",
         "question": "What symbol indicates a marina or yacht haven?",
         "image": "chart_024.svg",
         "options": [
@@ -2167,8 +2167,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_025",
-        "module": "chart_symbols",
+        "id": "navigation_085",
+        "module": "navigation",
         "question": "How are buoys depicted on charts?",
         "image": "chart_025.svg",
         "options": [
@@ -2182,8 +2182,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_026",
-        "module": "chart_symbols",
+        "id": "navigation_086",
+        "module": "navigation",
         "question": "What does a red and white vertical striped buoy indicate?",
         "image": "chart_026.svg",
         "options": [
@@ -2197,8 +2197,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_027",
-        "module": "chart_symbols",
+        "id": "navigation_087",
+        "module": "navigation",
         "question": "How is a safe water mark represented on a chart?",
         "image": "chart_027.svg",
         "options": [
@@ -2212,8 +2212,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_028",
-        "module": "chart_symbols",
+        "id": "navigation_088",
+        "module": "navigation",
         "question": "Which symbol indicates a port-hand lateral buoy?",
         "image": "chart_028.svg",
         "options": [
@@ -2227,8 +2227,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_029",
-        "module": "chart_symbols",
+        "id": "navigation_089",
+        "module": "navigation",
         "question": "Which symbol indicates a starboard-hand lateral buoy?",
         "image": "chart_029.svg",
         "options": [
@@ -2242,8 +2242,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_030",
-        "module": "chart_symbols",
+        "id": "navigation_090",
+        "module": "navigation",
         "question": "What does a yellow special mark indicate?",
         "image": "chart_030.svg",
         "options": [
@@ -2257,8 +2257,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_031",
-        "module": "chart_symbols",
+        "id": "navigation_091",
+        "module": "navigation",
         "question": "How is a rock that is submerged shown on a chart?",
         "image": "chart_031.svg",
         "options": [
@@ -2272,8 +2272,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_032",
-        "module": "chart_symbols",
+        "id": "navigation_092",
+        "module": "navigation",
         "question": "What does a magenta symbol of a shipwreck indicate?",
         "image": "chart_032.svg",
         "options": [
@@ -2287,8 +2287,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_033",
-        "module": "chart_symbols",
+        "id": "navigation_093",
+        "module": "navigation",
         "question": "What does a sound signal symbol on a chart indicate?",
         "image": "chart_033.svg",
         "options": [
@@ -2302,8 +2302,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_034",
-        "module": "chart_symbols",
+        "id": "navigation_094",
+        "module": "navigation",
         "question": "How are tidal diamonds represented on a chart?",
         "image": "chart_034.svg",
         "options": [
@@ -2317,8 +2317,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_035",
-        "module": "chart_symbols",
+        "id": "navigation_095",
+        "module": "navigation",
         "question": "How is a cable area depicted on a chart?",
         "image": "chart_035.svg",
         "options": [
@@ -2332,8 +2332,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_036",
-        "module": "chart_symbols",
+        "id": "navigation_096",
+        "module": "navigation",
         "question": "How are depths shown on a chart?",
         "image": "chart_036.svg",
         "options": [
@@ -2347,8 +2347,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_037",
-        "module": "chart_symbols",
+        "id": "navigation_097",
+        "module": "navigation",
         "question": "What does a small black triangle symbol indicate?",
         "image": "chart_037.svg",
         "options": [
@@ -2362,8 +2362,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_038",
-        "module": "chart_symbols",
+        "id": "navigation_098",
+        "module": "navigation",
         "question": "How is a beacon indicated on a chart?",
         "image": "chart_038.svg",
         "options": [
@@ -2377,8 +2377,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_039",
-        "module": "chart_symbols",
+        "id": "navigation_099",
+        "module": "navigation",
         "question": "How are buoys with lights represented?",
         "image": "chart_039.svg",
         "options": [
@@ -2392,8 +2392,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_040",
-        "module": "chart_symbols",
+        "id": "navigation_100",
+        "module": "navigation",
         "question": "What colour is used for safe water areas?",
         "image": "chart_040.svg",
         "options": [
@@ -2407,8 +2407,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "chart_041",
-        "module": "chart_symbols",
+        "id": "navigation_101",
+        "module": "navigation",
         "question": "How is a drying height indicated?",
         "image": "chart_041.svg",
         "options": [
@@ -2422,8 +2422,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_042",
-        "module": "chart_symbols",
+        "id": "navigation_102",
+        "module": "navigation",
         "question": "What symbol represents a tidal stream direction?",
         "image": "chart_042.svg",
         "options": [
@@ -2437,8 +2437,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_043",
-        "module": "chart_symbols",
+        "id": "navigation_103",
+        "module": "navigation",
         "question": "How is a rock that dries at low water indicated?",
         "image": "chart_043.svg",
         "options": [
@@ -2452,8 +2452,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_044",
-        "module": "chart_symbols",
+        "id": "navigation_104",
+        "module": "navigation",
         "question": "What symbol shows a spoil ground or dredged area?",
         "image": "chart_044.svg",
         "options": [
@@ -2467,8 +2467,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_045",
-        "module": "chart_symbols",
+        "id": "navigation_105",
+        "module": "navigation",
         "question": "How is a prominent landmark indicated?",
         "image": "chart_045.svg",
         "options": [
@@ -2482,8 +2482,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_046",
-        "module": "chart_symbols",
+        "id": "navigation_106",
+        "module": "navigation",
         "question": "How are drying banks or flats shown?",
         "image": "chart_046.svg",
         "options": [
@@ -2497,8 +2497,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_047",
-        "module": "chart_symbols",
+        "id": "navigation_107",
+        "module": "navigation",
         "question": "What does a small circle with a letter inside indicate?",
         "image": "chart_047.svg",
         "options": [
@@ -2512,8 +2512,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_048",
-        "module": "chart_symbols",
+        "id": "navigation_108",
+        "module": "navigation",
         "question": "How is a power cable on a chart represented?",
         "image": "chart_048.svg",
         "options": [
@@ -2527,8 +2527,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_049",
-        "module": "chart_symbols",
+        "id": "navigation_109",
+        "module": "navigation",
         "question": "What symbol indicates a pilot boarding area?",
         "image": "chart_049.svg",
         "options": [
@@ -2542,8 +2542,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "chart_050",
-        "module": "chart_symbols",
+        "id": "navigation_110",
+        "module": "navigation",
         "question": "How is a radar reflector shown on a chart?",
         "image": "chart_050.svg",
         "options": [
@@ -2556,11 +2556,11 @@ export const questions: { [moduleId: string]: Question[] } = {
         "explanation": "Radar reflectors are shown as triangles or circles with an annotation to indicate presence on a buoy or structure.",
         "difficulty": "medium"
       },
-    ],
-    anchorwork: [
+  ],
+  pilotage_boat_handling: [
       {
         id: 'anchor_001',
-        module: 'anchorwork',
+        module: 'pilotage_boat_handling',
         question: 'What is the recommended scope for anchoring in good holding ground?',
         image: 'anchorwork_001.svg',
         options: [
@@ -2575,7 +2575,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       },
       {
         id: 'anchor_002',
-        module: 'anchorwork',
+        module: 'pilotage_boat_handling',
         question: 'What is the minimum scope recommended for anchoring in poor holding ground?',
         image: 'anchorwork_002.svg',
         options: [
@@ -2590,7 +2590,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       },
       {
         id: 'anchor_003',
-        module: 'anchorwork',
+        module: 'pilotage_boat_handling',
         question: 'What is the purpose of a snubber when anchoring?',
         image: 'anchorwork_003.svg',
         options: [
@@ -2605,7 +2605,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       },
       {
         id: 'anchor_004',
-        module: 'anchorwork',
+        module: 'pilotage_boat_handling',
         question: 'What is the recommended angle for setting an anchor?',
         image: 'anchorwork_004.svg',
         options: [
@@ -2620,7 +2620,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       },
       {
         id: 'anchor_005',
-        module: 'anchorwork',
+        module: 'pilotage_boat_handling',
         question: 'What is the purpose of a trip line when anchoring?',
         image: 'anchorwork_005.svg',
         options: [
@@ -2635,7 +2635,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       },
       {
         id: 'anchor_006',
-        module: 'anchorwork',
+        module: 'pilotage_boat_handling',
         question: 'What is the recommended minimum depth for anchoring?',
         image: 'anchorwork_006.svg',
         options: [
@@ -2650,7 +2650,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       },
       {
         id: 'anchor_007',
-        module: 'anchorwork',
+        module: 'pilotage_boat_handling',
         question: 'What is the purpose of a kedge anchor?',
         image: 'anchorwork_007.svg',
         options: [
@@ -2665,7 +2665,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       },
       {
         id: 'anchor_008',
-        module: 'anchorwork',
+        module: 'pilotage_boat_handling',
         question: 'What is the recommended material for anchor chain?',
         image: 'anchorwork_008.svg',
         options: [
@@ -2680,7 +2680,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       },
       {
         id: 'anchor_009',
-        module: 'anchorwork',
+        module: 'pilotage_boat_handling',
         question: 'What is the purpose of a chain stopper?',
         image: 'anchorwork_009.svg',
         options: [
@@ -2695,7 +2695,7 @@ export const questions: { [moduleId: string]: Question[] } = {
       },
       {
         id: 'anchor_010',
-        module: 'anchorwork',
+        module: 'pilotage_boat_handling',
         question: 'What is the recommended minimum weight for a primary anchor?',
         image: 'anchorwork_010.svg',
         options: [
@@ -2707,12 +2707,762 @@ export const questions: { [moduleId: string]: Question[] } = {
         correctAnswer: 1,
         explanation: 'The recommended minimum weight for a primary anchor is 2 kg per meter of boat length, providing adequate holding power.',
         difficulty: 'medium'
-      }
-    ],
-    lights: [
+      },
       {
-        id: 'lights_001',
-        module: 'lights',
+        "id": "passage_001",
+        "module": "pilotage_boat_handling",
+        "question": "What is the first step in passage planning?",
+        "image": "passage_001.svg",
+        "options": [
+          "Determine the intended route and waypoints",
+          "Check engine oil",
+          "Raise the sails",
+          "Lower the anchor"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The first step is to determine your intended route, including waypoints and overall course.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "passage_002",
+        "module": "pilotage_boat_handling",
+        "question": "Why is it important to check tides before passage?",
+        "image": "passage_002.svg",
+        "options": [
+          "Tides affect depth and current along the route",
+          "They determine sail color",
+          "They control wind speed",
+          "They change hull shape"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Tides impact water depth, potential grounding hazards, and set of currents along the planned route.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "passage_003",
+        "module": "pilotage_boat_handling",
+        "question": "What is a 'waypoint'?",
+        "image": "passage_003.svg",
+        "options": [
+          "A reference point along the route",
+          "Type of anchor",
+          "VHF channel",
+          "Sail type"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Waypoints are planned positions used to mark the intended path and aid navigation.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "passage_004",
+        "module": "pilotage_boat_handling",
+        "question": "Which factors should be considered when planning a passage?",
+        "image": "passage_004.svg",
+        "options": [
+          "Weather, tides, currents, hazards, and fuel",
+          "Only the color of the sails",
+          "Crew clothing",
+          "Anchor type"
+        ],
+        "correctAnswer": 0,
+        "explanation": "A good plan considers all environmental, mechanical, and safety factors.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_005",
+        "module": "pilotage_boat_handling",
+        "question": "What is a 'rhumb line'?",
+        "image": "passage_005.svg",
+        "options": [
+          "A straight line on a chart following constant compass bearing",
+          "A current line",
+          "An anchor path",
+          "A wind direction marker"
+        ],
+        "correctAnswer": 0,
+        "explanation": "A rhumb line maintains a constant compass direction between two points.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_006",
+        "module": "pilotage_boat_handling",
+        "question": "Why should hazards be marked on a passage plan?",
+        "image": "passage_006.svg",
+        "options": [
+          "To avoid grounding or collisions",
+          "To decorate the chart",
+          "To identify fishing areas",
+          "To plan meals"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Marking hazards ensures the route is safe and navigable.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_007",
+        "module": "pilotage_boat_handling",
+        "question": "What is the purpose of checking weather forecasts before a passage?",
+        "image": "passage_007.svg",
+        "options": [
+          "To avoid adverse conditions and plan sails accordingly",
+          "To choose sail color",
+          "To locate mooring buoys",
+          "To check tides only"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Understanding the forecast helps avoid dangerous conditions and plan a safe journey.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "passage_008",
+        "module": "pilotage_boat_handling",
+        "question": "What is 'dead reckoning'?",
+        "image": "passage_008.svg",
+        "options": [
+          "Estimating position using course, speed, and time",
+          "Using GPS only",
+          "Following another vessel",
+          "Relying on tides"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Dead reckoning estimates the current position based on previous known position, course, speed, and time.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_009",
+        "module": "pilotage_boat_handling",
+        "question": "Why is it important to plan fuel requirements?",
+        "image": "passage_009.svg",
+        "options": [
+          "To ensure enough fuel for the passage and contingencies",
+          "To measure hull speed",
+          "To raise sails",
+          "To mark waypoints"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Planning fuel prevents being stranded due to insufficient power during the passage.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_010",
+        "module": "pilotage_boat_handling",
+        "question": "What is the 'set' of a current?",
+        "image": "passage_010.svg",
+        "options": [
+          "Direction in which the current flows",
+          "Speed of wind",
+          "Compass heading",
+          "Distance sailed"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Set indicates the direction the current is moving, which affects course over ground.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_011",
+        "module": "pilotage_boat_handling",
+        "question": "What is 'drift' in navigation?",
+        "image": "passage_011.svg",
+        "options": [
+          "Distance vessel is pushed off course by wind or current",
+          "Speed of the vessel",
+          "Compass error",
+          "Anchor slippage"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Drift is the lateral movement caused by wind or current affecting the intended track.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_012",
+        "module": "pilotage_boat_handling",
+        "question": "Why is it important to identify safe anchorages along a passage?",
+        "image": "passage_012.svg",
+        "options": [
+          "To have options in case of bad weather or emergency",
+          "To practice mooring",
+          "To mark landmarks",
+          "To find fishing spots"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Safe anchorages provide protection and options to wait out weather or emergencies.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_013",
+        "module": "pilotage_boat_handling",
+        "question": "What should be noted about navigational aids in a passage plan?",
+        "image": "passage_013.svg",
+        "options": [
+          "Positions, colors, and characteristics",
+          "Anchor type",
+          "Sail type",
+          "Hull shape"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Knowing navigational aids ensures correct course tracking and hazard avoidance.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_014",
+        "module": "pilotage_boat_handling",
+        "question": "Why is it important to check the tides at both departure and arrival points?",
+        "image": "passage_014.svg",
+        "options": [
+          "To ensure safe depth and avoid grounding",
+          "To plan meals",
+          "To raise sails",
+          "To mark waypoints"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Tidal heights affect safe navigation into harbors and over shallow areas.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_015",
+        "module": "pilotage_boat_handling",
+        "question": "What is a 'contingency plan' in passage planning?",
+        "image": "passage_015.svg",
+        "options": [
+          "Alternate actions for emergencies or bad weather",
+          "Optional sightseeing route",
+          "Sail color scheme",
+          "Anchor type"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Contingency plans help ensure safety if the original plan cannot be followed.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_016",
+        "module": "pilotage_boat_handling",
+        "question": "What is the purpose of calculating ETA (Estimated Time of Arrival)?",
+        "image": "passage_016.svg",
+        "options": [
+          "To plan tides, daylight, and arrival safely",
+          "To choose sail color",
+          "To find anchorage only",
+          "To check engine oil"
+        ],
+        "correctAnswer": 0,
+        "explanation": "ETA ensures passage is planned with tides, daylight, and safe arrival in mind.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "passage_017",
+        "module": "pilotage_boat_handling",
+        "question": "Why is it important to review Notices to Mariners before a passage?",
+        "image": "passage_017.svg",
+        "options": [
+          "They provide updates on hazards, changes, and aids to navigation",
+          "To check sail types",
+          "To plan meals",
+          "To measure drift"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Notices to Mariners provide essential updates affecting navigation and safety.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_018",
+        "module": "pilotage_boat_handling",
+        "question": "What is a 'lead line' used for in passage planning?",
+        "image": "passage_018.svg",
+        "options": [
+          "To measure water depth",
+          "To raise sails",
+          "To measure wind speed",
+          "To steer"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Lead lines help determine depth to avoid grounding, especially in shallow waters.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_019",
+        "module": "pilotage_boat_handling",
+        "question": "What is 'course over ground' (COG)?",
+        "image": "passage_019.svg",
+        "options": [
+          "Actual direction traveled over water, accounting for wind and current",
+          "Compass heading",
+          "Engine RPM",
+          "Tide height"
+        ],
+        "correctAnswer": 0,
+        "explanation": "COG accounts for drift and set to show true path over the ground.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_020",
+        "module": "pilotage_boat_handling",
+        "question": "What is 'safe speed' in passage planning?",
+        "image": "passage_020.svg",
+        "options": [
+          "Speed that allows safe navigation considering conditions and hazards",
+          "Maximum engine speed",
+          "Wind speed",
+          "Sail trim speed"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Safe speed ensures the vessel can react to hazards or other traffic safely.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_021",
+        "module": "pilotage_boat_handling",
+        "question": "Why is crew briefing important before passage?",
+        "image": "passage_021.svg",
+        "options": [
+          "To ensure everyone understands duties, safety, and plan",
+          "To check clothing color",
+          "To mark sails",
+          "To hoist anchor"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Crew understanding enhances safety and efficiency during the passage.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "passage_022",
+        "module": "pilotage_boat_handling",
+        "question": "What is a 'traffic separation scheme'?",
+        "image": "passage_022.svg",
+        "options": [
+          "Designated lanes for vessel traffic to avoid collisions",
+          "Route for sailboats only",
+          "Anchoring area",
+          "Fishing zone"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Traffic separation schemes organize vessel movement to reduce collision risk in busy areas.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_023",
+        "module": "pilotage_boat_handling",
+        "question": "What is the purpose of noting navigational warnings in passage planning?",
+        "image": "passage_023.svg",
+        "options": [
+          "To anticipate hazards or restricted areas",
+          "To check sail trim",
+          "To plan meals",
+          "To find anchorage"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Warnings alert navigators to temporary or permanent hazards along the route.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_024",
+        "module": "pilotage_boat_handling",
+        "question": "Why is it recommended to plan alternative routes?",
+        "image": "passage_024.svg",
+        "options": [
+          "To provide options in case of weather changes or hazards",
+          "To decorate the chart",
+          "To plan meals",
+          "To choose sails"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Alternative routes ensure flexibility and safety if the planned passage cannot be followed.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_025",
+        "module": "pilotage_boat_handling",
+        "question": "What is the purpose of plotting compass bearings on a passage plan?",
+        "image": "passage_025.svg",
+        "options": [
+          "To follow correct headings between waypoints",
+          "To measure speed",
+          "To mark tides",
+          "To plan meals"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Compass bearings guide the vessel along the intended route accurately.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_026",
+        "module": "pilotage_boat_handling",
+        "question": "Why should you consider daylight hours in passage planning?",
+        "image": "passage_026.svg",
+        "options": [
+          "To ensure navigation is done in good visibility",
+          "To time meals",
+          "To decorate sails",
+          "To check engine oil"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Daylight ensures safer navigation and easier identification of hazards and aids to navigation.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "passage_027",
+        "module": "pilotage_boat_handling",
+        "question": "What is a 'course to steer'?",
+        "image": "passage_027.svg",
+        "options": [
+          "The heading a vessel must follow to reach a waypoint",
+          "The wind direction",
+          "Tide height",
+          "Anchor line length"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Course to steer is the intended compass heading accounting for currents and drift to reach a waypoint.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_028",
+        "module": "pilotage_boat_handling",
+        "question": "Why is it important to mark restricted areas on a chart?",
+        "image": "passage_028.svg",
+        "options": [
+          "To avoid violating regulations and potential hazards",
+          "To plan meals",
+          "To find a mooring",
+          "To measure wind"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Restricted areas may include military zones, environmentally protected areas, or navigational hazards.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_029",
+        "module": "pilotage_boat_handling",
+        "question": "What is the purpose of checking local Notices to Mariners?",
+        "image": "passage_029.svg",
+        "options": [
+          "To update charts with hazards, buoys, and changes",
+          "To plan meals",
+          "To raise sails",
+          "To mark tides"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Notices to Mariners provide vital information that could affect the safety of your passage.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_030",
+        "module": "pilotage_boat_handling",
+        "question": "Why is it important to plan for fuel reserves?",
+        "image": "passage_030.svg",
+        "options": [
+          "To allow for delays, detours, or emergencies",
+          "To measure wind",
+          "To decorate the chart",
+          "To adjust sails"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Fuel reserves provide a safety margin in case of unexpected circumstances.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_031",
+        "module": "pilotage_boat_handling",
+        "question": "What is a 'safe water mark'?",
+        "image": "passage_031.svg",
+        "options": [
+          "Indicates deep water safe for passage",
+          "A point of hazard",
+          "A restricted area",
+          "An anchorage"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Safe water marks indicate navigable water with no immediate dangers.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_032",
+        "module": "pilotage_boat_handling",
+        "question": "Why should weather forecasts be checked for the whole passage, not just departure?",
+        "image": "passage_032.svg",
+        "options": [
+          "To anticipate changes en route and adjust plan accordingly",
+          "To plan meals",
+          "To measure anchor line",
+          "To decorate chart"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Weather conditions can change along the route, affecting safety and timing.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_033",
+        "module": "pilotage_boat_handling",
+        "question": "What is the importance of noting shipping lanes in a passage plan?",
+        "image": "passage_033.svg",
+        "options": [
+          "To avoid collision with larger vessels",
+          "To mark anchor points",
+          "To measure wind",
+          "To raise sails"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Awareness of traffic lanes ensures safe navigation in busy waterways.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_034",
+        "module": "pilotage_boat_handling",
+        "question": "What is a 'pilot station'?",
+        "image": "passage_034.svg",
+        "options": [
+          "Location where maritime pilots can be boarded",
+          "Anchor point",
+          "Sail type",
+          "Rudder fitting"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Pilot stations allow vessels to take on local pilots for safe navigation in confined waters.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_035",
+        "module": "pilotage_boat_handling",
+        "question": "What is a 'lead line' used for in shallow water navigation?",
+        "image": "passage_035.svg",
+        "options": [
+          "Measure water depth to avoid grounding",
+          "Check wind speed",
+          "Adjust sail trim",
+          "Measure engine output"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Lead lines provide depth measurements when navigating areas with uncertain or shallow water.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_036",
+        "module": "pilotage_boat_handling",
+        "question": "Why should you consider crew experience in passage planning?",
+        "image": "passage_036.svg",
+        "options": [
+          "To assign suitable tasks and ensure safety",
+          "To choose sail color",
+          "To mark anchor",
+          "To decorate chart"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Assigning appropriate duties based on experience helps maintain safe operation.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "passage_037",
+        "module": "pilotage_boat_handling",
+        "question": "What is the purpose of identifying safe harbors along a route?",
+        "image": "passage_037.svg",
+        "options": [
+          "For shelter in bad weather or emergencies",
+          "To raise sails",
+          "To plan meals",
+          "To measure wind"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Safe harbors provide refuge and options for altering the passage in poor conditions.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_038",
+        "module": "pilotage_boat_handling",
+        "question": "Why should navigational hazards be checked before passage?",
+        "image": "passage_038.svg",
+        "options": [
+          "To avoid grounding, collisions, or other accidents",
+          "To plan meals",
+          "To decorate the chart",
+          "To adjust sails"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Identifying hazards is essential for safe and efficient navigation.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_039",
+        "module": "pilotage_boat_handling",
+        "question": "Why is it important to note currents on the route?",
+        "image": "passage_039.svg",
+        "options": [
+          "They affect speed, course over ground, and fuel consumption",
+          "They determine sail color",
+          "They mark hazards",
+          "They guide anchoring"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Currents can push the vessel off course or affect timing and fuel usage.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_040",
+        "module": "pilotage_boat_handling",
+        "question": "Why should you include contingency anchorages in a passage plan?",
+        "image": "passage_040.svg",
+        "options": [
+          "For use in case primary anchorages are unsafe or full",
+          "To measure wind",
+          "To raise sails",
+          "To plan meals"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Contingency anchorages provide alternative safe stopping points if conditions change.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_041",
+        "module": "pilotage_boat_handling",
+        "question": "What is the importance of reviewing navigational charts before a passage?",
+        "image": "passage_041.svg",
+        "options": [
+          "To identify hazards, depths, and aids to navigation",
+          "To plan meals",
+          "To adjust sails",
+          "To check engine oil"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Charts provide critical information needed for safe navigation and planning.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_042",
+        "module": "pilotage_boat_handling",
+        "question": "Why should a vessel consider its draft in passage planning?",
+        "image": "passage_042.svg",
+        "options": [
+          "To avoid grounding in shallow waters",
+          "To check wind",
+          "To raise sails",
+          "To plan meals"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Knowing the vessel's draft ensures it can safely navigate areas of limited depth.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_043",
+        "module": "pilotage_boat_handling",
+        "question": "Why should you consider daylight and night navigation separately?",
+        "image": "passage_043.svg",
+        "options": [
+          "Visibility and hazards differ, requiring different planning",
+          "To plan meals",
+          "To decorate sails",
+          "To measure wind"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Day and night conditions affect visibility and risk; plans must account for both.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_044",
+        "module": "pilotage_boat_handling",
+        "question": "What is the importance of checking pilotage information?",
+        "image": "passage_044.svg",
+        "options": [
+          "To understand local navigation aids, channels, and procedures",
+          "To plan meals",
+          "To decorate the chart",
+          "To check engine oil"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Pilotage guides provide vital local knowledge for safe navigation.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_045",
+        "module": "pilotage_boat_handling",
+        "question": "Why should you plan for communications during the passage?",
+        "image": "passage_045.svg",
+        "options": [
+          "To maintain contact with shore, other vessels, and emergency services",
+          "To decorate the chart",
+          "To check sails",
+          "To measure drift"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Communication planning ensures help is available in case of emergencies or changing conditions.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_046",
+        "module": "pilotage_boat_handling",
+        "question": "Why is it important to plan fuel consumption considering wind and current?",
+        "image": "passage_046.svg",
+        "options": [
+          "Wind and current affect speed and fuel usage",
+          "To mark charts",
+          "To decorate sails",
+          "To plan meals"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Wind and current can slow or speed up the vessel, affecting how much fuel is needed.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_047",
+        "module": "pilotage_boat_handling",
+        "question": "Why is it important to plot tidal streams on a passage plan?",
+        "image": "passage_047.svg",
+        "options": [
+          "To account for their effect on vessel speed and course over ground",
+          "To decorate the chart",
+          "To plan meals",
+          "To check engine"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Tidal streams can push the vessel off course or help it along, so planning is essential.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_048",
+        "module": "pilotage_boat_handling",
+        "question": "What is the purpose of noting landmarks in a passage plan?",
+        "image": "passage_048.svg",
+        "options": [
+          "To aid visual navigation and position fixing",
+          "To check wind",
+          "To decorate the chart",
+          "To plan meals"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Landmarks help confirm position and guide safe navigation along the route.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_049",
+        "module": "pilotage_boat_handling",
+        "question": "Why should weather windows be considered in passage planning?",
+        "image": "passage_049.svg",
+        "options": [
+          "To depart and arrive in favorable conditions",
+          "To decorate sails",
+          "To plan meals",
+          "To mark charts"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Weather windows allow the passage to be made safely, avoiding storms or high winds.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "passage_050",
+        "module": "pilotage_boat_handling",
+        "question": "Why should a passage plan be shared with someone on shore?",
+        "image": "passage_050.svg",
+        "options": [
+          "So someone knows your route and expected arrival for safety",
+          "To decorate the chart",
+          "To check sails",
+          "To measure wind"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Sharing the plan ensures that someone can raise the alarm if the vessel does not arrive as expected.",
+        "difficulty": "easy"
+      },
+  ],
+  rules_of_the_road: [
+      {
+        id: 'rules_of_the_road_001',
+        module: 'rules_of_the_road',
         question: 'What does a white light over a red light indicate?',
         image: 'lights_001.svg',
         options: [
@@ -2726,8 +3476,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'lights_002',
-        module: 'lights',
+        id: 'rules_of_the_road_002',
+        module: 'rules_of_the_road',
         question: 'What does a red light over a white light indicate?',
         image: 'lights_002.svg',
         options: [
@@ -2741,8 +3491,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'lights_003',
-        module: 'lights',
+        id: 'rules_of_the_road_003',
+        module: 'rules_of_the_road',
         question: 'What does a green light over a white light indicate?',
         image: 'lights_003.svg',
         options: [
@@ -2756,8 +3506,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'lights_004',
-        module: 'lights',
+        id: 'rules_of_the_road_004',
+        module: 'rules_of_the_road',
         question: 'What does a white light over a red light over a white light indicate?',
         image: 'lights_004.svg',
         options: [
@@ -2771,8 +3521,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'lights_005',
-        module: 'lights',
+        id: 'rules_of_the_road_005',
+        module: 'rules_of_the_road',
         question: 'What does a yellow light over a white light indicate?',
         image: 'lights_005.svg',
         options: [
@@ -2786,8 +3536,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'lights_006',
-        module: 'lights',
+        id: 'rules_of_the_road_006',
+        module: 'rules_of_the_road',
         question: 'What does a red light over a red light indicate?',
         image: 'lights_006.svg',
         options: [
@@ -2801,8 +3551,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'lights_007',
-        module: 'lights',
+        id: 'rules_of_the_road_007',
+        module: 'rules_of_the_road',
         question: 'What does a green light over a green light indicate?',
         image: 'lights_007.svg',
         options: [
@@ -2816,8 +3566,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'lights_008',
-        module: 'lights',
+        id: 'rules_of_the_road_008',
+        module: 'rules_of_the_road',
         question: 'What does a white light over a white light indicate?',
         image: 'lights_008.svg',
         options: [
@@ -2831,8 +3581,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'lights_009',
-        module: 'lights',
+        id: 'rules_of_the_road_009',
+        module: 'rules_of_the_road',
         question: 'What does a yellow light over a yellow light indicate?',
         image: 'lights_009.svg',
         options: [
@@ -2846,8 +3596,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'lights_010',
-        module: 'lights',
+        id: 'rules_of_the_road_010',
+        module: 'rules_of_the_road',
         question: 'What does a red light over a green light indicate?',
         image: 'lights_010.svg',
         options: [
@@ -2859,12 +3609,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         correctAnswer: 0,
         explanation: 'A red light over a green light indicates a vessel not under command, meaning it cannot maneuver as required by the rules.',
         difficulty: 'medium'
-      }
-    ],
-    buoyage: [
+      },
       {
-        id: 'buoy_001',
-        module: 'buoyage',
+        id: 'rules_of_the_road_011',
+        module: 'rules_of_the_road',
         question: 'What does a red and white horizontally striped buoy indicate?',
         image: 'buoyage_001.svg',
         options: [
@@ -2878,8 +3626,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'easy'
       },
       {
-        id: 'buoy_002',
-        module: 'buoyage',
+        id: 'rules_of_the_road_012',
+        module: 'rules_of_the_road',
         question: 'What does a black and yellow vertically striped buoy indicate?',
         image: 'buoyage_002.svg',
         options: [
@@ -2893,8 +3641,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'buoy_003',
-        module: 'buoyage',
+        id: 'rules_of_the_road_013',
+        module: 'rules_of_the_road',
         question: 'What does a red and white diagonally striped buoy indicate?',
         image: 'buoyage_003.svg',
         options: [
@@ -2908,10 +3656,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'buoy_004',
-        module: 'buoyage',
+        id: 'rules_of_the_road_014',
+        module: 'rules_of_the_road',
         question: 'What does a yellow buoy with a yellow light indicate?',
-        image: 'buoyage_004.svg',
+        image: 'iala_special_mark.svg',
         options: [
           'Safe water mark',
           'Cardinal mark',
@@ -2923,8 +3671,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'buoy_005',
-        module: 'buoyage',
+        id: 'rules_of_the_road_015',
+        module: 'rules_of_the_road',
         question: 'What does a red buoy with a red light indicate?',
         image: 'buoyage_005.svg',
         options: [
@@ -2938,8 +3686,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'easy'
       },
       {
-        id: 'buoy_006',
-        module: 'buoyage',
+        id: 'rules_of_the_road_016',
+        module: 'rules_of_the_road',
         question: 'What does a green buoy with a green light indicate?',
         image: 'buoyage_006.svg',
         options: [
@@ -2953,10 +3701,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'easy'
       },
       {
-        id: 'buoy_007',
-        module: 'buoyage',
+        id: 'rules_of_the_road_017',
+        module: 'rules_of_the_road',
         question: 'What does a red and white vertically striped buoy indicate?',
-        image: 'buoyage_007.svg',
+        image: 'iala_safe_water.svg',
         options: [
           'Safe water mark',
           'Cardinal mark',
@@ -2968,10 +3716,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'easy'
       },
       {
-        id: 'buoy_008',
-        module: 'buoyage',
+        id: 'rules_of_the_road_018',
+        module: 'rules_of_the_road',
         question: 'What does a black and yellow horizontally striped buoy indicate?',
-        image: 'buoyage_008.svg',
+        image: 'iala_cardinal_north.svg',
         options: [
           'Safe water mark',
           'Cardinal mark',
@@ -2983,8 +3731,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'buoy_009',
-        module: 'buoyage',
+        id: 'rules_of_the_road_019',
+        module: 'rules_of_the_road',
         question: 'What does a red and white checkered buoy indicate?',
         image: 'buoyage_009.svg',
         options: [
@@ -2998,10 +3746,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'easy'
       },
       {
-        id: 'buoy_010',
-        module: 'buoyage',
+        id: 'rules_of_the_road_020',
+        module: 'rules_of_the_road',
         question: 'What does a yellow buoy with an X topmark indicate?',
-        image: 'buoyage_010.svg',
+        image: 'iala_special_mark.svg',
         options: [
           'Safe water mark',
           'Cardinal mark',
@@ -3013,10 +3761,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        "id": "buoyage_001",
-        "module": "buoyage",
-        "question": "What does a north cardinal mark indicate?",
-        "image": "buoyage_001.svg",
+        "id": "rules_of_the_road_021",
+        "module": "rules_of_the_road",
+        "question": "What does this buoy indicate?",
+        "image": "iala_cardinal_north.svg",
         "options": [
           "Safe water to the north",
           "Safe water to the south",
@@ -3028,10 +3776,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "buoyage_002",
-        "module": "buoyage",
+        "id": "rules_of_the_road_022",
+        "module": "rules_of_the_road",
         "question": "What colour is a south cardinal buoy?",
-        "image": "buoyage_002.svg",
         "options": [
           "Black with yellow band",
           "Yellow with black band",
@@ -3043,10 +3790,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "buoyage_003",
-        "module": "buoyage",
+        "id": "rules_of_the_road_023",
+        "module": "rules_of_the_road",
         "question": "What topmark is found on an east cardinal buoy?",
-        "image": "buoyage_003.svg",
         "options": [
           "Two cones pointing upward",
           "Two cones pointing downward",
@@ -3058,10 +3804,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "buoyage_004",
-        "module": "buoyage",
+        "id": "rules_of_the_road_024",
+        "module": "rules_of_the_road",
         "question": "What is the colour scheme of a west cardinal buoy?",
-        "image": "buoyage_004.svg",
         "options": [
           "Yellow-Black-Yellow",
           "Black-Yellow-Black",
@@ -3073,10 +3818,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "buoyage_005",
-        "module": "buoyage",
-        "question": "What light characteristic does a north cardinal buoy display?",
-        "image": "buoyage_005.svg",
+        "id": "rules_of_the_road_025",
+        "module": "rules_of_the_road",
+        "question": "What light characteristic does this buoy display?",
+        "image": "iala_cardinal_north.svg",
         "options": [
           "Continuous flashing",
           "Quick or very quick flashing",
@@ -3088,10 +3833,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "buoyage_006",
-        "module": "buoyage",
-        "question": "What is the light characteristic of a south cardinal buoy?",
-        "image": "buoyage_006.svg",
+        "id": "rules_of_the_road_026",
+        "module": "rules_of_the_road",
+        "question": "What is the light characteristic of this buoy?",
+        "image": "iala_cardinal_south.svg",
         "options": [
           "Q(6)+LFl",
           "Q(9)",
@@ -3103,10 +3848,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "hard"
       },
       {
-        "id": "buoyage_007",
-        "module": "buoyage",
-        "question": "How many flashes does an east cardinal buoy display?",
-        "image": "buoyage_007.svg",
+        "id": "rules_of_the_road_027",
+        "module": "rules_of_the_road",
+        "question": "How many flashes does this buoy display?",
+        "image": "iala_cardinal_east.svg",
         "options": [
           "3",
           "6",
@@ -3118,10 +3863,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "buoyage_008",
-        "module": "buoyage",
-        "question": "What light sequence identifies a west cardinal buoy?",
-        "image": "buoyage_008.svg",
+        "id": "rules_of_the_road_028",
+        "module": "rules_of_the_road",
+        "question": "What light sequence does this buoy display?",
+        "image": "iala_cardinal_west.svg",
         "options": [
           "6 flashes + 1 long",
           "9 flashes",
@@ -3133,10 +3878,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "buoyage_009",
-        "module": "buoyage",
+        "id": "rules_of_the_road_029",
+        "module": "rules_of_the_road",
         "question": "What colour is an isolated danger mark?",
-        "image": "buoyage_009.svg",
         "options": [
           "Red and black horizontal bands",
           "Black and yellow vertical stripes",
@@ -3148,10 +3892,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "buoyage_010",
-        "module": "buoyage",
+        "id": "rules_of_the_road_030",
+        "module": "rules_of_the_road",
         "question": "What is the topmark of an isolated danger mark?",
-        "image": "buoyage_010.svg",
         "options": [
           "Two black spheres",
           "Two cones point-to-point",
@@ -3163,10 +3906,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "buoyage_011",
-        "module": "buoyage",
-        "question": "What is the light characteristic of an isolated danger mark?",
-        "image": "buoyage_011.svg",
+        "id": "rules_of_the_road_031",
+        "module": "rules_of_the_road",
+        "question": "What is the light characteristic of this mark?",
+        "image": "iala_isolated_danger.svg",
         "options": [
           "White Fl(2)",
           "Red Iso 4s",
@@ -3178,10 +3921,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "buoyage_012",
-        "module": "buoyage",
-        "question": "What does a safe water mark indicate?",
-        "image": "buoyage_012.svg",
+        "id": "rules_of_the_road_032",
+        "module": "rules_of_the_road",
+        "question": "What does this mark indicate?",
+        "image": "iala_safe_water.svg",
         "options": [
           "Preferred channel",
           "Centre of a channel or landfall",
@@ -3193,10 +3936,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "buoyage_013",
-        "module": "buoyage",
+        "id": "rules_of_the_road_033",
+        "module": "rules_of_the_road",
         "question": "What is the colour scheme of a safe water mark?",
-        "image": "buoyage_013.svg",
         "options": [
           "Red and white vertical stripes",
           "Black and yellow bands",
@@ -3208,10 +3950,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "buoyage_014",
-        "module": "buoyage",
+        "id": "rules_of_the_road_034",
+        "module": "rules_of_the_road",
         "question": "What topmark does a safe water mark have?",
-        "image": "buoyage_014.svg",
         "options": [
           "Red sphere",
           "Two cones",
@@ -3223,10 +3964,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "buoyage_015",
-        "module": "buoyage",
-        "question": "What light characteristic does a safe water mark display?",
-        "image": "buoyage_015.svg",
+        "id": "rules_of_the_road_035",
+        "module": "rules_of_the_road",
+        "question": "What light characteristic does this mark display?",
+        "image": "iala_safe_water.svg",
         "options": [
           "White Iso 10s",
           "White Morse 'A'",
@@ -3238,10 +3979,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "buoyage_016",
-        "module": "buoyage",
-        "question": "What do special marks indicate?",
-        "image": "buoyage_016.svg",
+        "id": "rules_of_the_road_036",
+        "module": "rules_of_the_road",
+        "question": "What does this mark indicate?",
+        "image": "iala_special_mark.svg",
         "options": [
           "General danger",
           "Safe water",
@@ -3253,10 +3994,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "buoyage_017",
-        "module": "buoyage",
+        "id": "rules_of_the_road_037",
+        "module": "rules_of_the_road",
         "question": "What colour are special marks?",
-        "image": "buoyage_017.svg",
         "options": [
           "Black",
           "Yellow",
@@ -3268,10 +4008,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "buoyage_018",
-        "module": "buoyage",
+        "id": "rules_of_the_road_038",
+        "module": "rules_of_the_road",
         "question": "What is the topmark of a special mark?",
-        "image": "buoyage_018.svg",
         "options": [
           "Yellow cross",
           "Yellow sphere",
@@ -3283,10 +4022,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "buoyage_019",
-        "module": "buoyage",
-        "question": "What light characteristics do special marks display?",
-        "image": "buoyage_019.svg",
+        "id": "rules_of_the_road_039",
+        "module": "rules_of_the_road",
+        "question": "What light characteristics does this mark display?",
+        "image": "iala_special_mark.svg",
         "options": [
           "Yellow, any rhythm not used for cardinal, isolated danger, or safe water",
           "White Iso",
@@ -3298,10 +4037,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "buoyage_020",
-        "module": "buoyage",
+        "id": "rules_of_the_road_040",
+        "module": "rules_of_the_road",
         "question": "In IALA Region A, what colour is a port-hand lateral mark?",
-        "image": "buoyage_020.svg",
         "options": [
           "Red",
           "Green",
@@ -3313,10 +4051,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "buoyage_021",
-        "module": "buoyage",
+        "id": "rules_of_the_road_041",
+        "module": "rules_of_the_road",
         "question": "What shape is the topmark of a port-hand buoy in Region A?",
-        "image": "buoyage_021.svg",
         "options": [
           "Can (cylindrical)",
           "Cone (point up)",
@@ -3328,10 +4065,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "buoyage_022",
-        "module": "buoyage",
+        "id": "rules_of_the_road_042",
+        "module": "rules_of_the_road",
         "question": "In IALA Region A, what colour is a starboard-hand lateral mark?",
-        "image": "buoyage_022.svg",
         "options": [
           "Red",
           "Green",
@@ -3343,10 +4079,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "buoyage_023",
-        "module": "buoyage",
+        "id": "rules_of_the_road_043",
+        "module": "rules_of_the_road",
         "question": "What topmark shape is used for a starboard-hand buoy?",
-        "image": "buoyage_023.svg",
         "options": [
           "Cone (point up)",
           "Can",
@@ -3358,10 +4093,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "buoyage_024",
-        "module": "buoyage",
+        "id": "rules_of_the_road_044",
+        "module": "rules_of_the_road",
         "question": "What does a preferred channel buoy indicate?",
-        "image": "buoyage_024.svg",
+        "image": "iala_pref_channel_port.svg",
         "options": [
           "Safe water on either side",
           "Preferred channel when a fairway splits",
@@ -3373,10 +4108,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "buoyage_025",
-        "module": "buoyage",
+        "id": "rules_of_the_road_045",
+        "module": "rules_of_the_road",
         "question": "How is a preferred channel to port buoy marked?",
-        "image": "buoyage_025.svg",
         "options": [
           "Red with a green band",
           "Green with a red band",
@@ -3388,10 +4122,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
     {
-        "id": "buoyage_026",
-        "module": "buoyage",
+        "id": "rules_of_the_road_046",
+        "module": "rules_of_the_road",
         "question": "How is a preferred channel to starboard buoy marked?",
-        "image": "buoyage_026.svg",
         "options": [
         "Green with a red band",
         "Red with a green band",
@@ -3403,10 +4136,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "buoyage_027",
-        "module": "buoyage",
+        "id": "rules_of_the_road_047",
+        "module": "rules_of_the_road",
         "question": "What shape is used for a port-hand buoy?",
-        "image": "buoyage_027.svg",
         "options": [
         "Can",
         "Cone",
@@ -3418,10 +4150,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "buoyage_028",
-        "module": "buoyage",
+        "id": "rules_of_the_road_048",
+        "module": "rules_of_the_road",
         "question": "What shape is used for a starboard-hand buoy?",
-        "image": "buoyage_028.svg",
         "options": [
         "Cone",
         "Can",
@@ -3433,10 +4164,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "buoyage_029",
-        "module": "buoyage",
+        "id": "rules_of_the_road_049",
+        "module": "rules_of_the_road",
         "question": "What does a lateral buoy indicate?",
-        "image": "buoyage_029.svg",
+        "image": "iala_lateral_port.svg",
         "options": [
         "The safest side to pass a hazard",
         "The limits of a channel",
@@ -3448,8 +4179,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "buoyage_030",
-        "module": "buoyage",
+        "id": "rules_of_the_road_050",
+        "module": "rules_of_the_road",
         "question": "In IALA Region B, what colour is a port-hand buoy?",
         "image": "buoyage_030.svg",
         "options": [
@@ -3463,8 +4194,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "buoyage_031",
-        "module": "buoyage",
+        "id": "rules_of_the_road_051",
+        "module": "rules_of_the_road",
         "question": "In IALA Region B, what colour is a starboard-hand buoy?",
         "image": "buoyage_031.svg",
         "options": [
@@ -3478,8 +4209,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "buoyage_032",
-        "module": "buoyage",
+        "id": "rules_of_the_road_052",
+        "module": "rules_of_the_road",
         "question": "What does the mnemonic 'Red Right Returning' refer to?",
         "image": "buoyage_032.svg",
         "options": [
@@ -3493,10 +4224,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "buoyage_033",
-        "module": "buoyage",
+        "id": "rules_of_the_road_053",
+        "module": "rules_of_the_road",
         "question": "What shape can starboard-hand buoys take if unlit?",
-        "image": "buoyage_033.svg",
         "options": [
         "Cone",
         "Can",
@@ -3508,10 +4238,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "buoyage_034",
-        "module": "buoyage",
+        "id": "rules_of_the_road_054",
+        "module": "rules_of_the_road",
         "question": "What shape can port-hand buoys take if unlit?",
-        "image": "buoyage_034.svg",
         "options": [
         "Cone",
         "Can",
@@ -3523,10 +4252,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "buoyage_035",
-        "module": "buoyage",
-        "question": "What is the purpose of a safe water mark at landfall?",
-        "image": "buoyage_035.svg",
+        "id": "rules_of_the_road_055",
+        "module": "rules_of_the_road",
+        "question": "What is the purpose of this mark at landfall?",
+        "image": "iala_safe_water.svg",
         "options": [
         "Mark a hazard",
         "Indicate a traffic separation scheme",
@@ -3538,10 +4267,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "buoyage_036",
-        "module": "buoyage",
+        "id": "rules_of_the_road_056",
+        "module": "rules_of_the_road",
         "question": "What does a yellow buoy with a black 'X' topmark mean?",
-        "image": "buoyage_036.svg",
+        "image": "iala_special_mark.svg",
         "options": [
         "Special mark",
         "Safe water mark",
@@ -3553,8 +4282,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "buoyage_037",
-        "module": "buoyage",
+        "id": "rules_of_the_road_057",
+        "module": "rules_of_the_road",
         "question": "What do lateral buoys mark in a dredged channel?",
         "image": "buoyage_037.svg",
         "options": [
@@ -3568,10 +4297,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "buoyage_038",
-        "module": "buoyage",
+        "id": "rules_of_the_road_058",
+        "module": "rules_of_the_road",
         "question": "What type of mark uses a white light Morse 'A' signal?",
-        "image": "buoyage_038.svg",
+        "image": "iala_safe_water.svg",
         "options": [
         "Safe water mark",
         "South cardinal",
@@ -3583,10 +4312,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "buoyage_039",
-        "module": "buoyage",
+        "id": "rules_of_the_road_059",
+        "module": "rules_of_the_road",
         "question": "What does a buoy with horizontal red and black bands indicate?",
-        "image": "buoyage_039.svg",
+        "image": "iala_isolated_danger.svg",
         "options": [
         "Safe water",
         "Isolated danger",
@@ -3598,10 +4327,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "buoyage_040",
-        "module": "buoyage",
+        "id": "rules_of_the_road_060",
+        "module": "rules_of_the_road",
         "question": "What colour light does a cardinal mark show?",
-        "image": "buoyage_040.svg",
         "options": [
         "Red",
         "Green",
@@ -3613,10 +4341,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "buoyage_041",
-        "module": "buoyage",
+        "id": "rules_of_the_road_061",
+        "module": "rules_of_the_road",
         "question": "What is the meaning of a buoy with black and yellow vertical stripes?",
-        "image": "buoyage_041.svg",
+        "image": "iala_emergency_wreck.svg",
         "options": [
         "Safe water mark",
         "Special mark",
@@ -3628,10 +4356,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "hard"
     },
     {
-        "id": "buoyage_042",
-        "module": "buoyage",
-        "question": "What light does an emergency wreck marking buoy show?",
-        "image": "buoyage_042.svg",
+        "id": "rules_of_the_road_062",
+        "module": "rules_of_the_road",
+        "question": "What light does this buoy show?",
+        "image": "iala_emergency_wreck.svg",
         "options": [
         "Blue and yellow alternating flashes",
         "White Morse 'A'",
@@ -3643,10 +4371,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "hard"
     },
     {
-        "id": "buoyage_043",
-        "module": "buoyage",
-        "question": "What is the purpose of an emergency wreck marking buoy?",
-        "image": "buoyage_043.svg",
+        "id": "rules_of_the_road_063",
+        "module": "rules_of_the_road",
+        "question": "What is the purpose of this buoy?",
+        "image": "iala_emergency_wreck.svg",
         "options": [
         "Indicate a permanent hazard",
         "Mark the site of a newly sunk wreck until permanent marks are established",
@@ -3658,10 +4386,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "buoyage_044",
-        "module": "buoyage",
+        "id": "rules_of_the_road_064",
+        "module": "rules_of_the_road",
         "question": "What is the topmark of an emergency wreck buoy?",
-        "image": "buoyage_044.svg",
         "options": [
         "Yellow cross",
         "Blue-yellow stripes",
@@ -3673,10 +4400,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "buoyage_045",
-        "module": "buoyage",
+        "id": "rules_of_the_road_065",
+        "module": "rules_of_the_road",
         "question": "Which buoy shows alternating blue and yellow stripes?",
-        "image": "buoyage_045.svg",
+        "image": "iala_emergency_wreck.svg",
         "options": [
         "Special mark",
         "Safe water mark",
@@ -3688,8 +4415,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "buoyage_046",
-        "module": "buoyage",
+        "id": "rules_of_the_road_066",
+        "module": "rules_of_the_road",
         "question": "Which buoyage system is used in Europe?",
         "image": "buoyage_046.svg",
         "options": [
@@ -3703,8 +4430,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "buoyage_047",
-        "module": "buoyage",
+        "id": "rules_of_the_road_067",
+        "module": "rules_of_the_road",
         "question": "Which buoyage system is used in North America?",
         "image": "buoyage_047.svg",
         "options": [
@@ -3718,10 +4445,10 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "buoyage_048",
-        "module": "buoyage",
+        "id": "rules_of_the_road_068",
+        "module": "rules_of_the_road",
         "question": "What is the key difference between IALA Region A and B buoyage?",
-        "image": "buoyage_048.svg",
+        "image": "iala_lateral_port.svg",
         "options": [
         "The colour of cardinal marks",
         "The colour of isolated danger marks",
@@ -3733,8 +4460,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "buoyage_049",
-        "module": "buoyage",
+        "id": "rules_of_the_road_069",
+        "module": "rules_of_the_road",
         "question": "When approaching a harbour in Region A, which side should a red buoy be kept?",
         "image": "buoyage_049.svg",
         "options": [
@@ -3748,8 +4475,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "buoyage_050",
-        "module": "buoyage",
+        "id": "rules_of_the_road_070",
+        "module": "rules_of_the_road",
         "question": "When approaching a harbour in Region B, which side should a red buoy be kept?",
         "image": "buoyage_050.svg",
         "options": [
@@ -3763,10 +4490,9 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-      "id": "buoyage_001",
-      "module": "buoyage",
+      "id": "rules_of_the_road_071",
+      "module": "rules_of_the_road",
       "question": "What colour is a port-hand lateral mark?",
-      "image": "buoyage_001.svg",
       "options": [
         "Red",
         "Green",
@@ -3778,10 +4504,9 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "easy"
     },
     {
-      "id": "buoyage_002",
-      "module": "buoyage",
+      "id": "rules_of_the_road_072",
+      "module": "rules_of_the_road",
       "question": "What shape is a starboard-hand lateral buoy?",
-      "image": "buoyage_002.svg",
       "options": [
         "Cone",
         "Cylinder",
@@ -3793,10 +4518,9 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "easy"
     },
     {
-      "id": "buoyage_003",
-      "module": "buoyage",
+      "id": "rules_of_the_road_073",
+      "module": "rules_of_the_road",
       "question": "What topmark does a port-hand buoy display?",
-      "image": "buoyage_003.svg",
       "options": [
         "Single cylinder",
         "Single cone pointing up",
@@ -3808,10 +4532,9 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "buoyage_004",
-      "module": "buoyage",
+      "id": "rules_of_the_road_074",
+      "module": "rules_of_the_road",
       "question": "What topmark does a starboard-hand buoy display?",
-      "image": "buoyage_004.svg",
       "options": [
         "Single cone pointing up",
         "Single cylinder",
@@ -3823,10 +4546,9 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "buoyage_005",
-      "module": "buoyage",
+      "id": "rules_of_the_road_075",
+      "module": "rules_of_the_road",
       "question": "Which colour is a safe water mark?",
-      "image": "buoyage_005.svg",
       "options": [
         "Red and white vertical stripes",
         "Red",
@@ -3838,10 +4560,9 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "easy"
     },
     {
-      "id": "buoyage_006",
-      "module": "buoyage",
+      "id": "rules_of_the_road_076",
+      "module": "rules_of_the_road",
       "question": "Which topmark is used on an isolated danger mark?",
-      "image": "buoyage_006.svg",
       "options": [
         "Two black spheres",
         "Single cone",
@@ -3853,10 +4574,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "buoyage_007",
-      "module": "buoyage",
-      "question": "What is the purpose of a special mark?",
-      "image": "buoyage_007.svg",
+      "id": "rules_of_the_road_077",
+      "module": "rules_of_the_road",
+      "question": "What is the purpose of this mark?",
+      "image": "iala_special_mark.svg",
       "options": [
         "Indicate special area or caution",
         "Mark port side",
@@ -3868,10 +4589,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "buoyage_008",
-      "module": "buoyage",
+      "id": "rules_of_the_road_078",
+      "module": "rules_of_the_road",
       "question": "What does a black and yellow striped buoy with two black cones pointing downward indicate?",
-      "image": "buoyage_008.svg",
+      "image": "iala_cardinal_south.svg",
       "options": [
         "North cardinal mark",
         "South cardinal mark",
@@ -3883,10 +4604,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "buoyage_009",
-      "module": "buoyage",
+      "id": "rules_of_the_road_079",
+      "module": "rules_of_the_road",
       "question": "What does a black and yellow buoy with two cones pointing up indicate?",
-      "image": "buoyage_009.svg",
+      "image": "iala_cardinal_north.svg",
       "options": [
         "North cardinal mark",
         "South cardinal mark",
@@ -3898,10 +4619,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "buoyage_010",
-      "module": "buoyage",
+      "id": "rules_of_the_road_080",
+      "module": "rules_of_the_road",
       "question": "What does a black and yellow buoy with cones pointing away from each other indicate?",
-      "image": "buoyage_010.svg",
+      "image": "iala_cardinal_east.svg",
       "options": [
         "East cardinal mark",
         "North cardinal mark",
@@ -3913,10 +4634,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "buoyage_011",
-      "module": "buoyage",
+      "id": "rules_of_the_road_081",
+      "module": "rules_of_the_road",
       "question": "What does a black and yellow buoy with cones pointing towards each other indicate?",
-      "image": "buoyage_011.svg",
+      "image": "iala_cardinal_west.svg",
       "options": [
         "West cardinal mark",
         "East cardinal mark",
@@ -3928,8 +4649,8 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "buoyage_012",
-      "module": "buoyage",
+      "id": "rules_of_the_road_082",
+      "module": "rules_of_the_road",
       "question": "What colour is used for a port lateral mark in IALA Region A?",
       "image": "buoyage_012.svg",
       "options": [
@@ -3943,8 +4664,8 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "easy"
     },
     {
-      "id": "buoyage_013",
-      "module": "buoyage",
+      "id": "rules_of_the_road_083",
+      "module": "rules_of_the_road",
       "question": "What colour is a starboard lateral mark in IALA Region B?",
       "image": "buoyage_013.svg",
       "options": [
@@ -3958,10 +4679,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "easy"
     },
     {
-      "id": "buoyage_014",
-      "module": "buoyage",
+      "id": "rules_of_the_road_084",
+      "module": "rules_of_the_road",
       "question": "Which buoy marks a danger with safe water all around?",
-      "image": "buoyage_014.svg",
+      "image": "iala_safe_water.svg",
       "options": [
         "Isolated danger mark",
         "Safe water mark",
@@ -3973,10 +4694,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "easy"
     },
     {
-      "id": "buoyage_015",
-      "module": "buoyage",
+      "id": "rules_of_the_road_085",
+      "module": "rules_of_the_road",
       "question": "Which mark is yellow with no lateral significance?",
-      "image": "buoyage_015.svg",
+      "image": "iala_special_mark.svg",
       "options": [
         "Special mark",
         "Port-hand mark",
@@ -3988,10 +4709,9 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "buoyage_016",
-      "module": "buoyage",
+      "id": "rules_of_the_road_086",
+      "module": "rules_of_the_road",
       "question": "What shape is an isolated danger mark?",
-      "image": "buoyage_016.svg",
       "options": [
         "Black sphere",
         "Cylinder",
@@ -4003,10 +4723,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "buoyage_017",
-      "module": "buoyage",
+      "id": "rules_of_the_road_087",
+      "module": "rules_of_the_road",
       "question": "Which buoy indicates safe water lies to the north?",
-      "image": "buoyage_017.svg",
+      "image": "iala_cardinal_north.svg",
       "options": [
         "North cardinal mark",
         "East cardinal mark",
@@ -4018,10 +4738,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "buoyage_018",
-      "module": "buoyage",
+      "id": "rules_of_the_road_088",
+      "module": "rules_of_the_road",
       "question": "Which buoy indicates safe water lies to the south?",
-      "image": "buoyage_018.svg",
+      "image": "iala_cardinal_south.svg",
       "options": [
         "South cardinal mark",
         "East cardinal mark",
@@ -4033,10 +4753,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "buoyage_019",
-      "module": "buoyage",
+      "id": "rules_of_the_road_089",
+      "module": "rules_of_the_road",
       "question": "Which buoy indicates safe water lies to the east?",
-      "image": "buoyage_019.svg",
+      "image": "iala_cardinal_east.svg",
       "options": [
         "East cardinal mark",
         "North cardinal mark",
@@ -4048,10 +4768,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "buoyage_020",
-      "module": "buoyage",
+      "id": "rules_of_the_road_090",
+      "module": "rules_of_the_road",
       "question": "Which buoy indicates safe water lies to the west?",
-      "image": "buoyage_020.svg",
+      "image": "iala_cardinal_west.svg",
       "options": [
         "West cardinal mark",
         "North cardinal mark",
@@ -4063,10 +4783,9 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "buoyage_021",
-      "module": "buoyage",
+      "id": "rules_of_the_road_091",
+      "module": "rules_of_the_road",
       "question": "What colour are isolated danger marks?",
-      "image": "buoyage_021.svg",
       "options": [
         "Black with red bands",
         "Red",
@@ -4078,10 +4797,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "buoyage_022",
-      "module": "buoyage",
+      "id": "rules_of_the_road_092",
+      "module": "rules_of_the_road",
       "question": "Which buoy type has no topmark but is painted yellow?",
-      "image": "buoyage_022.svg",
+      "image": "buoyage_030.svg",
       "options": [
         "Special mark",
         "Port-hand mark",
@@ -4093,23 +4812,22 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "medium"
     },
     {
-      "id": "buoyage_023",
-      "module": "buoyage",
+      "id": "rules_of_the_road_093",
+      "module": "rules_of_the_road",
       "question": "What colour is a starboard lateral buoy in IALA Region A?",
-      "image": "buoyage_023.svg",
       "options": [
         "Green",
         "Red",
         "Yellow",
         "Black"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": "In IALA Region A, starboard-hand buoys are green, while port-hand buoys are red.",
       "difficulty": "easy"
     },
     {
-      "id": "buoyage_024",
-      "module": "buoyage",
+      "id": "rules_of_the_road_094",
+      "module": "rules_of_the_road",
       "question": "What colour is a port lateral mark in IALA Region B?",
       "image": "buoyage_024.svg",
       "options": [
@@ -4123,10 +4841,10 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "easy"
     },
     {
-      "id": "buoyage_025",
-      "module": "buoyage",
+      "id": "rules_of_the_road_095",
+      "module": "rules_of_the_road",
       "question": "What is the main purpose of cardinal marks?",
-      "image": "buoyage_025.svg",
+      "image": "iala_cardinal_north.svg",
       "options": [
         "Indicate where safe water lies",
         "Mark port side",
@@ -4138,10 +4856,9 @@ export const questions: { [moduleId: string]: Question[] } = {
       "difficulty": "easy"
     },
         {
-          "id": "buoyage_026",
-          "module": "buoyage",
+          "id": "rules_of_the_road_096",
+          "module": "rules_of_the_road",
           "question": "What topmark does a north cardinal mark display?",
-          "image": "buoyage_026.svg",
           "options": [
             "Two black cones pointing up",
             "Two black cones pointing down",
@@ -4153,10 +4870,9 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "buoyage_027",
-          "module": "buoyage",
+          "id": "rules_of_the_road_097",
+          "module": "rules_of_the_road",
           "question": "What topmark does a south cardinal mark display?",
-          "image": "buoyage_027.svg",
           "options": [
             "Two black cones pointing down",
             "Two black cones pointing up",
@@ -4168,10 +4884,9 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "buoyage_028",
-          "module": "buoyage",
+          "id": "rules_of_the_road_098",
+          "module": "rules_of_the_road",
           "question": "What topmark does an east cardinal mark display?",
-          "image": "buoyage_028.svg",
           "options": [
             "Two cones pointing away from each other",
             "Two cones pointing up",
@@ -4183,10 +4898,9 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "buoyage_029",
-          "module": "buoyage",
+          "id": "rules_of_the_road_099",
+          "module": "rules_of_the_road",
           "question": "What topmark does a west cardinal mark display?",
-          "image": "buoyage_029.svg",
           "options": [
             "Two cones pointing towards each other",
             "Two cones pointing up",
@@ -4198,10 +4912,9 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "buoyage_030",
-          "module": "buoyage",
+          "id": "rules_of_the_road_100",
+          "module": "rules_of_the_road",
           "question": "How is a lateral buoy light characteristic usually shown on a chart?",
-          "image": "buoyage_030.svg",
           "options": [
             "Flashing with colour",
             "Solid light",
@@ -4213,10 +4926,9 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "buoyage_031",
-          "module": "buoyage",
+          "id": "rules_of_the_road_101",
+          "module": "rules_of_the_road",
           "question": "Which shape is used for a port-hand buoy?",
-          "image": "buoyage_031.svg",
           "options": [
             "Cylinder or pillar",
             "Cone",
@@ -4228,10 +4940,9 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "easy"
         },
         {
-          "id": "buoyage_032",
-          "module": "buoyage",
+          "id": "rules_of_the_road_102",
+          "module": "rules_of_the_road",
           "question": "Which shape is used for a starboard-hand buoy?",
-          "image": "buoyage_032.svg",
           "options": [
             "Cone",
             "Cylinder",
@@ -4243,10 +4954,10 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "easy"
         },
         {
-          "id": "buoyage_033",
-          "module": "buoyage",
+          "id": "rules_of_the_road_103",
+          "module": "rules_of_the_road",
           "question": "Which mark indicates an isolated danger with safe water around it?",
-          "image": "buoyage_033.svg",
+          "image": "iala_isolated_danger.svg",
           "options": [
             "Isolated danger mark",
             "Safe water mark",
@@ -4258,10 +4969,10 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "buoyage_034",
-          "module": "buoyage",
+          "id": "rules_of_the_road_104",
+          "module": "rules_of_the_road",
           "question": "Which mark is yellow and used for special purposes?",
-          "image": "buoyage_034.svg",
+          "image": "iala_special_mark.svg",
           "options": [
             "Special mark",
             "Port-hand mark",
@@ -4273,10 +4984,9 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "buoyage_035",
-          "module": "buoyage",
+          "id": "rules_of_the_road_105",
+          "module": "rules_of_the_road",
           "question": "Which topmark does an isolated danger mark display?",
-          "image": "buoyage_035.svg",
           "options": [
             "Two black spheres",
             "Single cone",
@@ -4288,10 +4998,9 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "buoyage_036",
-          "module": "buoyage",
+          "id": "rules_of_the_road_106",
+          "module": "rules_of_the_road",
           "question": "What colour are cardinal marks primarily?",
-          "image": "buoyage_036.svg",
           "options": [
             "Black and yellow",
             "Red",
@@ -4303,10 +5012,9 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "buoyage_037",
-          "module": "buoyage",
+          "id": "rules_of_the_road_107",
+          "module": "rules_of_the_road",
           "question": "How are safe water marks often topped?",
-          "image": "buoyage_037.svg",
           "options": [
             "Sphere",
             "Cone",
@@ -4318,10 +5026,9 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "buoyage_038",
-          "module": "buoyage",
+          "id": "rules_of_the_road_108",
+          "module": "rules_of_the_road",
           "question": "Which colour is used for starboard lateral marks in IALA Region A?",
-          "image": "buoyage_038.svg",
           "options": [
             "Green",
             "Red",
@@ -4333,8 +5040,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "easy"
         },
         {
-          "id": "buoyage_039",
-          "module": "buoyage",
+          "id": "rules_of_the_road_109",
+          "module": "rules_of_the_road",
           "question": "Which colour is used for port lateral marks in IALA Region B?",
           "image": "buoyage_039.svg",
           "options": [
@@ -4348,10 +5055,10 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "easy"
         },
         {
-          "id": "buoyage_040",
-          "module": "buoyage",
+          "id": "rules_of_the_road_110",
+          "module": "rules_of_the_road",
           "question": "Which buoy indicates danger with safe water all around?",
-          "image": "buoyage_040.svg",
+          "image": "iala_safe_water.svg",
           "options": [
             "Safe water mark",
             "Port-hand mark",
@@ -4363,10 +5070,10 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "easy"
         },
         {
-          "id": "buoyage_041",
-          "module": "buoyage",
+          "id": "rules_of_the_road_111",
+          "module": "rules_of_the_road",
           "question": "What is the purpose of a cardinal mark?",
-          "image": "buoyage_041.svg",
+          "image": "iala_cardinal_north.svg",
           "options": [
             "Show where safe water lies",
             "Mark port side",
@@ -4378,10 +5085,10 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "buoyage_042",
-          "module": "buoyage",
+          "id": "rules_of_the_road_112",
+          "module": "rules_of_the_road",
           "question": "Which buoy type uses a black and yellow horizontal pattern?",
-          "image": "buoyage_042.svg",
+          "image": "iala_cardinal_north.svg",
           "options": [
             "Cardinal mark",
             "Port-hand mark",
@@ -4393,10 +5100,9 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "buoyage_043",
-          "module": "buoyage",
+          "id": "rules_of_the_road_113",
+          "module": "rules_of_the_road",
           "question": "What is the topmark of a north cardinal mark?",
-          "image": "buoyage_043.svg",
           "options": [
             "Two cones pointing up",
             "Two cones pointing down",
@@ -4408,10 +5114,9 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "buoyage_044",
-          "module": "buoyage",
+          "id": "rules_of_the_road_114",
+          "module": "rules_of_the_road",
           "question": "What is the topmark of a south cardinal mark?",
-          "image": "buoyage_044.svg",
           "options": [
             "Two cones pointing down",
             "Two cones pointing up",
@@ -4423,10 +5128,9 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "buoyage_045",
-          "module": "buoyage",
+          "id": "rules_of_the_road_115",
+          "module": "rules_of_the_road",
           "question": "What is the topmark of an east cardinal mark?",
-          "image": "buoyage_045.svg",
           "options": [
             "Two cones pointing away from each other",
             "Two cones pointing up",
@@ -4438,10 +5142,9 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "buoyage_046",
-          "module": "buoyage",
+          "id": "rules_of_the_road_116",
+          "module": "rules_of_the_road",
           "question": "What is the topmark of a west cardinal mark?",
-          "image": "buoyage_046.svg",
           "options": [
             "Two cones pointing towards each other",
             "Two cones pointing up",
@@ -4453,10 +5156,10 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "buoyage_047",
-          "module": "buoyage",
+          "id": "rules_of_the_road_117",
+          "module": "rules_of_the_road",
           "question": "Which cardinal mark indicates safe water to the north?",
-          "image": "buoyage_047.svg",
+          "image": "iala_cardinal_north.svg",
           "options": [
             "North cardinal mark",
             "South cardinal mark",
@@ -4468,10 +5171,10 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "buoyage_048",
-          "module": "buoyage",
+          "id": "rules_of_the_road_118",
+          "module": "rules_of_the_road",
           "question": "Which cardinal mark indicates safe water to the south?",
-          "image": "buoyage_048.svg",
+          "image": "iala_cardinal_south.svg",
           "options": [
             "South cardinal mark",
             "North cardinal mark",
@@ -4483,10 +5186,10 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "buoyage_049",
-          "module": "buoyage",
+          "id": "rules_of_the_road_119",
+          "module": "rules_of_the_road",
           "question": "Which cardinal mark indicates safe water to the east?",
-          "image": "buoyage_049.svg",
+          "image": "iala_cardinal_east.svg",
           "options": [
             "East cardinal mark",
             "West cardinal mark",
@@ -4498,10 +5201,10 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "buoyage_050",
-          "module": "buoyage",
+          "id": "rules_of_the_road_120",
+          "module": "rules_of_the_road",
           "question": "Which cardinal mark indicates safe water to the west?",
-          "image": "buoyage_050.svg",
+          "image": "iala_cardinal_west.svg",
           "options": [
             "West cardinal mark",
             "East cardinal mark",
@@ -4512,11 +5215,9 @@ export const questions: { [moduleId: string]: Question[] } = {
           "explanation": "A west cardinal mark indicates safe water lies to the west.",
           "difficulty": "medium"
         },
-    ],
-    irpcs: [
       {
-        id: 'irpcs_001',
-        module: 'irpcs',
+        id: 'rules_of_the_road_121',
+        module: 'rules_of_the_road',
         question: 'What is the stand-on vessel in a crossing situation?',
         image: 'irpcs_001.svg',
         options: [
@@ -4530,8 +5231,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'irpcs_002',
-        module: 'irpcs',
+        id: 'rules_of_the_road_122',
+        module: 'rules_of_the_road',
         question: 'What is the give-way vessel in a crossing situation?',
         image: 'irpcs_002.svg',
         options: [
@@ -4545,8 +5246,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'irpcs_003',
-        module: 'irpcs',
+        id: 'rules_of_the_road_123',
+        module: 'rules_of_the_road',
         question: 'What is the stand-on vessel in a head-on situation?',
         image: 'irpcs_003.svg',
         options: [
@@ -4560,8 +5261,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'irpcs_004',
-        module: 'irpcs',
+        id: 'rules_of_the_road_124',
+        module: 'rules_of_the_road',
         question: 'What is the give-way vessel in a head-on situation?',
         image: 'irpcs_004.svg',
         options: [
@@ -4575,8 +5276,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'irpcs_005',
-        module: 'irpcs',
+        id: 'rules_of_the_road_125',
+        module: 'rules_of_the_road',
         question: 'What is the stand-on vessel in an overtaking situation?',
         image: 'irpcs_005.svg',
         options: [
@@ -4590,8 +5291,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'irpcs_006',
-        module: 'irpcs',
+        id: 'rules_of_the_road_126',
+        module: 'rules_of_the_road',
         question: 'What is the give-way vessel in an overtaking situation?',
         image: 'irpcs_006.svg',
         options: [
@@ -4605,8 +5306,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'irpcs_007',
-        module: 'irpcs',
+        id: 'rules_of_the_road_127',
+        module: 'rules_of_the_road',
         question: 'What is the stand-on vessel in a power-driven vessel meeting a sailing vessel?',
         image: 'irpcs_007.svg',
         options: [
@@ -4620,8 +5321,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'irpcs_008',
-        module: 'irpcs',
+        id: 'rules_of_the_road_128',
+        module: 'rules_of_the_road',
         question: 'What is the give-way vessel in a power-driven vessel meeting a sailing vessel?',
         image: 'irpcs_008.svg',
         options: [
@@ -4635,8 +5336,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'irpcs_009',
-        module: 'irpcs',
+        id: 'rules_of_the_road_129',
+        module: 'rules_of_the_road',
         question: 'What is the stand-on vessel in a vessel meeting a vessel not under command?',
         image: 'irpcs_009.svg',
         options: [
@@ -4650,8 +5351,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        id: 'irpcs_010',
-        module: 'irpcs',
+        id: 'rules_of_the_road_130',
+        module: 'rules_of_the_road',
         question: 'What is the give-way vessel in a vessel meeting a vessel not under command?',
         image: 'irpcs_010.svg',
         options: [
@@ -4665,8 +5366,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'medium'
       },
       {
-        "id": "colregs_001",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_131",
+        "module": "rules_of_the_road",
         "question": "When two power-driven vessels are meeting head-on, what should each do?",
         "image": "colregs_001.svg",
         "options": [
@@ -4680,8 +5381,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "colregs_002",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_132",
+        "module": "rules_of_the_road",
         "question": "In a crossing situation, which vessel is the stand-on vessel?",
         "image": "colregs_002.svg",
         "options": [
@@ -4695,8 +5396,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "colregs_003",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_133",
+        "module": "rules_of_the_road",
         "question": "Which vessel must keep out of the way of a vessel constrained by her draught?",
         "image": "colregs_003.svg",
         "options": [
@@ -4710,8 +5411,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "colregs_004",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_134",
+        "module": "rules_of_the_road",
         "question": "Which sound signal indicates a vessel altering course to starboard?",
         "image": "colregs_004.svg",
         "options": [
@@ -4725,8 +5426,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "colregs_005",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_135",
+        "module": "rules_of_the_road",
         "question": "Which sound signal indicates a vessel altering course to port?",
         "image": "colregs_005.svg",
         "options": [
@@ -4740,8 +5441,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "colregs_006",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_136",
+        "module": "rules_of_the_road",
         "question": "Which sound signal indicates a vessel operating astern propulsion?",
         "image": "colregs_006.svg",
         "options": [
@@ -4755,8 +5456,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "colregs_007",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_137",
+        "module": "rules_of_the_road",
         "question": "What should the stand-on vessel do if the give-way vessel does not take action?",
         "image": "colregs_007.svg",
         "options": [
@@ -4770,8 +5471,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "colregs_008",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_138",
+        "module": "rules_of_the_road",
         "question": "Which sound signal indicates danger or doubt?",
         "image": "colregs_008.svg",
         "options": [
@@ -4785,8 +5486,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "colregs_009",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_139",
+        "module": "rules_of_the_road",
         "question": "At night, what lights does a power-driven vessel underway show?",
         "image": "colregs_009.svg",
         "options": [
@@ -4800,8 +5501,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "colregs_010",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_140",
+        "module": "rules_of_the_road",
         "question": "What day shape does a vessel at anchor display?",
         "image": "colregs_010.svg",
         "options": [
@@ -4815,8 +5516,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "colregs_011",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_141",
+        "module": "rules_of_the_road",
         "question": "What lights must a vessel under sail alone show at night?",
         "image": "colregs_011.svg",
         "options": [
@@ -4830,8 +5531,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "colregs_012",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_142",
+        "module": "rules_of_the_road",
         "question": "What day shape does a vessel constrained by her draught display?",
         "image": "colregs_012.svg",
         "options": [
@@ -4845,8 +5546,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "colregs_013",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_143",
+        "module": "rules_of_the_road",
         "question": "What is the minimum length of a vessel required to show a second masthead light?",
         "image": "colregs_013.svg",
         "options": [
@@ -4860,8 +5561,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "colregs_014",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_144",
+        "module": "rules_of_the_road",
         "question": "What lights does a vessel restricted in her ability to manoeuvre display?",
         "image": "colregs_014.svg",
         "options": [
@@ -4875,8 +5576,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "colregs_015",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_145",
+        "module": "rules_of_the_road",
         "question": "What day shape is used for a vessel restricted in her ability to manoeuvre?",
         "image": "colregs_015.svg",
         "options": [
@@ -4890,8 +5591,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "colregs_016",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_146",
+        "module": "rules_of_the_road",
         "question": "What day shape is used for a vessel not under command?",
         "image": "colregs_016.svg",
         "options": [
@@ -4905,8 +5606,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "colregs_017",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_147",
+        "module": "rules_of_the_road",
         "question": "What lights does a vessel not under command display at night?",
         "image": "colregs_017.svg",
         "options": [
@@ -4920,8 +5621,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "colregs_018",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_148",
+        "module": "rules_of_the_road",
         "question": "When must navigation lights be displayed?",
         "image": "colregs_018.svg",
         "options": [
@@ -4935,8 +5636,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
     },
     {
-        "id": "colregs_019",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_149",
+        "module": "rules_of_the_road",
         "question": "What sound signal must a power-driven vessel make in restricted visibility?",
         "image": "colregs_019.svg",
         "options": [
@@ -4950,8 +5651,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "colregs_020",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_150",
+        "module": "rules_of_the_road",
         "question": "What sound signal must a sailing vessel make in restricted visibility?",
         "image": "colregs_020.svg",
         "options": [
@@ -4965,8 +5666,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "colregs_021",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_151",
+        "module": "rules_of_the_road",
         "question": "What lights does a fishing vessel engaged in trawling display?",
         "image": "colregs_021.svg",
         "options": [
@@ -4980,8 +5681,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "colregs_022",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_152",
+        "module": "rules_of_the_road",
         "question": "What day shape does a fishing vessel display when fishing with gear extending more than 150m horizontally?",
         "image": "colregs_022.svg",
         "options": [
@@ -4995,8 +5696,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "hard"
     },
     {
-        "id": "colregs_023",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_153",
+        "module": "rules_of_the_road",
         "question": "What lights does a vessel engaged in fishing other than trawling display?",
         "image": "colregs_023.svg",
         "options": [
@@ -5010,8 +5711,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "colregs_024",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_154",
+        "module": "rules_of_the_road",
         "question": "What lights must a vessel engaged in pilotage display?",
         "image": "colregs_024.svg",
         "options": [
@@ -5025,8 +5726,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
     {
-        "id": "colregs_025",
-        "module": "collision_regulations",
+        "id": "rules_of_the_road_155",
+        "module": "rules_of_the_road",
         "question": "What day shape does a vessel aground display?",
         "image": "colregs_025.svg",
         "options": [
@@ -5040,8 +5741,8 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
     },
         {
-          "id": "colregs_026",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_156",
+          "module": "rules_of_the_road",
           "question": "What lights must a vessel aground display at night?",
           "image": "colregs_026.svg",
           "options": [
@@ -5055,8 +5756,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "colregs_027",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_157",
+          "module": "rules_of_the_road",
           "question": "What lights does a vessel constrained by her draught show at night?",
           "image": "colregs_027.svg",
           "options": [
@@ -5070,8 +5771,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "hard"
         },
         {
-          "id": "colregs_028",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_158",
+          "module": "rules_of_the_road",
           "question": "Which vessel has the right of way when overtaking?",
           "image": "colregs_028.svg",
           "options": [
@@ -5085,8 +5786,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "easy"
         },
         {
-          "id": "colregs_029",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_159",
+          "module": "rules_of_the_road",
           "question": "What lights does a sailing vessel being overtaken by another sailing vessel show?",
           "image": "colregs_029.svg",
           "options": [
@@ -5100,8 +5801,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "colregs_030",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_160",
+          "module": "rules_of_the_road",
           "question": "What lights must a pilot vessel show when underway?",
           "image": "colregs_030.svg",
           "options": [
@@ -5115,8 +5816,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "colregs_031",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_161",
+          "module": "rules_of_the_road",
           "question": "What sound signal indicates a vessel at anchor less than 50m?",
           "image": "colregs_031.svg",
           "options": [
@@ -5130,8 +5831,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "easy"
         },
         {
-          "id": "colregs_032",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_162",
+          "module": "rules_of_the_road",
           "question": "What sound signal indicates a vessel at anchor over 100m?",
           "image": "colregs_032.svg",
           "options": [
@@ -5145,8 +5846,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "colregs_033",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_163",
+          "module": "rules_of_the_road",
           "question": "Which vessels must give way in a crossing situation?",
           "image": "colregs_033.svg",
           "options": [
@@ -5160,8 +5861,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "easy"
         },
         {
-          "id": "colregs_034",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_164",
+          "module": "rules_of_the_road",
           "question": "What action should a give-way vessel take in a crossing situation?",
           "image": "colregs_034.svg",
           "options": [
@@ -5175,8 +5876,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "colregs_035",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_165",
+          "module": "rules_of_the_road",
           "question": "When two sailing vessels are on the same tack, who gives way?",
           "image": "colregs_035.svg",
           "options": [
@@ -5190,8 +5891,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "colregs_036",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_166",
+          "module": "rules_of_the_road",
           "question": "When two sailing vessels are on opposite tacks, who gives way?",
           "image": "colregs_036.svg",
           "options": [
@@ -5205,8 +5906,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "colregs_037",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_167",
+          "module": "rules_of_the_road",
           "question": "Which vessel must give way when a sailing vessel meets a power-driven vessel?",
           "image": "colregs_037.svg",
           "options": [
@@ -5220,8 +5921,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "easy"
         },
         {
-          "id": "colregs_038",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_168",
+          "module": "rules_of_the_road",
           "question": "Which vessel must give way to a vessel engaged in fishing?",
           "image": "colregs_038.svg",
           "options": [
@@ -5235,8 +5936,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "colregs_039",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_169",
+          "module": "rules_of_the_road",
           "question": "Which vessel has priority when two power-driven vessels are crossing?",
           "image": "colregs_039.svg",
           "options": [
@@ -5250,8 +5951,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "easy"
         },
         {
-          "id": "colregs_040",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_170",
+          "module": "rules_of_the_road",
           "question": "What lights are displayed by a vessel towing at night?",
           "image": "colregs_040.svg",
           "options": [
@@ -5265,8 +5966,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "colregs_041",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_171",
+          "module": "rules_of_the_road",
           "question": "What light does a vessel being towed display at night?",
           "image": "colregs_041.svg",
           "options": [
@@ -5280,8 +5981,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "colregs_042",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_172",
+          "module": "rules_of_the_road",
           "question": "Which vessels must give way in narrow channels?",
           "image": "colregs_042.svg",
           "options": [
@@ -5295,8 +5996,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "colregs_043",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_173",
+          "module": "rules_of_the_road",
           "question": "What side must a vessel keep when navigating a narrow channel?",
           "image": "colregs_043.svg",
           "options": [
@@ -5310,8 +6011,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "colregs_044",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_174",
+          "module": "rules_of_the_road",
           "question": "Which vessels may navigate the channel in restricted visibility?",
           "image": "colregs_044.svg",
           "options": [
@@ -5325,8 +6026,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "hard"
         },
         {
-          "id": "colregs_045",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_175",
+          "module": "rules_of_the_road",
           "question": "What sound signal should a vessel in fog make if underway but not making way?",
           "image": "colregs_045.svg",
           "options": [
@@ -5340,8 +6041,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "hard"
         },
         {
-          "id": "colregs_046",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_176",
+          "module": "rules_of_the_road",
           "question": "What is the sound signal for a sailing vessel underway and making way in fog?",
           "image": "colregs_046.svg",
           "options": [
@@ -5355,8 +6056,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "colregs_047",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_177",
+          "module": "rules_of_the_road",
           "question": "What is the sound signal for a vessel restricted in ability to manoeuvre in fog?",
           "image": "colregs_047.svg",
           "options": [
@@ -5370,8 +6071,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "colregs_048",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_178",
+          "module": "rules_of_the_road",
           "question": "Which vessels must keep out of the way of vessels constrained by their draught?",
           "image": "colregs_048.svg",
           "options": [
@@ -5385,8 +6086,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "medium"
         },
         {
-          "id": "colregs_049",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_179",
+          "module": "rules_of_the_road",
           "question": "When two vessels are in a head-on situation, what sound signal is used?",
           "image": "colregs_049.svg",
           "options": [
@@ -5400,8 +6101,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "difficulty": "easy"
         },
         {
-          "id": "colregs_050",
-          "module": "collision_regulations",
+          "id": "rules_of_the_road_180",
+          "module": "rules_of_the_road",
           "question": "What is the primary purpose of the COLREGS?",
           "image": "colregs_050.svg",
           "options": [
@@ -5414,910 +6115,8 @@ export const questions: { [moduleId: string]: Question[] } = {
           "explanation": "The International Regulations for Preventing Collisions at Sea (COLREGS) are designed to prevent collisions at sea.",
           "difficulty": "easy"
         },
-    ],
-    weather: [
-      {
-        id: 'weather_001',
-        module: 'weather',
-        question: 'What does a falling barometer indicate?',
-        image: 'weather_001.svg',
-        options: [
-          'Improving weather',
-          'Deteriorating weather',
-          'Stable weather',
-          'No change in weather'
-        ],
-        correctAnswer: 1,
-        explanation: 'A falling barometer indicates deteriorating weather, often associated with approaching low pressure systems and storms.',
-        difficulty: 'easy'
-      },
-      {
-        id: 'weather_002',
-        module: 'weather',
-        question: 'What does a rising barometer indicate?',
-        image: 'weather_002.svg',
-        options: [
-          'Improving weather',
-          'Deteriorating weather',
-          'Stable weather',
-          'No change in weather'
-        ],
-        correctAnswer: 0,
-        explanation: 'A rising barometer indicates improving weather, often associated with high pressure systems and fair conditions.',
-        difficulty: 'easy'
-      },
-      {
-        id: 'weather_003',
-        module: 'weather',
-        question: 'What does a steady barometer indicate?',
-        image: 'weather_003.svg',
-        options: [
-          'Improving weather',
-          'Deteriorating weather',
-          'Stable weather',
-          'No change in weather'
-        ],
-        correctAnswer: 2,
-        explanation: 'A steady barometer indicates stable weather conditions with no significant changes expected.',
-        difficulty: 'easy'
-      },
-      {
-        id: 'weather_004',
-        module: 'weather',
-        question: 'What does a rapidly falling barometer indicate?',
-        image: 'weather_004.svg',
-        options: [
-          'Improving weather',
-          'Deteriorating weather',
-          'Stable weather',
-          'No change in weather'
-        ],
-        correctAnswer: 1,
-        explanation: 'A rapidly falling barometer indicates rapidly deteriorating weather, often associated with severe storms and strong winds.',
-        difficulty: 'medium'
-      },
-      {
-        id: 'weather_005',
-        module: 'weather',
-        question: 'What does a rapidly rising barometer indicate?',
-        image: 'weather_005.svg',
-        options: [
-          'Improving weather',
-          'Deteriorating weather',
-          'Stable weather',
-          'No change in weather'
-        ],
-        correctAnswer: 0,
-        explanation: 'A rapidly rising barometer indicates rapidly improving weather, often associated with clearing skies and fair conditions.',
-        difficulty: 'medium'
-      },
-      {
-        id: 'weather_006',
-        module: 'weather',
-        question: 'What does a slowly falling barometer indicate?',
-        image: 'weather_006.svg',
-        options: [
-          'Improving weather',
-          'Deteriorating weather',
-          'Stable weather',
-          'No change in weather'
-        ],
-        correctAnswer: 1,
-        explanation: 'A slowly falling barometer indicates slowly deteriorating weather, often associated with approaching weather systems.',
-        difficulty: 'medium'
-      },
-      {
-        id: 'weather_007',
-        module: 'weather',
-        question: 'What does a slowly rising barometer indicate?',
-        image: 'weather_007.svg',
-        options: [
-          'Improving weather',
-          'Deteriorating weather',
-          'Stable weather',
-          'No change in weather'
-        ],
-        correctAnswer: 0,
-        explanation: 'A slowly rising barometer indicates slowly improving weather, often associated with clearing conditions.',
-        difficulty: 'medium'
-      },
-      {
-        id: 'weather_008',
-        module: 'weather',
-        question: 'What does a fluctuating barometer indicate?',
-        image: 'weather_008.svg',
-        options: [
-          'Improving weather',
-          'Deteriorating weather',
-          'Stable weather',
-          'Unstable weather'
-        ],
-        correctAnswer: 3,
-        explanation: 'A fluctuating barometer indicates unstable weather conditions with rapid changes and unpredictable conditions.',
-        difficulty: 'medium'
-      },
-      {
-        id: 'weather_009',
-        module: 'weather',
-        question: 'What does a high barometer reading indicate?',
-        image: 'weather_009.svg',
-        options: [
-          'Improving weather',
-          'Deteriorating weather',
-          'Stable weather',
-          'No change in weather'
-        ],
-        correctAnswer: 0,
-        explanation: 'A high barometer reading indicates improving weather, often associated with high pressure systems and fair conditions.',
-        difficulty: 'easy'
-      },
-      {
-        id: 'weather_010',
-        module: 'weather',
-        question: 'What does a low barometer reading indicate?',
-        image: 'weather_010.svg',
-        options: [
-          'Improving weather',
-          'Deteriorating weather',
-          'Stable weather',
-          'No change in weather'
-        ],
-        correctAnswer: 1,
-        explanation: 'A low barometer reading indicates deteriorating weather, often associated with low pressure systems and storms.',
-        difficulty: 'easy'
-      },
-      {
-        "id": "tides_001",
-        "module": "tides_weather",
-        "question": "What causes tides on Earth?",
-        "image": "tides_001.svg",
-        "options": [
-          "Gravitational pull of the Moon and Sun",
-          "Wind blowing across the sea",
-          "Earth's rotation only",
-          "Water temperature changes"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Tides are primarily caused by the gravitational pull of the Moon and Sun on Earth's oceans.",
-        "difficulty": "easy"
-      },
-      {
-        "id": "tides_002",
-        "module": "tides_weather",
-        "question": "What is a spring tide?",
-        "image": "tides_002.svg",
-        "options": [
-          "A tide with maximum range",
-          "A tide with minimum range",
-          "A tide caused by wind only",
-          "A daily tide at noon"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Spring tides occur when the Sun, Moon, and Earth are aligned, producing the highest tidal range.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_003",
-        "module": "tides_weather",
-        "question": "What is a neap tide?",
-        "image": "tides_003.svg",
-        "options": [
-          "A tide with minimum range",
-          "A tide with maximum range",
-          "A tide caused by storms",
-          "A tidal bore"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Neap tides occur when the Sun and Moon are at right angles relative to Earth, producing the lowest tidal range.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_004",
-        "module": "tides_weather",
-        "question": "What is the term for the highest point a tide reaches?",
-        "image": "tides_004.svg",
-        "options": [
-          "High water",
-          "Low water",
-          "Mean sea level",
-          "Tidal bore"
-        ],
-        "correctAnswer": 0,
-        "explanation": "High water is the term for the highest point reached by a tide.",
-        "difficulty": "easy"
-      },
-      {
-        "id": "tides_005",
-        "module": "tides_weather",
-        "question": "What is the term for the lowest point a tide reaches?",
-        "image": "tides_005.svg",
-        "options": [
-          "Low water",
-          "High water",
-          "Spring tide",
-          "Tidal range"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Low water is the lowest level reached by a tide.",
-        "difficulty": "easy"
-      },
-      {
-        "id": "tides_006",
-        "module": "tides_weather",
-        "question": "What is the tidal range?",
-        "image": "tides_006.svg",
-        "options": [
-          "Difference in height between high and low water",
-          "Time between high and low tide",
-          "Distance a boat moves with tide",
-          "Speed of tidal current"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Tidal range is the vertical difference between high and low water levels.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_007",
-        "module": "tides_weather",
-        "question": "What is a tidal current?",
-        "image": "tides_007.svg",
-        "options": [
-          "Horizontal movement of water caused by tides",
-          "Change in water temperature",
-          "A tidal bore only",
-          "Wind-driven waves"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Tidal currents are horizontal flows of water caused by the rise and fall of tides.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_008",
-        "module": "tides_weather",
-        "question": "What is a tidal bore?",
-        "image": "tides_008.svg",
-        "options": [
-          "A wave caused by incoming tide in a river",
-          "A spring tide",
-          "A neap tide",
-          "A wave caused by wind only"
-        ],
-        "correctAnswer": 0,
-        "explanation": "A tidal bore is a sudden wave that moves up a river as the tide rises.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_009",
-        "module": "tides_weather",
-        "question": "Which factor influences tidal height besides the Moon and Sun?",
-        "image": "tides_009.svg",
-        "options": [
-          "Local coastline and seabed",
-          "Air temperature",
-          "Wind direction only",
-          "Rainfall"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Local geography, including the coastline and seabed, affects tidal heights and currents.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_010",
-        "module": "tides_weather",
-        "question": "What type of tide occurs twice each lunar day?",
-        "image": "tides_010.svg",
-        "options": [
-          "Semidiurnal tide",
-          "Diurnal tide",
-          "Neap tide",
-          "Spring tide"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Semidiurnal tides occur twice each lunar day, producing two high and two low waters.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_011",
-        "module": "tides_weather",
-        "question": "What type of tide occurs once each lunar day?",
-        "image": "tides_011.svg",
-        "options": [
-          "Diurnal tide",
-          "Semidiurnal tide",
-          "Neap tide",
-          "Spring tide"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Diurnal tides have only one high and one low water per lunar day.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_012",
-        "module": "tides_weather",
-        "question": "Which tool helps predict tides and tidal currents?",
-        "image": "tides_012.svg",
-        "options": [
-          "Tide tables",
-          "Barometer",
-          "Compass",
-          "Radar"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Tide tables provide predicted times and heights of tides and tidal currents.",
-        "difficulty": "easy"
-      },
-      {
-        "id": "tides_013",
-        "module": "tides_weather",
-        "question": "What weather factor is indicated by a falling barometer?",
-        "image": "tides_013.svg",
-        "options": [
-          "Approaching low pressure and possible storm",
-          "High pressure and clear weather",
-          "No change in weather",
-          "Rising tides"
-        ],
-        "correctAnswer": 0,
-        "explanation": "A falling barometer shows decreasing atmospheric pressure, usually indicating deteriorating weather or storm approaching.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_014",
-        "module": "tides_weather",
-        "question": "What weather factor is indicated by a rising barometer?",
-        "image": "tides_014.svg",
-        "options": [
-          "High pressure and improving weather",
-          "Approaching storm",
-          "Strong tides",
-          "Heavy rain"
-        ],
-        "correctAnswer": 0,
-        "explanation": "A rising barometer shows increasing atmospheric pressure, usually indicating improving weather.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_015",
-        "module": "tides_weather",
-        "question": "What is Beaufort Force 6 wind speed?",
-        "image": "tides_015.svg",
-        "options": [
-          "Strong breeze, 22–27 knots",
-          "Light breeze, 4–6 knots",
-          "Gale, 34–40 knots",
-          "Calm, 0–1 knot"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Beaufort Force 6 is a strong breeze with speeds of 22–27 knots.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_016",
-        "module": "tides_weather",
-        "question": "What is a barometer used to measure?",
-        "image": "tides_016.svg",
-        "options": [
-          "Atmospheric pressure",
-          "Wind speed",
-          "Temperature",
-          "Tide height"
-        ],
-        "correctAnswer": 0,
-        "explanation": "A barometer measures atmospheric pressure to help forecast weather changes.",
-        "difficulty": "easy"
-      },
-      {
-        "id": "tides_017",
-        "module": "tides_weather",
-        "question": "What is a cloud forming at high altitude called?",
-        "image": "tides_017.svg",
-        "options": [
-          "Cirrus",
-          "Cumulus",
-          "Stratus",
-          "Nimbus"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Cirrus clouds are high-altitude clouds composed of ice crystals, often indicating fair weather or approaching fronts.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_018",
-        "module": "tides_weather",
-        "question": "Which cloud type indicates stormy weather?",
-        "image": "tides_018.svg",
-        "options": [
-          "Cumulonimbus",
-          "Cirrus",
-          "Stratus",
-          "Altostratus"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Cumulonimbus clouds are tall, dense clouds associated with thunderstorms and severe weather.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_019",
-        "module": "tides_weather",
-        "question": "Which wind direction abbreviation indicates a wind from the south-west?",
-        "image": "tides_019.svg",
-        "options": [
-          "SW",
-          "SE",
-          "NW",
-          "NE"
-        ],
-        "correctAnswer": 0,
-        "explanation": "SW indicates a wind blowing from the south-west.",
-        "difficulty": "easy"
-      },
-      {
-        "id": "tides_020",
-        "module": "tides_weather",
-        "question": "Which wind direction abbreviation indicates a wind from the north-east?",
-        "image": "tides_020.svg",
-        "options": [
-          "NE",
-          "NW",
-          "SE",
-          "SW"
-        ],
-        "correctAnswer": 0,
-        "explanation": "NE indicates a wind blowing from the north-east.",
-        "difficulty": "easy"
-      },
-      {
-        "id": "tides_021",
-        "module": "tides_weather",
-        "question": "What is a barometric low-pressure system usually associated with?",
-        "image": "tides_021.svg",
-        "options": [
-          "Unsettled weather, rain, and storms",
-          "Calm weather",
-          "High tide",
-          "Sea fog only"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Low-pressure systems are associated with unstable, stormy weather.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_022",
-        "module": "tides_weather",
-        "question": "What is a barometric high-pressure system usually associated with?",
-        "image": "tides_022.svg",
-        "options": [
-          "Stable, fine weather",
-          "Rain",
-          "Storms",
-          "Fog"
-        ],
-        "correctAnswer": 0,
-        "explanation": "High-pressure systems generally bring stable, fair weather.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_023",
-        "module": "tides_weather",
-        "question": "What is the term for wind blowing in a constant direction over a local area?",
-        "image": "tides_023.svg",
-        "options": [
-          "Prevailing wind",
-          "Gale",
-          "Squall",
-          "Breeze"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Prevailing winds blow predominantly from a single direction over a region.",
-        "difficulty": "easy"
-      },
-      {
-        "id": "tides_024",
-        "module": "tides_weather",
-        "question": "Which wind indicates an approaching storm?",
-        "image": "tides_024.svg",
-        "options": [
-          "Strong, gusty winds",
-          "Calm air",
-          "Prevailing winds",
-          "Light breeze"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Sudden strong or gusty winds often signal a storm approaching.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_025",
-        "module": "tides_weather",
-        "question": "Which effect does the Moon have on tides?",
-        "image": "tides_025.svg",
-        "options": [
-          "Causes bulges in ocean water leading to high and low tides",
-          "Warms ocean water",
-          "Changes water salinity",
-          "Controls wind direction"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The Moon's gravitational pull causes ocean bulges, producing high and low tides.",
-        "difficulty": "easy"
-      },
-      {
-        "id": "tides_026",
-        "module": "tides_weather",
-        "question": "What is the term for the time between successive high waters?",
-        "image": "tides_026.svg",
-        "options": [
-          "Tidal period",
-          "Tidal range",
-          "Diurnal tide",
-          "Spring tide"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The tidal period is the time between successive high waters (or low waters).",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_027",
-        "module": "tides_weather",
-        "question": "What is a cotidal line on a tidal chart?",
-        "image": "tides_027.svg",
-        "options": [
-          "Line showing areas with the same tidal phase",
-          "Line showing maximum tidal range",
-          "Line indicating tide height",
-          "Line showing river currents"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Cotidal lines connect points experiencing high (or low) water at the same time.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_028",
-        "module": "tides_weather",
-        "question": "What is a tidal datum?",
-        "image": "tides_028.svg",
-        "options": [
-          "Reference point for measuring tides",
-          "Maximum tidal height",
-          "Tidal current speed",
-          "Wind direction indicator"
-        ],
-        "correctAnswer": 0,
-        "explanation": "A tidal datum is a reference level used for measuring tidal heights.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_029",
-        "module": "tides_weather",
-        "question": "Which effect can wind have on tidal height?",
-        "image": "tides_029.svg",
-        "options": [
-          "Raise or lower water levels",
-          "Change tidal phase",
-          "Reverse tidal currents",
-          "Change moon gravity"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Strong onshore or offshore winds can increase or decrease water levels, affecting the apparent tide.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_030",
-        "module": "tides_weather",
-        "question": "Which effect can atmospheric pressure have on tides?",
-        "image": "tides_030.svg",
-        "options": [
-          "High pressure depresses water; low pressure raises it",
-          "Has no effect",
-          "Changes tide timing",
-          "Changes tidal period"
-        ],
-        "correctAnswer": 0,
-        "explanation": "High pressure pushes water down (lowering tides), and low pressure allows it to rise (raising tides).",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_031",
-        "module": "tides_weather",
-        "question": "What does a barograph record?",
-        "image": "tides_031.svg",
-        "options": [
-          "Continuous atmospheric pressure",
-          "Wind speed",
-          "Tidal height",
-          "Temperature"
-        ],
-        "correctAnswer": 0,
-        "explanation": "A barograph records continuous changes in atmospheric pressure over time.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_032",
-        "module": "tides_weather",
-        "question": "Which term describes wind rotating clockwise in the northern hemisphere around high pressure?",
-        "image": "tides_032.svg",
-        "options": [
-          "Anticyclonic",
-          "Cyclonic",
-          "Prevailing",
-          "Gale"
-        ],
-        "correctAnswer": 0,
-        "explanation": "In the northern hemisphere, winds circulate clockwise around a high-pressure system, called anticyclonic.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_033",
-        "module": "tides_weather",
-        "question": "Which term describes wind rotating counterclockwise in the northern hemisphere around low pressure?",
-        "image": "tides_033.svg",
-        "options": [
-          "Cyclonic",
-          "Anticyclonic",
-          "Prevailing",
-          "Gale"
-        ],
-        "correctAnswer": 0,
-        "explanation": "In the northern hemisphere, winds circulate counterclockwise around low-pressure systems, called cyclonic.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_034",
-        "module": "tides_weather",
-        "question": "What is a microbarograph used for?",
-        "image": "tides_034.svg",
-        "options": [
-          "Detect small changes in atmospheric pressure",
-          "Measure wind speed",
-          "Record tide heights",
-          "Measure wave period"
-        ],
-        "correctAnswer": 0,
-        "explanation": "A microbarograph detects very small changes in atmospheric pressure, useful for forecasting.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_035",
-        "module": "tides_weather",
-        "question": "What is a weather front?",
-        "image": "tides_035.svg",
-        "options": [
-          "Boundary between air masses of different temperature or humidity",
-          "A tidal current",
-          "A cloud type",
-          "A high-pressure system"
-        ],
-        "correctAnswer": 0,
-        "explanation": "A front is the boundary between two air masses with different characteristics.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_036",
-        "module": "tides_weather",
-        "question": "Which type of front brings thunderstorms and heavy rain?",
-        "image": "tides_036.svg",
-        "options": [
-          "Cold front",
-          "Warm front",
-          "Occluded front",
-          "Stationary front"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Cold fronts force warm air up rapidly, causing thunderstorms and heavy rain.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_037",
-        "module": "tides_weather",
-        "question": "Which type of front brings prolonged, steady rain?",
-        "image": "tides_037.svg",
-        "options": [
-          "Warm front",
-          "Cold front",
-          "Occluded front",
-          "Stationary front"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Warm fronts cause gentle, prolonged rain as warm air rises gradually over cold air.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_038",
-        "module": "tides_weather",
-        "question": "What is the Beaufort scale used for?",
-        "image": "tides_038.svg",
-        "options": [
-          "Estimating wind force",
-          "Measuring tide height",
-          "Predicting fog",
-          "Measuring atmospheric pressure"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The Beaufort scale estimates wind force based on observed effects on the sea and land.",
-        "difficulty": "easy"
-      },
-      {
-        "id": "tides_039",
-        "module": "tides_weather",
-        "question": "Which wind is often strongest near the surface due to friction?",
-        "image": "tides_039.svg",
-        "options": [
-          "Surface wind",
-          "Upper-air wind",
-          "Jet stream",
-          "Prevailing wind"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Friction at the Earth's surface slows winds but can cause turbulence and stronger gusts locally.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_040",
-        "module": "tides_weather",
-        "question": "What effect does a low-pressure system have on sea level?",
-        "image": "tides_040.svg",
-        "options": [
-          "Raises local sea level",
-          "Lowers sea level",
-          "No effect",
-          "Reverses tidal current"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Low pressure allows the sea surface to rise, sometimes significantly in storms.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_041",
-        "module": "tides_weather",
-        "question": "What is a storm surge?",
-        "image": "tides_041.svg",
-        "options": [
-          "Abnormal rise in sea level during storms",
-          "Regular tidal high water",
-          "Strong tidal current",
-          "Wave caused by earthquakes"
-        ],
-        "correctAnswer": 0,
-        "explanation": "A storm surge is a sudden, abnormal rise in sea level due to low pressure and strong winds during a storm.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_042",
-        "module": "tides_weather",
-        "question": "What is the effect of wind against a tidal current?",
-        "image": "tides_042.svg",
-        "options": [
-          "Can increase wave height and sea roughness",
-          "Reduces tide height",
-          "Reverses wind direction",
-          "Calms the sea"
-        ],
-        "correctAnswer": 0,
-        "explanation": "When wind opposes a tidal current, waves become steeper and seas rougher.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_043",
-        "module": "tides_weather",
-        "question": "What is the term for the line of no tidal current in a tidal river?",
-        "image": "tides_043.svg",
-        "options": [
-          "Slack water",
-          "High water",
-          "Low water",
-          "Tidal bore"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Slack water is the brief period when tidal currents stop changing direction.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_044",
-        "module": "tides_weather",
-        "question": "Which factor affects wave height the most?",
-        "image": "tides_044.svg",
-        "options": [
-          "Wind speed, duration, and fetch",
-          "Tidal height",
-          "Moon phase",
-          "Water temperature"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Wave height is mainly influenced by wind speed, duration, and the distance over which it blows (fetch).",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_045",
-        "module": "tides_weather",
-        "question": "What is a white capping on waves an indication of?",
-        "image": "tides_045.svg",
-        "options": [
-          "Wind over 15 knots, rough seas",
-          "High tide",
-          "Low pressure",
-          "Strong current only"
-        ],
-        "correctAnswer": 0,
-        "explanation": "White caps indicate the wind is strong enough to break wave crests, typically over 15 knots.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_046",
-        "module": "tides_weather",
-        "question": "What is a fetch in terms of waves?",
-        "image": "tides_046.svg",
-        "options": [
-          "Distance over water that wind blows",
-          "Time between waves",
-          "Wave height",
-          "Direction of tide"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Fetch is the distance over which wind blows without obstruction, affecting wave height.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_047",
-        "module": "tides_weather",
-        "question": "Which effect does temperature have on wind?",
-        "image": "tides_047.svg",
-        "options": [
-          "Creates pressure differences leading to wind",
-          "Reverses tidal current",
-          "Changes moon phase",
-          "Calms waves"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Temperature differences create pressure gradients that drive wind.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_048",
-        "module": "tides_weather",
-        "question": "What does a falling tide indicate?",
-        "image": "tides_048.svg",
-        "options": [
-          "Water level decreasing",
-          "Water level rising",
-          "Wind increasing",
-          "Storm approaching"
-        ],
-        "correctAnswer": 0,
-        "explanation": "A falling tide means the water level is dropping toward low water.",
-        "difficulty": "easy"
-      },
-      {
-        "id": "tides_049",
-        "module": "tides_weather",
-        "question": "What is the effect of a wind blowing in the same direction as a tidal current?",
-        "image": "tides_049.svg",
-        "options": [
-          "Can increase current speed and smooth seas",
-          "Decreases tidal range",
-          "Creates a tidal bore",
-          "Calms barometric pressure"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Wind blowing with the tidal current can speed up the flow and produce smoother seas.",
-        "difficulty": "medium"
-      },
-      {
-        "id": "tides_050",
-        "module": "tides_weather",
-        "question": "Which tool helps sailors estimate tidal stream strength and direction?",
-        "image": "tides_050.svg",
-        "options": [
-          "Tide and tidal stream tables",
-          "Barometer",
-          "Anemometer",
-          "Thermometer"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Tide and tidal stream tables provide predicted strength and direction of tidal currents.",
-        "difficulty": "medium"
-      },
-    ],
-    safety: [
+  ],
+  safety: [
       {
         id: 'safety_001',
         module: 'safety',
@@ -6469,7 +6268,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         difficulty: 'easy'
       },
       {
-        "id": "safety_001",
+        "id": "safety_011",
         "module": "safety",
         "question": "What is the primary purpose of a lifejacket?",
         "image": "safety_001.svg",
@@ -6484,7 +6283,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "safety_002",
+        "id": "safety_012",
         "module": "safety",
         "question": "What colour is most commonly used for lifejackets?",
         "image": "safety_002.svg",
@@ -6499,7 +6298,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "safety_003",
+        "id": "safety_013",
         "module": "safety",
         "question": "What is the purpose of a lifebuoy?",
         "image": "safety_003.svg",
@@ -6514,7 +6313,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "safety_004",
+        "id": "safety_014",
         "module": "safety",
         "question": "Which item is essential in an emergency to signal distress at sea?",
         "image": "safety_004.svg",
@@ -6529,7 +6328,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "safety_005",
+        "id": "safety_015",
         "module": "safety",
         "question": "What should you do first if someone falls overboard?",
         "image": "safety_005.svg",
@@ -6544,7 +6343,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "safety_006",
+        "id": "safety_016",
         "module": "safety",
         "question": "What is the function of a VHF radio onboard?",
         "image": "safety_006.svg",
@@ -6559,7 +6358,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "safety_007",
+        "id": "safety_017",
         "module": "safety",
         "question": "Which signal indicates a distress call using a VHF radio?",
         "image": "safety_007.svg",
@@ -6574,7 +6373,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "safety_008",
+        "id": "safety_018",
         "module": "safety",
         "question": "What does ‘Pan-Pan’ indicate on a VHF call?",
         "image": "safety_008.svg",
@@ -6589,7 +6388,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "safety_009",
+        "id": "safety_019",
         "module": "safety",
         "question": "What is the purpose of an EPIRB?",
         "image": "safety_009.svg",
@@ -6604,7 +6403,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "safety_010",
+        "id": "safety_020",
         "module": "safety",
         "question": "Which fire extinguisher is suitable for electrical fires?",
         "image": "safety_010.svg",
@@ -6619,7 +6418,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "safety_011",
+        "id": "safety_021",
         "module": "safety",
         "question": "What is the recommended action if a fire breaks out below deck?",
         "image": "safety_011.svg",
@@ -6634,7 +6433,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "safety_012",
+        "id": "safety_022",
         "module": "safety",
         "question": "Why should a bilge pump be kept in working order?",
         "image": "safety_012.svg",
@@ -6649,7 +6448,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "safety_013",
+        "id": "safety_023",
         "module": "safety",
         "question": "What is the purpose of a jackstay?",
         "image": "safety_013.svg",
@@ -6664,7 +6463,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "safety_014",
+        "id": "safety_024",
         "module": "safety",
         "question": "What is the safe way to recover a man overboard in heavy seas?",
         "image": "safety_014.svg",
@@ -6679,7 +6478,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "safety_015",
+        "id": "safety_025",
         "module": "safety",
         "question": "Which item should always be accessible in an emergency?",
         "image": "safety_015.svg",
@@ -6694,7 +6493,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "safety_016",
+        "id": "safety_026",
         "module": "safety",
         "question": "What is a crucial pre-departure safety check?",
         "image": "safety_016.svg",
@@ -6709,7 +6508,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "safety_017",
+        "id": "safety_027",
         "module": "safety",
         "question": "How often should lifejackets be inspected?",
         "image": "safety_017.svg",
@@ -6724,7 +6523,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "safety_018",
+        "id": "safety_028",
         "module": "safety",
         "question": "Which safety device automatically inflates when immersed in water?",
         "image": "safety_018.svg",
@@ -6739,7 +6538,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "safety_019",
+        "id": "safety_029",
         "module": "safety",
         "question": "What should be done with flares after use?",
         "image": "safety_019.svg",
@@ -6754,7 +6553,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "safety_020",
+        "id": "safety_030",
         "module": "safety",
         "question": "What is the main hazard of carbon monoxide onboard?",
         "image": "safety_020.svg",
@@ -6769,7 +6568,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "safety_021",
+        "id": "safety_031",
         "module": "safety",
         "question": "Which device is used to signal location at night or in low visibility?",
         "image": "safety_021.svg",
@@ -6784,7 +6583,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
       {
-        "id": "safety_022",
+        "id": "safety_032",
         "module": "safety",
         "question": "What is the primary hazard of a vessel taking on water?",
         "image": "safety_022.svg",
@@ -6799,7 +6598,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "safety_023",
+        "id": "safety_033",
         "module": "safety",
         "question": "How can a crew prevent falling overboard?",
         "image": "safety_023.svg",
@@ -6814,7 +6613,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "safety_024",
+        "id": "safety_034",
         "module": "safety",
         "question": "What is the purpose of a ditch bag?",
         "image": "safety_024.svg",
@@ -6829,7 +6628,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "medium"
       },
       {
-        "id": "safety_025",
+        "id": "safety_035",
         "module": "safety",
         "question": "Which is the most important action in a man overboard situation?",
         "image": "safety_025.svg",
@@ -6844,7 +6643,7 @@ export const questions: { [moduleId: string]: Question[] } = {
         "difficulty": "easy"
       },
           {
-            "id": "safety_026",
+            "id": "safety_036",
             "module": "safety",
             "question": "Which action is safest when abandoning a vessel in rough seas?",
             "image": "safety_026.svg",
@@ -6859,7 +6658,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_027",
+            "id": "safety_037",
             "module": "safety",
             "question": "What is the correct method to secure a lifejacket when worn?",
             "image": "safety_027.svg",
@@ -6874,7 +6673,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "easy"
           },
           {
-            "id": "safety_028",
+            "id": "safety_038",
             "module": "safety",
             "question": "How should a liferaft be deployed in an emergency?",
             "image": "safety_028.svg",
@@ -6889,7 +6688,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_029",
+            "id": "safety_039",
             "module": "safety",
             "question": "Which item is essential in a survival kit?",
             "image": "safety_029.svg",
@@ -6904,7 +6703,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_030",
+            "id": "safety_040",
             "module": "safety",
             "question": "Which signal is used to indicate a life-threatening emergency by day?",
             "image": "safety_030.svg",
@@ -6919,7 +6718,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "easy"
           },
           {
-            "id": "safety_031",
+            "id": "safety_041",
             "module": "safety",
             "question": "What is the main hazard of fuel spills onboard?",
             "image": "safety_031.svg",
@@ -6934,7 +6733,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_032",
+            "id": "safety_042",
             "module": "safety",
             "question": "Which personal safety item is recommended when working on deck in rough weather?",
             "image": "safety_032.svg",
@@ -6949,7 +6748,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_033",
+            "id": "safety_043",
             "module": "safety",
             "question": "What is the correct use of a hand-held VHF in an emergency?",
             "image": "safety_033.svg",
@@ -6964,7 +6763,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_034",
+            "id": "safety_044",
             "module": "safety",
             "question": "Which signal indicates urgent weather information?",
             "image": "safety_034.svg",
@@ -6979,7 +6778,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_035",
+            "id": "safety_045",
             "module": "safety",
             "question": "How should a fire extinguisher be used onboard?",
             "image": "safety_035.svg",
@@ -6994,7 +6793,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_036",
+            "id": "safety_046",
             "module": "safety",
             "question": "Which type of fire is a foam extinguisher suitable for?",
             "image": "safety_036.svg",
@@ -7009,7 +6808,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_037",
+            "id": "safety_047",
             "module": "safety",
             "question": "Which action reduces risk of fire in the engine compartment?",
             "image": "safety_037.svg",
@@ -7024,7 +6823,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_038",
+            "id": "safety_048",
             "module": "safety",
             "question": "What is the primary hazard of electrical faults onboard?",
             "image": "safety_038.svg",
@@ -7039,7 +6838,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_039",
+            "id": "safety_049",
             "module": "safety",
             "question": "Which method prevents hypothermia in cold water?",
             "image": "safety_039.svg",
@@ -7054,7 +6853,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_040",
+            "id": "safety_050",
             "module": "safety",
             "question": "How often should fire drills be conducted onboard?",
             "image": "safety_040.svg",
@@ -7069,7 +6868,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_041",
+            "id": "safety_051",
             "module": "safety",
             "question": "What is the correct action if someone is injured onboard?",
             "image": "safety_041.svg",
@@ -7084,7 +6883,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_042",
+            "id": "safety_052",
             "module": "safety",
             "question": "Which item helps prevent falls when moving on deck in rough seas?",
             "image": "safety_042.svg",
@@ -7099,7 +6898,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_043",
+            "id": "safety_053",
             "module": "safety",
             "question": "What is a common cause of man overboard accidents?",
             "image": "safety_043.svg",
@@ -7114,7 +6913,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "easy"
           },
           {
-            "id": "safety_044",
+            "id": "safety_054",
             "module": "safety",
             "question": "Why should a lifebuoy be attached to a line?",
             "image": "safety_044.svg",
@@ -7129,7 +6928,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_045",
+            "id": "safety_055",
             "module": "safety",
             "question": "What is the main hazard of rough weather onboard?",
             "image": "safety_045.svg",
@@ -7144,7 +6943,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_046",
+            "id": "safety_056",
             "module": "safety",
             "question": "Which personal protective equipment is recommended when handling sails and ropes?",
             "image": "safety_046.svg",
@@ -7159,7 +6958,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_047",
+            "id": "safety_057",
             "module": "safety",
             "question": "Which device is used to locate a vessel in distress electronically?",
             "image": "safety_047.svg",
@@ -7174,7 +6973,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_048",
+            "id": "safety_058",
             "module": "safety",
             "question": "What is the safest way to move on deck in heavy seas?",
             "image": "safety_048.svg",
@@ -7189,7 +6988,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_049",
+            "id": "safety_059",
             "module": "safety",
             "question": "What should you do if a crewmember is unconscious in water?",
             "image": "safety_049.svg",
@@ -7204,7 +7003,7 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "safety_050",
+            "id": "safety_060",
             "module": "safety",
             "question": "Which action should be taken if a small leak is detected in the hull?",
             "image": "safety_050.svg",
@@ -7219,8 +7018,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_001",
-            "module": "mayday_procedures",
+            "id": "safety_061",
+            "module": "safety",
             "question": "What is the first step when making a Mayday call on VHF radio?",
             "image": "mayday_001.svg",
             "options": [
@@ -7234,8 +7033,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "easy"
           },
           {
-            "id": "mayday_002",
-            "module": "mayday_procedures",
+            "id": "safety_062",
+            "module": "safety",
             "question": "Which channel is primarily used for Mayday calls on VHF?",
             "image": "mayday_002.svg",
             "options": [
@@ -7249,8 +7048,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "easy"
           },
           {
-            "id": "mayday_003",
-            "module": "mayday_procedures",
+            "id": "safety_063",
+            "module": "safety",
             "question": "What does 'Pan-Pan' indicate?",
             "image": "mayday_003.svg",
             "options": [
@@ -7264,8 +7063,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_004",
-            "module": "mayday_procedures",
+            "id": "safety_064",
+            "module": "safety",
             "question": "What does 'Securité' indicate?",
             "image": "mayday_004.svg",
             "options": [
@@ -7279,8 +7078,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_005",
-            "module": "mayday_procedures",
+            "id": "safety_065",
+            "module": "safety",
             "question": "What information must be included in a Mayday call?",
             "image": "mayday_005.svg",
             "options": [
@@ -7294,8 +7093,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_006",
-            "module": "mayday_procedures",
+            "id": "safety_066",
+            "module": "safety",
             "question": "If your position is unknown during a Mayday, what should you do?",
             "image": "mayday_006.svg",
             "options": [
@@ -7309,8 +7108,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_007",
-            "module": "mayday_procedures",
+            "id": "safety_067",
+            "module": "safety",
             "question": "What is an EPIRB used for?",
             "image": "mayday_007.svg",
             "options": [
@@ -7324,8 +7123,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_008",
-            "module": "mayday_procedures",
+            "id": "safety_068",
+            "module": "safety",
             "question": "How often should you repeat a Mayday call if no one responds?",
             "image": "mayday_008.svg",
             "options": [
@@ -7339,8 +7138,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_009",
-            "module": "mayday_procedures",
+            "id": "safety_069",
+            "module": "safety",
             "question": "Which distress signal can be used visually during the day?",
             "image": "mayday_009.svg",
             "options": [
@@ -7354,8 +7153,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_010",
-            "module": "mayday_procedures",
+            "id": "safety_070",
+            "module": "safety",
             "question": "Which distress signal can be used visually at night?",
             "image": "mayday_010.svg",
             "options": [
@@ -7369,8 +7168,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_011",
-            "module": "mayday_procedures",
+            "id": "safety_071",
+            "module": "safety",
             "question": "What is the purpose of a DSC (Digital Selective Calling) distress alert?",
             "image": "mayday_011.svg",
             "options": [
@@ -7384,8 +7183,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_012",
-            "module": "mayday_procedures",
+            "id": "safety_072",
+            "module": "safety",
             "question": "What should you do immediately after sending a Mayday?",
             "image": "mayday_012.svg",
             "options": [
@@ -7399,8 +7198,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_013",
-            "module": "mayday_procedures",
+            "id": "safety_073",
+            "module": "safety",
             "question": "What is a 'Mayday Relay'?",
             "image": "mayday_013.svg",
             "options": [
@@ -7414,8 +7213,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_014",
-            "module": "mayday_procedures",
+            "id": "safety_074",
+            "module": "safety",
             "question": "Which of these is NOT required in a Mayday call?",
             "image": "mayday_014.svg",
             "options": [
@@ -7429,8 +7228,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_015",
-            "module": "mayday_procedures",
+            "id": "safety_075",
+            "module": "safety",
             "question": "When should you send a Mayday instead of Pan-Pan?",
             "image": "mayday_015.svg",
             "options": [
@@ -7444,8 +7243,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "easy"
           },
           {
-            "id": "mayday_016",
-            "module": "mayday_procedures",
+            "id": "safety_076",
+            "module": "safety",
             "question": "What is the maximum distance a VHF Mayday can typically reach?",
             "image": "mayday_016.svg",
             "options": [
@@ -7459,8 +7258,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_017",
-            "module": "mayday_procedures",
+            "id": "safety_077",
+            "module": "safety",
             "question": "What is the purpose of a PLB (Personal Locator Beacon)?",
             "image": "mayday_017.svg",
             "options": [
@@ -7474,8 +7273,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_018",
-            "module": "mayday_procedures",
+            "id": "safety_078",
+            "module": "safety",
             "question": "When using flares, how should they be fired in a Mayday situation?",
             "image": "mayday_018.svg",
             "options": [
@@ -7489,8 +7288,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_019",
-            "module": "mayday_procedures",
+            "id": "safety_079",
+            "module": "safety",
             "question": "Which type of flare is suitable for daylight use?",
             "image": "mayday_019.svg",
             "options": [
@@ -7504,8 +7303,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_020",
-            "module": "mayday_procedures",
+            "id": "safety_080",
+            "module": "safety",
             "question": "What should you do if your Mayday is acknowledged?",
             "image": "mayday_020.svg",
             "options": [
@@ -7519,8 +7318,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "easy"
           },
           {
-            "id": "mayday_021",
-            "module": "mayday_procedures",
+            "id": "safety_081",
+            "module": "safety",
             "question": "What is the recommended VHF radio procedure before abandoning ship?",
             "image": "mayday_021.svg",
             "options": [
@@ -7534,8 +7333,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_022",
-            "module": "mayday_procedures",
+            "id": "safety_082",
+            "module": "safety",
             "question": "When should a vessel use an EPIRB instead of radio Mayday?",
             "image": "mayday_022.svg",
             "options": [
@@ -7549,8 +7348,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_023",
-            "module": "mayday_procedures",
+            "id": "safety_083",
+            "module": "safety",
             "question": "Which info is important if relaying another vessel’s Mayday?",
             "image": "mayday_023.svg",
             "options": [
@@ -7564,8 +7363,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_024",
-            "module": "mayday_procedures",
+            "id": "safety_084",
+            "module": "safety",
             "question": "How should a crew signal distress in fog?",
             "image": "mayday_024.svg",
             "options": [
@@ -7579,8 +7378,8 @@ export const questions: { [moduleId: string]: Question[] } = {
             "difficulty": "medium"
           },
           {
-            "id": "mayday_025",
-            "module": "mayday_procedures",
+            "id": "safety_085",
+            "module": "safety",
             "question": "What is the recommended action if your Mayday is ignored on VHF?",
             "image": "mayday_025.svg",
             "options": [
@@ -7593,5 +7392,1059 @@ export const questions: { [moduleId: string]: Question[] } = {
             "explanation": "Persistence with multiple methods increases chances of being noticed and rescued.",
             "difficulty": "medium"
           },
-    ],
+  ],
+  tides_tidal_streams: [
+      {
+        "id": "tides_001",
+        "module": "tides_tidal_streams",
+        "question": "What causes tides on Earth?",
+        "image": "tides_001.svg",
+        "options": [
+          "Gravitational pull of the Moon and Sun",
+          "Wind blowing across the sea",
+          "Earth's rotation only",
+          "Water temperature changes"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Tides are primarily caused by the gravitational pull of the Moon and Sun on Earth's oceans.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "tides_002",
+        "module": "tides_tidal_streams",
+        "question": "What is a spring tide?",
+        "image": "tides_002.svg",
+        "options": [
+          "A tide with maximum range",
+          "A tide with minimum range",
+          "A tide caused by wind only",
+          "A daily tide at noon"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Spring tides occur when the Sun, Moon, and Earth are aligned, producing the highest tidal range.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_003",
+        "module": "tides_tidal_streams",
+        "question": "What is a neap tide?",
+        "image": "tides_003.svg",
+        "options": [
+          "A tide with minimum range",
+          "A tide with maximum range",
+          "A tide caused by storms",
+          "A tidal bore"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Neap tides occur when the Sun and Moon are at right angles relative to Earth, producing the lowest tidal range.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_004",
+        "module": "tides_tidal_streams",
+        "question": "What is the term for the highest point a tide reaches?",
+        "image": "tides_004.svg",
+        "options": [
+          "High water",
+          "Low water",
+          "Mean sea level",
+          "Tidal bore"
+        ],
+        "correctAnswer": 0,
+        "explanation": "High water is the term for the highest point reached by a tide.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "tides_005",
+        "module": "tides_tidal_streams",
+        "question": "What is the term for the lowest point a tide reaches?",
+        "image": "tides_005.svg",
+        "options": [
+          "Low water",
+          "High water",
+          "Spring tide",
+          "Tidal range"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Low water is the lowest level reached by a tide.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "tides_006",
+        "module": "tides_tidal_streams",
+        "question": "What is the tidal range?",
+        "image": "tides_006.svg",
+        "options": [
+          "Difference in height between high and low water",
+          "Time between high and low tide",
+          "Distance a boat moves with tide",
+          "Speed of tidal current"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Tidal range is the vertical difference between high and low water levels.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_007",
+        "module": "tides_tidal_streams",
+        "question": "What is a tidal current?",
+        "image": "tides_007.svg",
+        "options": [
+          "Horizontal movement of water caused by tides",
+          "Change in water temperature",
+          "A tidal bore only",
+          "Wind-driven waves"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Tidal currents are horizontal flows of water caused by the rise and fall of tides.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_008",
+        "module": "tides_tidal_streams",
+        "question": "What is a tidal bore?",
+        "image": "tides_008.svg",
+        "options": [
+          "A wave caused by incoming tide in a river",
+          "A spring tide",
+          "A neap tide",
+          "A wave caused by wind only"
+        ],
+        "correctAnswer": 0,
+        "explanation": "A tidal bore is a sudden wave that moves up a river as the tide rises.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_009",
+        "module": "tides_tidal_streams",
+        "question": "Which factor influences tidal height besides the Moon and Sun?",
+        "image": "tides_009.svg",
+        "options": [
+          "Local coastline and seabed",
+          "Air temperature",
+          "Wind direction only",
+          "Rainfall"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Local geography, including the coastline and seabed, affects tidal heights and currents.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_010",
+        "module": "tides_tidal_streams",
+        "question": "What type of tide occurs twice each lunar day?",
+        "image": "tides_010.svg",
+        "options": [
+          "Semidiurnal tide",
+          "Diurnal tide",
+          "Neap tide",
+          "Spring tide"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Semidiurnal tides occur twice each lunar day, producing two high and two low waters.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_011",
+        "module": "tides_tidal_streams",
+        "question": "What type of tide occurs once each lunar day?",
+        "image": "tides_011.svg",
+        "options": [
+          "Diurnal tide",
+          "Semidiurnal tide",
+          "Neap tide",
+          "Spring tide"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Diurnal tides have only one high and one low water per lunar day.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_012",
+        "module": "tides_tidal_streams",
+        "question": "Which tool helps predict tides and tidal currents?",
+        "image": "tides_012.svg",
+        "options": [
+          "Tide tables",
+          "Barometer",
+          "Compass",
+          "Radar"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Tide tables provide predicted times and heights of tides and tidal currents.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "tides_013",
+        "module": "tides_tidal_streams",
+        "question": "What weather factor is indicated by a falling barometer?",
+        "image": "tides_013.svg",
+        "options": [
+          "Approaching low pressure and possible storm",
+          "High pressure and clear weather",
+          "No change in weather",
+          "Rising tides"
+        ],
+        "correctAnswer": 0,
+        "explanation": "A falling barometer shows decreasing atmospheric pressure, usually indicating deteriorating weather or storm approaching.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_014",
+        "module": "tides_tidal_streams",
+        "question": "What weather factor is indicated by a rising barometer?",
+        "image": "tides_014.svg",
+        "options": [
+          "High pressure and improving weather",
+          "Approaching storm",
+          "Strong tides",
+          "Heavy rain"
+        ],
+        "correctAnswer": 0,
+        "explanation": "A rising barometer shows increasing atmospheric pressure, usually indicating improving weather.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_015",
+        "module": "tides_tidal_streams",
+        "question": "What is Beaufort Force 6 wind speed?",
+        "image": "tides_015.svg",
+        "options": [
+          "Strong breeze, 22–27 knots",
+          "Light breeze, 4–6 knots",
+          "Gale, 34–40 knots",
+          "Calm, 0–1 knot"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Beaufort Force 6 is a strong breeze with speeds of 22–27 knots.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_016",
+        "module": "tides_tidal_streams",
+        "question": "What is a barometer used to measure?",
+        "image": "tides_016.svg",
+        "options": [
+          "Atmospheric pressure",
+          "Wind speed",
+          "Temperature",
+          "Tide height"
+        ],
+        "correctAnswer": 0,
+        "explanation": "A barometer measures atmospheric pressure to help forecast weather changes.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "tides_017",
+        "module": "tides_tidal_streams",
+        "question": "What is a cloud forming at high altitude called?",
+        "image": "tides_017.svg",
+        "options": [
+          "Cirrus",
+          "Cumulus",
+          "Stratus",
+          "Nimbus"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Cirrus clouds are high-altitude clouds composed of ice crystals, often indicating fair weather or approaching fronts.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_018",
+        "module": "tides_tidal_streams",
+        "question": "Which cloud type indicates stormy weather?",
+        "image": "tides_018.svg",
+        "options": [
+          "Cumulonimbus",
+          "Cirrus",
+          "Stratus",
+          "Altostratus"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Cumulonimbus clouds are tall, dense clouds associated with thunderstorms and severe weather.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_019",
+        "module": "tides_tidal_streams",
+        "question": "Which wind direction abbreviation indicates a wind from the south-west?",
+        "image": "tides_019.svg",
+        "options": [
+          "SW",
+          "SE",
+          "NW",
+          "NE"
+        ],
+        "correctAnswer": 0,
+        "explanation": "SW indicates a wind blowing from the south-west.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "tides_020",
+        "module": "tides_tidal_streams",
+        "question": "Which wind direction abbreviation indicates a wind from the north-east?",
+        "image": "tides_020.svg",
+        "options": [
+          "NE",
+          "NW",
+          "SE",
+          "SW"
+        ],
+        "correctAnswer": 0,
+        "explanation": "NE indicates a wind blowing from the north-east.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "tides_021",
+        "module": "tides_tidal_streams",
+        "question": "What is a barometric low-pressure system usually associated with?",
+        "image": "tides_021.svg",
+        "options": [
+          "Unsettled weather, rain, and storms",
+          "Calm weather",
+          "High tide",
+          "Sea fog only"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Low-pressure systems are associated with unstable, stormy weather.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_022",
+        "module": "tides_tidal_streams",
+        "question": "What is a barometric high-pressure system usually associated with?",
+        "image": "tides_022.svg",
+        "options": [
+          "Stable, fine weather",
+          "Rain",
+          "Storms",
+          "Fog"
+        ],
+        "correctAnswer": 0,
+        "explanation": "High-pressure systems generally bring stable, fair weather.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_023",
+        "module": "tides_tidal_streams",
+        "question": "What is the term for wind blowing in a constant direction over a local area?",
+        "image": "tides_023.svg",
+        "options": [
+          "Prevailing wind",
+          "Gale",
+          "Squall",
+          "Breeze"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Prevailing winds blow predominantly from a single direction over a region.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "tides_024",
+        "module": "tides_tidal_streams",
+        "question": "Which wind indicates an approaching storm?",
+        "image": "tides_024.svg",
+        "options": [
+          "Strong, gusty winds",
+          "Calm air",
+          "Prevailing winds",
+          "Light breeze"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Sudden strong or gusty winds often signal a storm approaching.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_025",
+        "module": "tides_tidal_streams",
+        "question": "Which effect does the Moon have on tides?",
+        "image": "tides_025.svg",
+        "options": [
+          "Causes bulges in ocean water leading to high and low tides",
+          "Warms ocean water",
+          "Changes water salinity",
+          "Controls wind direction"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Moon's gravitational pull causes ocean bulges, producing high and low tides.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "tides_026",
+        "module": "tides_tidal_streams",
+        "question": "What is the term for the time between successive high waters?",
+        "image": "tides_026.svg",
+        "options": [
+          "Tidal period",
+          "Tidal range",
+          "Diurnal tide",
+          "Spring tide"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The tidal period is the time between successive high waters (or low waters).",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_027",
+        "module": "tides_tidal_streams",
+        "question": "What is a cotidal line on a tidal chart?",
+        "image": "tides_027.svg",
+        "options": [
+          "Line showing areas with the same tidal phase",
+          "Line showing maximum tidal range",
+          "Line indicating tide height",
+          "Line showing river currents"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Cotidal lines connect points experiencing high (or low) water at the same time.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_028",
+        "module": "tides_tidal_streams",
+        "question": "What is a tidal datum?",
+        "image": "tides_028.svg",
+        "options": [
+          "Reference point for measuring tides",
+          "Maximum tidal height",
+          "Tidal current speed",
+          "Wind direction indicator"
+        ],
+        "correctAnswer": 0,
+        "explanation": "A tidal datum is a reference level used for measuring tidal heights.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_029",
+        "module": "tides_tidal_streams",
+        "question": "Which effect can wind have on tidal height?",
+        "image": "tides_029.svg",
+        "options": [
+          "Raise or lower water levels",
+          "Change tidal phase",
+          "Reverse tidal currents",
+          "Change moon gravity"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Strong onshore or offshore winds can increase or decrease water levels, affecting the apparent tide.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_030",
+        "module": "tides_tidal_streams",
+        "question": "Which effect can atmospheric pressure have on tides?",
+        "image": "tides_030.svg",
+        "options": [
+          "High pressure depresses water; low pressure raises it",
+          "Has no effect",
+          "Changes tide timing",
+          "Changes tidal period"
+        ],
+        "correctAnswer": 0,
+        "explanation": "High pressure pushes water down (lowering tides), and low pressure allows it to rise (raising tides).",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_031",
+        "module": "tides_tidal_streams",
+        "question": "What does a barograph record?",
+        "image": "tides_031.svg",
+        "options": [
+          "Continuous atmospheric pressure",
+          "Wind speed",
+          "Tidal height",
+          "Temperature"
+        ],
+        "correctAnswer": 0,
+        "explanation": "A barograph records continuous changes in atmospheric pressure over time.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_032",
+        "module": "tides_tidal_streams",
+        "question": "Which term describes wind rotating clockwise in the northern hemisphere around high pressure?",
+        "image": "tides_032.svg",
+        "options": [
+          "Anticyclonic",
+          "Cyclonic",
+          "Prevailing",
+          "Gale"
+        ],
+        "correctAnswer": 0,
+        "explanation": "In the northern hemisphere, winds circulate clockwise around a high-pressure system, called anticyclonic.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_033",
+        "module": "tides_tidal_streams",
+        "question": "Which term describes wind rotating counterclockwise in the northern hemisphere around low pressure?",
+        "image": "tides_033.svg",
+        "options": [
+          "Cyclonic",
+          "Anticyclonic",
+          "Prevailing",
+          "Gale"
+        ],
+        "correctAnswer": 0,
+        "explanation": "In the northern hemisphere, winds circulate counterclockwise around low-pressure systems, called cyclonic.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_034",
+        "module": "tides_tidal_streams",
+        "question": "What is a microbarograph used for?",
+        "image": "tides_034.svg",
+        "options": [
+          "Detect small changes in atmospheric pressure",
+          "Measure wind speed",
+          "Record tide heights",
+          "Measure wave period"
+        ],
+        "correctAnswer": 0,
+        "explanation": "A microbarograph detects very small changes in atmospheric pressure, useful for forecasting.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_035",
+        "module": "tides_tidal_streams",
+        "question": "What is a weather front?",
+        "image": "tides_035.svg",
+        "options": [
+          "Boundary between air masses of different temperature or humidity",
+          "A tidal current",
+          "A cloud type",
+          "A high-pressure system"
+        ],
+        "correctAnswer": 0,
+        "explanation": "A front is the boundary between two air masses with different characteristics.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_036",
+        "module": "tides_tidal_streams",
+        "question": "Which type of front brings thunderstorms and heavy rain?",
+        "image": "tides_036.svg",
+        "options": [
+          "Cold front",
+          "Warm front",
+          "Occluded front",
+          "Stationary front"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Cold fronts force warm air up rapidly, causing thunderstorms and heavy rain.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_037",
+        "module": "tides_tidal_streams",
+        "question": "Which type of front brings prolonged, steady rain?",
+        "image": "tides_037.svg",
+        "options": [
+          "Warm front",
+          "Cold front",
+          "Occluded front",
+          "Stationary front"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Warm fronts cause gentle, prolonged rain as warm air rises gradually over cold air.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_038",
+        "module": "tides_tidal_streams",
+        "question": "What is the Beaufort scale used for?",
+        "image": "tides_038.svg",
+        "options": [
+          "Estimating wind force",
+          "Measuring tide height",
+          "Predicting fog",
+          "Measuring atmospheric pressure"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Beaufort scale estimates wind force based on observed effects on the sea and land.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "tides_039",
+        "module": "tides_tidal_streams",
+        "question": "Which wind is often strongest near the surface due to friction?",
+        "image": "tides_039.svg",
+        "options": [
+          "Surface wind",
+          "Upper-air wind",
+          "Jet stream",
+          "Prevailing wind"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Friction at the Earth's surface slows winds but can cause turbulence and stronger gusts locally.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_040",
+        "module": "tides_tidal_streams",
+        "question": "What effect does a low-pressure system have on sea level?",
+        "image": "tides_040.svg",
+        "options": [
+          "Raises local sea level",
+          "Lowers sea level",
+          "No effect",
+          "Reverses tidal current"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Low pressure allows the sea surface to rise, sometimes significantly in storms.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_041",
+        "module": "tides_tidal_streams",
+        "question": "What is a storm surge?",
+        "image": "tides_041.svg",
+        "options": [
+          "Abnormal rise in sea level during storms",
+          "Regular tidal high water",
+          "Strong tidal current",
+          "Wave caused by earthquakes"
+        ],
+        "correctAnswer": 0,
+        "explanation": "A storm surge is a sudden, abnormal rise in sea level due to low pressure and strong winds during a storm.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_042",
+        "module": "tides_tidal_streams",
+        "question": "What is the effect of wind against a tidal current?",
+        "image": "tides_042.svg",
+        "options": [
+          "Can increase wave height and sea roughness",
+          "Reduces tide height",
+          "Reverses wind direction",
+          "Calms the sea"
+        ],
+        "correctAnswer": 0,
+        "explanation": "When wind opposes a tidal current, waves become steeper and seas rougher.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_043",
+        "module": "tides_tidal_streams",
+        "question": "What is the term for the line of no tidal current in a tidal river?",
+        "image": "tides_043.svg",
+        "options": [
+          "Slack water",
+          "High water",
+          "Low water",
+          "Tidal bore"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Slack water is the brief period when tidal currents stop changing direction.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_044",
+        "module": "tides_tidal_streams",
+        "question": "Which factor affects wave height the most?",
+        "image": "tides_044.svg",
+        "options": [
+          "Wind speed, duration, and fetch",
+          "Tidal height",
+          "Moon phase",
+          "Water temperature"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Wave height is mainly influenced by wind speed, duration, and the distance over which it blows (fetch).",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_045",
+        "module": "tides_tidal_streams",
+        "question": "What is a white capping on waves an indication of?",
+        "image": "tides_045.svg",
+        "options": [
+          "Wind over 15 knots, rough seas",
+          "High tide",
+          "Low pressure",
+          "Strong current only"
+        ],
+        "correctAnswer": 0,
+        "explanation": "White caps indicate the wind is strong enough to break wave crests, typically over 15 knots.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_046",
+        "module": "tides_tidal_streams",
+        "question": "What is a fetch in terms of waves?",
+        "image": "tides_046.svg",
+        "options": [
+          "Distance over water that wind blows",
+          "Time between waves",
+          "Wave height",
+          "Direction of tide"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Fetch is the distance over which wind blows without obstruction, affecting wave height.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_047",
+        "module": "tides_tidal_streams",
+        "question": "Which effect does temperature have on wind?",
+        "image": "tides_047.svg",
+        "options": [
+          "Creates pressure differences leading to wind",
+          "Reverses tidal current",
+          "Changes moon phase",
+          "Calms waves"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Temperature differences create pressure gradients that drive wind.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_048",
+        "module": "tides_tidal_streams",
+        "question": "What does a falling tide indicate?",
+        "image": "tides_048.svg",
+        "options": [
+          "Water level decreasing",
+          "Water level rising",
+          "Wind increasing",
+          "Storm approaching"
+        ],
+        "correctAnswer": 0,
+        "explanation": "A falling tide means the water level is dropping toward low water.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "tides_049",
+        "module": "tides_tidal_streams",
+        "question": "What is the effect of a wind blowing in the same direction as a tidal current?",
+        "image": "tides_049.svg",
+        "options": [
+          "Can increase current speed and smooth seas",
+          "Decreases tidal range",
+          "Creates a tidal bore",
+          "Calms barometric pressure"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Wind blowing with the tidal current can speed up the flow and produce smoother seas.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "tides_050",
+        "module": "tides_tidal_streams",
+        "question": "Which tool helps sailors estimate tidal stream strength and direction?",
+        "image": "tides_050.svg",
+        "options": [
+          "Tide and tidal stream tables",
+          "Barometer",
+          "Anemometer",
+          "Thermometer"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Tide and tidal stream tables provide predicted strength and direction of tidal currents.",
+        "difficulty": "medium"
+      },
+  ],
+  weather: [
+      {
+        id: 'weather_001',
+        module: 'weather',
+        question: 'What does a falling barometer indicate?',
+        image: 'weather_001.svg',
+        options: [
+          'Improving weather',
+          'Deteriorating weather',
+          'Stable weather',
+          'No change in weather'
+        ],
+        correctAnswer: 1,
+        explanation: 'A falling barometer indicates deteriorating weather, often associated with approaching low pressure systems and storms.',
+        difficulty: 'easy'
+      },
+      {
+        id: 'weather_002',
+        module: 'weather',
+        question: 'What does a rising barometer indicate?',
+        image: 'weather_002.svg',
+        options: [
+          'Improving weather',
+          'Deteriorating weather',
+          'Stable weather',
+          'No change in weather'
+        ],
+        correctAnswer: 0,
+        explanation: 'A rising barometer indicates improving weather, often associated with high pressure systems and fair conditions.',
+        difficulty: 'easy'
+      },
+      {
+        id: 'weather_003',
+        module: 'weather',
+        question: 'What does a steady barometer indicate?',
+        image: 'weather_003.svg',
+        options: [
+          'Improving weather',
+          'Deteriorating weather',
+          'Stable weather',
+          'No change in weather'
+        ],
+        correctAnswer: 2,
+        explanation: 'A steady barometer indicates stable weather conditions with no significant changes expected.',
+        difficulty: 'easy'
+      },
+      {
+        id: 'weather_004',
+        module: 'weather',
+        question: 'What does a rapidly falling barometer indicate?',
+        image: 'weather_004.svg',
+        options: [
+          'Improving weather',
+          'Deteriorating weather',
+          'Stable weather',
+          'No change in weather'
+        ],
+        correctAnswer: 1,
+        explanation: 'A rapidly falling barometer indicates rapidly deteriorating weather, often associated with severe storms and strong winds.',
+        difficulty: 'medium'
+      },
+      {
+        id: 'weather_005',
+        module: 'weather',
+        question: 'What does a rapidly rising barometer indicate?',
+        image: 'weather_005.svg',
+        options: [
+          'Improving weather',
+          'Deteriorating weather',
+          'Stable weather',
+          'No change in weather'
+        ],
+        correctAnswer: 0,
+        explanation: 'A rapidly rising barometer indicates rapidly improving weather, often associated with clearing skies and fair conditions.',
+        difficulty: 'medium'
+      },
+      {
+        id: 'weather_006',
+        module: 'weather',
+        question: 'What does a slowly falling barometer indicate?',
+        image: 'weather_006.svg',
+        options: [
+          'Improving weather',
+          'Deteriorating weather',
+          'Stable weather',
+          'No change in weather'
+        ],
+        correctAnswer: 1,
+        explanation: 'A slowly falling barometer indicates slowly deteriorating weather, often associated with approaching weather systems.',
+        difficulty: 'medium'
+      },
+      {
+        id: 'weather_007',
+        module: 'weather',
+        question: 'What does a slowly rising barometer indicate?',
+        image: 'weather_007.svg',
+        options: [
+          'Improving weather',
+          'Deteriorating weather',
+          'Stable weather',
+          'No change in weather'
+        ],
+        correctAnswer: 0,
+        explanation: 'A slowly rising barometer indicates slowly improving weather, often associated with clearing conditions.',
+        difficulty: 'medium'
+      },
+      {
+        id: 'weather_008',
+        module: 'weather',
+        question: 'What does a fluctuating barometer indicate?',
+        image: 'weather_008.svg',
+        options: [
+          'Improving weather',
+          'Deteriorating weather',
+          'Stable weather',
+          'Unstable weather'
+        ],
+        correctAnswer: 3,
+        explanation: 'A fluctuating barometer indicates unstable weather conditions with rapid changes and unpredictable conditions.',
+        difficulty: 'medium'
+      },
+      {
+        id: 'weather_009',
+        module: 'weather',
+        question: 'What does a high barometer reading indicate?',
+        image: 'weather_009.svg',
+        options: [
+          'Improving weather',
+          'Deteriorating weather',
+          'Stable weather',
+          'No change in weather'
+        ],
+        correctAnswer: 0,
+        explanation: 'A high barometer reading indicates improving weather, often associated with high pressure systems and fair conditions.',
+        difficulty: 'easy'
+      },
+      {
+        id: 'weather_010',
+        module: 'weather',
+        question: 'What does a low barometer reading indicate?',
+        image: 'weather_010.svg',
+        options: [
+          'Improving weather',
+          'Deteriorating weather',
+          'Stable weather',
+          'No change in weather'
+        ],
+        correctAnswer: 1,
+        explanation: 'A low barometer reading indicates deteriorating weather, often associated with low pressure systems and storms.',
+        difficulty: 'easy'
+      },
+      {
+        id: 'weather_011',
+        module: 'weather',
+        question: 'On the Beaufort scale, what wind force is described as a "gale"?',
+        image: 'weather_011.svg',
+        options: [
+          'Force 4',
+          'Force 6',
+          'Force 8',
+          'Force 10'
+        ],
+        correctAnswer: 2,
+        explanation: 'Force 8 on the Beaufort scale is a gale, with mean wind speeds of 34-40 knots.',
+        difficulty: 'medium'
+      },
+      {
+        id: 'weather_012',
+        module: 'weather',
+        question: 'What does it mean when the wind "veers"?',
+        image: 'weather_012.svg',
+        options: [
+          'It shifts direction clockwise',
+          'It shifts direction anti-clockwise',
+          'It increases in strength',
+          'It drops completely'
+        ],
+        correctAnswer: 0,
+        explanation: 'A veering wind changes direction clockwise, for example from south-west to north-west. A backing wind shifts anti-clockwise.',
+        difficulty: 'medium'
+      },
+      {
+        id: 'weather_013',
+        module: 'weather',
+        question: 'What does it mean when the wind "backs"?',
+        image: 'weather_013.svg',
+        options: [
+          'It shifts direction clockwise',
+          'It shifts direction anti-clockwise',
+          'It stays constant',
+          'It becomes gusty'
+        ],
+        correctAnswer: 1,
+        explanation: 'A backing wind changes direction anti-clockwise, for example from north-west to south-west.',
+        difficulty: 'medium'
+      },
+      {
+        id: 'weather_014',
+        module: 'weather',
+        question: 'What causes a sea breeze on a sunny afternoon?',
+        image: 'weather_014.svg',
+        options: [
+          'The land heats up faster than the sea, causing air to rise and draw wind in from the sea',
+          'The sea heats up faster than the land',
+          'Cold air sinking over the land pushes wind out to sea',
+          'A passing cold front'
+        ],
+        correctAnswer: 0,
+        explanation: 'Land heats up faster than the sea. The warm air over land rises, drawing cooler air in from the sea to replace it, creating an onshore sea breeze.',
+        difficulty: 'medium'
+      },
+      {
+        id: 'weather_015',
+        module: 'weather',
+        question: 'What typically happens as a warm front passes?',
+        image: 'weather_015.svg',
+        options: [
+          'Wind veers and rain gradually clears with rising cloud',
+          'Wind backs and pressure rises sharply',
+          'Cloud base lowers, rain thickens, and wind veers with a sharp pressure rise',
+          'No noticeable change occurs'
+        ],
+        correctAnswer: 2,
+        explanation: 'Ahead of a warm front, cloud lowers and thickens with steady rain; as it passes, the wind veers and pressure begins to rise, though only gradually compared to a cold front.',
+        difficulty: 'hard'
+      },
+      {
+        id: 'weather_016',
+        module: 'weather',
+        question: 'What typically happens as a cold front passes?',
+        image: 'weather_016.svg',
+        options: [
+          'A sharp wind veer, a brief squally shower, and a rapid pressure rise',
+          'A gradual pressure fall and clearing skies',
+          'No change in wind direction',
+          'Fog forms immediately'
+        ],
+        correctAnswer: 0,
+        explanation: 'Cold fronts pass quickly and are marked by a sharp veer in wind direction, a squally shower or thunderstorm, and a rapid rise in pressure afterwards.',
+        difficulty: 'hard'
+      },
+      {
+        id: 'weather_017',
+        module: 'weather',
+        question: 'Radiation fog is most likely to form when:',
+        image: 'weather_017.svg',
+        options: [
+          'A clear night with light winds allows the land to cool rapidly',
+          'Warm, moist air moves over a colder sea',
+          'Strong winds mix the lower atmosphere',
+          'A cold front is passing overhead'
+        ],
+        correctAnswer: 0,
+        explanation: 'Radiation fog forms on clear, calm nights when the land radiates heat away quickly, cooling the air above it below its dew point.',
+        difficulty: 'hard'
+      },
+      {
+        id: 'weather_018',
+        module: 'weather',
+        question: 'Advection (sea) fog is most likely to form when:',
+        image: 'weather_018.svg',
+        options: [
+          'Warm, moist air moves over a colder sea surface',
+          'The land cools rapidly on a clear night',
+          'Pressure rises quickly after a front',
+          'Wind speed exceeds Force 8'
+        ],
+        correctAnswer: 0,
+        explanation: 'Advection fog forms when warm, moist air is carried over a cooler sea surface and is cooled below its dew point, common in spring and early summer around the UK coast.',
+        difficulty: 'hard'
+      },
+      {
+        id: 'weather_019',
+        module: 'weather',
+        question: 'On a weather (synoptic) chart, what do closely spaced isobars indicate?',
+        image: 'weather_019.svg',
+        options: [
+          'Strong winds',
+          'Light winds',
+          'Calm conditions',
+          'No relation to wind strength'
+        ],
+        correctAnswer: 0,
+        explanation: 'Closely spaced isobars indicate a steep pressure gradient, which produces stronger winds. Widely spaced isobars indicate lighter winds.',
+        difficulty: 'medium'
+      },
+      {
+        id: 'weather_020',
+        module: 'weather',
+        question: 'In the UK Shipping Forecast, what does a warning of "Imminent" mean for a gale?',
+        image: 'weather_020.svg',
+        options: [
+          'Expected within 6 hours of the time of issue',
+          'Expected within 12 hours of the time of issue',
+          'Expected within 24 hours of the time of issue',
+          'Expected within the following week'
+        ],
+        correctAnswer: 0,
+        explanation: 'In gale warnings, "Imminent" means the gale is expected within 6 hours of issue, "Soon" within 6-12 hours, and "Later" more than 12 hours ahead.',
+        difficulty: 'hard'
+      },
+  ],
 };
