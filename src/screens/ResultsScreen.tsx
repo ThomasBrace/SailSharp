@@ -17,20 +17,19 @@ const ResultsScreen: React.FC = () => {
   const { moduleId, moduleName, score, total } = route.params;
 
   const percentage = Math.round((score / total) * 100);
-  const isPassed = percentage >= 70; // RYA Day Skipper pass mark is typically 70%
 
   const getPerformanceMessage = () => {
     if (percentage >= 90) return "Outstanding! You've mastered this module.";
     if (percentage >= 80) return "Excellent work! You have a strong understanding.";
-    if (percentage >= 70) return "Well done! You've passed this module.";
+    if (percentage >= 70) return "Well done! You have a solid grasp of the material.";
     if (percentage >= 60) return "Good effort! Review the areas you missed.";
-    return "Keep studying! Review the material and try again.";
+    return "Keep going! Review the material and strengthen your knowledge.";
   };
 
   const getPerformanceColor = () => {
-    if (percentage >= 70) return '#22c55e'; // Green for pass
-    if (percentage >= 60) return '#f59e0b'; // Amber for close
-    return '#ef4444'; // Red for fail
+    if (percentage >= 70) return '#22c55e'; // Green for good
+    if (percentage >= 60) return '#f59e0b'; // Amber for moderate
+    return '#2196F3'; // Blue for needs review
   };
 
   const handleRetakeQuiz = () => {
@@ -64,9 +63,6 @@ const ResultsScreen: React.FC = () => {
             <Text style={styles.scoreText}>
               {score} out of {total} correct
             </Text>
-            <Text style={[styles.passStatus, { color: getPerformanceColor() }]}>
-              {isPassed ? 'PASSED' : 'NOT PASSED'}
-            </Text>
           </View>
         </View>
 
@@ -95,42 +91,26 @@ const ResultsScreen: React.FC = () => {
             <Text style={styles.breakdownLabel}>Total Questions</Text>
             <Text style={styles.breakdownValue}>{total}</Text>
           </View>
-          
-          <View style={styles.breakdownItem}>
-            <Text style={styles.breakdownLabel}>Pass Mark</Text>
-            <Text style={styles.breakdownValue}>70%</Text>
-          </View>
         </View>
 
         {/* Recommendations */}
         <View style={styles.recommendationsContainer}>
-          <Text style={styles.recommendationsTitle}>Recommendations</Text>
-          
-          {isPassed ? (
-            <View style={styles.recommendationItem}>
-              <View style={styles.recommendationRow}>
-                <Icon name="celebration" size={20} color="#22c55e" style={styles.recommendationIcon} />
-                <Text style={styles.recommendationText}>
-                  Congratulations! You've successfully completed this module.
-                </Text>
-              </View>
-            </View>
-          ) : (
-            <View style={styles.recommendationItem}>
-              <View style={styles.recommendationRow}>
-                <Icon name="menu-book" size={20} color="#f59e0b" style={styles.recommendationIcon} />
-                <Text style={styles.recommendationText}>
-                  Review the questions you missed and study the explanations.
-                </Text>
-              </View>
-            </View>
-          )}
+          <Text style={styles.recommendationsTitle}>Next Steps</Text>
           
           <View style={styles.recommendationItem}>
             <View style={styles.recommendationRow}>
-              <Icon name="refresh" size={20} color="#2196F3" style={styles.recommendationIcon} />
+              <Icon name="menu-book" size={20} color="#2196F3" style={styles.recommendationIcon} />
               <Text style={styles.recommendationText}>
-                Consider retaking the quiz to reinforce your knowledge.
+                Review the questions you missed and study the explanations to improve your understanding.
+              </Text>
+            </View>
+          </View>
+          
+          <View style={styles.recommendationItem}>
+            <View style={styles.recommendationRow}>
+              <Icon name="refresh" size={20} color="#22c55e" style={styles.recommendationIcon} />
+              <Text style={styles.recommendationText}>
+                Retake the quiz to reinforce your knowledge and track your progress.
               </Text>
             </View>
           </View>
@@ -223,12 +203,6 @@ const styles = StyleSheet.create({
   scoreText: {
     fontSize: 18,
     color: '#374151',
-    marginBottom: 8,
-  },
-  passStatus: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    textTransform: 'uppercase',
   },
   messageContainer: {
     backgroundColor: '#ffffff',

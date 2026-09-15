@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+<path d="M0,120 Q10,114 20,120 T40,120 T60,120 T80,120 T100,120 T120,120 T140,120 T160,120 T180,120 T200,120 V150 H0 Z" fill="#8ebce5" opacity="0.35"/>
+<path d="M0,120 Q10,114 20,120 T40,120 T60,120 T80,120 T100,120 T120,120 T140,120 T160,120 T180,120 T200,120" fill="none" stroke="#8ebce5" stroke-width="3" stroke-linecap="round"/>
+<rect x="78" y="107" width="44" height="15" rx="7" fill="#d0d3d4" stroke="#231f20" stroke-width="3"/>
+<rect x="90.0" y="45" width="4.3" height="67" fill="#d0021b" stroke="none"/>
+<rect x="94.0" y="45" width="4.3" height="67" fill="#ffffff" stroke="none"/>
+<rect x="98.0" y="45" width="4.3" height="67" fill="#d0021b" stroke="none"/>
+<rect x="102.0" y="45" width="4.3" height="67" fill="#ffffff" stroke="none"/>
+<rect x="106.0" y="45" width="4.3" height="67" fill="#d0021b" stroke="none"/>
+<rect x="90" y="45" width="20" height="67" fill="none" stroke="#231f20" stroke-width="3"/>
+<circle cx="100" cy="24" r="10" fill="#d0021b" stroke="#231f20" stroke-width="2"/>
+<circle cx="100" cy="8" r="6" fill="#ffffff" stroke="#231f20" stroke-width="2"/>
+</svg>

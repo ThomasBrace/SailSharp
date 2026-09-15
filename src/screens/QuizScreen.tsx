@@ -41,7 +41,16 @@ const QuizScreen: React.FC = () => {
     // Create a shuffled copy of the questions
     const shuffled = [...moduleQuestions].sort(() => Math.random() - 0.5);
     // Select only the first 10 questions (or all if less than 10)
-    return shuffled.slice(0, 10);
+    const selected = shuffled.slice(0, 10);
+    // Shuffle each question's answer options so the correct answer isn't always in the same position
+    return selected.map(q => {
+      const order = q.options.map((_, index) => index).sort(() => Math.random() - 0.5);
+      return {
+        ...q,
+        options: order.map(index => q.options[index]),
+        correctAnswer: order.indexOf(q.correctAnswer),
+      };
+    });
   }, [moduleId]);
 
   const currentQuestionData = randomizedQuestions[currentQuestion] || randomizedQuestions[0];
@@ -52,6 +61,22 @@ const QuizScreen: React.FC = () => {
       dispatch(startQuiz(randomizedQuestions));
     }
   }, [dispatch, randomizedQuestions]);
+
+  if (randomizedQuestions.length === 0) {
+    return (
+      <SafeAreaView style={styles.container} edges={['bottom']}>
+        <View style={styles.emptyContainer}>
+          <Text style={styles.emptyTitle}>No questions yet</Text>
+          <Text style={styles.emptyText}>
+            {moduleName} doesn't have any questions available yet. Check back soon!
+          </Text>
+          <TouchableOpacity style={styles.submitButton} onPress={() => navigation.goBack()}>
+            <Text style={styles.submitButtonText}>Go Back</Text>
+          </TouchableOpacity>
+        </View>
+      </SafeAreaView>
+    );
+  }
 
   const handleAnswerSelect = (answerIndex: number) => {
     dispatch(setSelectedAnswer(answerIndex));
@@ -206,6 +231,26 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#f8fafc',
+  },
+  emptyContainer: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 32,
+  },
+  emptyTitle: {
+    fontSize: 20,
+    fontWeight: '600',
+    color: '#1e293b',
+    marginBottom: 8,
+    textAlign: 'center',
+  },
+  emptyText: {
+    fontSize: 15,
+    color: '#64748b',
+    textAlign: 'center',
+    marginBottom: 24,
+    lineHeight: 22,
   },
   header: {
     paddingHorizontal: 20,
